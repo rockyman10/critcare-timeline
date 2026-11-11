@@ -2,6 +2,11 @@
 
 Newest first. Record site changes here. The site does not render this file.
 
+## 2026-11-11 — Phase 2 literature recheck items
+
+- ZEPHyR sourceNotes[5] cites the METHODS sentence on trough-based vancomycin dose adjustment, matching the takeaway.
+- CATS limitations label the interval as the relative risk for 28-day death (0.86; 95% CI 0.65 to 1.14).
+
 ## 2026-11-11 — Phase 2 final-review fixes
 
 - EMPIRICUS: day-28 counts corrected to 87 of 128 (68%) and 74 of 123 (60.2%) from the JAMA full text; the limitation notes that the PubMed abstract prints 82 and 79.

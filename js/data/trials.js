@@ -19,7 +19,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "At day 28, there were 64 deaths (40%) in the epinephrine group and 58 deaths (34%) in the norepinephrine plus dobutamine group (relative risk 0.86; 95% CI 0.65 to 1.14; P=0.31).",
     "safety": "Rates of serious adverse events were similar. Mortality did not differ at intensive care unit discharge (75 [47%] versus 75 [44%]; P=0.69) or by day 90 (84 [52%] versus 85 [50%]; P=0.73). Time to hemodynamic success (log-rank P=0.67) and time to vasopressor withdrawal (log-rank P=0.09) did not differ significantly.",
     "takeaway": "In 330 adults with septic shock in 19 French intensive care units, epinephrine alone and norepinephrine plus dobutamine as needed had similar 28-day mortality (40% versus 34%; relative risk 0.86; P=0.31) and similar serious adverse event rates.",
-    "limitations": "The comparison was epinephrine alone against a norepinephrine-plus-dobutamine strategy, not against norepinephrine alone. The abstract does not report how often dobutamine was given. One patient withdrew consent after 3 days. With 330 patients, the trial could not exclude a moderate mortality difference (95% CI 0.65 to 1.14).",
+    "limitations": "The comparison was epinephrine alone against a norepinephrine-plus-dobutamine strategy, not against norepinephrine alone. The abstract does not report how often dobutamine was given. One patient withdrew consent after 3 days. With 330 patients, the trial could not exclude a moderate mortality difference (relative risk for 28-day death 0.86; 95% CI 0.65 to 1.14).",
     "guidelines": [],
     "sources": [
       {
@@ -2158,7 +2158,7 @@ window.CRITCARE_TRIALS = [
       "intervention 600 mg, 12 hours, 7-14 days and comparator 15 mg/kg: METHODS 'intravenous linezolid (600 mg every 12 hours) or vancomycin (15 mg/kg every 12 hours) for 7-14 days. Vancomycin dose was adjusted on the basis of trough levels.'",
       "primaryResult 95, 57.6%, 165, 81, 46.6%, 174, 0.5%-21.6%, P=.042: RESULTS 'In the PP population, 95 (57.6%) of 165 linezolid-treated patients and 81 (46.6%) of 174 vancomycin-treated patients achieved clinical success at EOS (95% confidence interval for difference, 0.5%-21.6%; P = .042).'",
       "safety 60-day, 15.7%, 17.0%, 18.2%, 8.4%: RESULTS 'All-cause 60-day mortality was similar (linezolid, 15.7%; vancomycin, 17.0%), as was incidence of adverse events. Nephrotoxicity occurred more frequently with vancomycin (18.2%; linezolid, 8.4%).'",
-      "takeaway dose-optimized: BACKGROUND 'compared with a dose-optimized vancomycin regimen'. Numbers as above.",
+      "takeaway trough-based dose adjustment: METHODS 'Vancomycin dose was adjusted on the basis of trough levels.' Numbers as above.",
       "limitations: the abstract prints no intensive care unit count. 165 and 174 are the denominators printed for clinical success."
     ]
   },
