@@ -1,0 +1,70 @@
+[
+  {
+    "id": "placeholder-question-1",
+    "stem": "Placeholder stem. Which name is stored on the card whose search token is marker-alpha?",
+    "options": [
+      { "id": "a", "text": "Placeholder option. The name is Placeholder Trial F." },
+      { "id": "b", "text": "Placeholder option. The name is Placeholder Trial A." },
+      { "id": "c", "text": "Placeholder option. The name is Placeholder Trial C." },
+      { "id": "d", "text": "Placeholder option. The name is Placeholder Trial E." }
+    ],
+    "answerId": "b",
+    "explanation": "Placeholder explanation. The card with search token marker-alpha is named Placeholder Trial A.",
+    "topicId": "placeholder-topic-alpha",
+    "trialId": "placeholder-trial-a",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  },
+  {
+    "id": "placeholder-question-2",
+    "stem": "Placeholder stem. Which topic label is stored on Placeholder Trial B?",
+    "options": [
+      { "id": "a", "text": "Placeholder option. The topic label is Placeholder topic Alpha." },
+      { "id": "b", "text": "Placeholder option. The topic label is Placeholder topic Beta." },
+      { "id": "c", "text": "Placeholder option. The topic label is Placeholder topic Gamma." },
+      { "id": "d", "text": "Placeholder option. The topic label is Placeholder topic Delta." }
+    ],
+    "answerId": "b",
+    "explanation": "Placeholder explanation. Placeholder Trial B stores the topic label Placeholder topic Beta.",
+    "topicId": "placeholder-topic-beta",
+    "trialId": "placeholder-trial-b",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  },
+  {
+    "id": "placeholder-question-3",
+    "stem": "Placeholder stem. Which search token is stored in the summary for Placeholder Trial C?",
+    "options": [
+      { "id": "a", "text": "Placeholder option. The search token is marker-alpha." },
+      { "id": "b", "text": "Placeholder option. The search token is marker-beta." },
+      { "id": "c", "text": "Placeholder option. The search token is marker-gamma." },
+      { "id": "d", "text": "Placeholder option. The search token is marker-delta." }
+    ],
+    "answerId": "c",
+    "explanation": "Placeholder explanation. The summary for Placeholder Trial C stores the search token marker-gamma.",
+    "topicId": "placeholder-topic-gamma",
+    "trialId": "placeholder-trial-c",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  },
+  {
+    "id": "placeholder-question-4",
+    "stem": "Placeholder stem. Which citation line is stored on Placeholder Trial E?",
+    "options": [
+      { "id": "a", "text": "Placeholder option. The citation is Placeholder citation for Placeholder Trial A." },
+      { "id": "b", "text": "Placeholder option. The citation is Placeholder citation for Placeholder Trial E." },
+      { "id": "c", "text": "Placeholder option. The citation is Placeholder citation for Placeholder Trial C." },
+      { "id": "d", "text": "Placeholder option. The citation field is an empty string." }
+    ],
+    "answerId": "b",
+    "explanation": "Placeholder explanation. Placeholder Trial E stores the citation line Placeholder citation for Placeholder Trial E.",
+    "topicId": "placeholder-topic-delta",
+    "trialId": "placeholder-trial-e",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  }
+]

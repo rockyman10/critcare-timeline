@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "description": "Documented shape for the critical care pharmacy teaching scaffold. scripts/verify-integrity.js reads this file and checks the JSON data against it.",
+  "voice": "Descriptive wording. The integrity script rejects imperative dosing phrases and result-style numbers in prose.",
+  "bannedStrings": "Declared in scripts/verify-integrity.js. Unsourced rating labels are rejected in data and site copy.",
+  "placeholderPolicy": {
+    "unverifiedLabel": "Not yet verified, placeholder",
+    "rule": "Records with verified set to false must set placeholder to true and verificationLabel to the unverifiedLabel string. Placeholder wording is valid only on those records. Records with verified set to true are rejected when any string looks like sample placeholder wording."
+  },
+  "sourceFields": {
+    "appliesTo": "data/trials.json",
+    "keysAlwaysPresent": ["citation", "pmid", "doi", "sourceUrl"],
+    "requiredNonEmpty": ["citation", "sourceUrl"],
+    "oneOfNonEmpty": ["pmid", "doi"]
+  },
+  "relations": {
+    "topicIds-exist": "Each trial topicIds entry matches a topic id.",
+    "topics-used": "Each topic id is listed by at least one trial.",
+    "path-step-order": "Each path lists steps whose order values are 1 through n with no gaps.",
+    "path-covers-each-trial-once": "Learning-path steps list every trial id once.",
+    "question-links": "Each question topicId and trialId match a topic and a trial, and the topic is on that trial.",
+    "question-answer": "Each question answerId matches one option id, and option ids are unique."
+  },
+  "files": {
+    "data/trials.json": {
+      "root": "array",
+      "minItems": 1,
+      "item": {
+        "type": "object",
+        "fields": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "name": { "type": "string", "minLength": 1 },
+          "year": { "type": "integer", "min": 1900, "max": 2100 },
+          "topicIds": { "type": "string[]", "minItems": 1, "itemPattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "summary": { "type": "string", "minLength": 1 },
+          "population": { "type": "string", "minLength": 1 },
+          "comparison": { "type": "string", "minLength": 1 },
+          "finding": { "type": "string", "minLength": 1 },
+          "citation": { "type": "string", "minLength": 1 },
+          "pmid": { "type": "string", "allowEmpty": true },
+          "doi": { "type": "string", "allowEmpty": true },
+          "sourceUrl": { "type": "string", "format": "https-url" },
+          "verified": { "type": "boolean" },
+          "placeholder": { "type": "boolean" },
+          "verificationLabel": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "data/topics.json": {
+      "root": "array",
+      "minItems": 1,
+      "item": {
+        "type": "object",
+        "fields": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "label": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string", "minLength": 1 },
+          "verified": { "type": "boolean" },
+          "placeholder": { "type": "boolean" },
+          "verificationLabel": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "data/learning-path.json": {
+      "root": "array",
+      "minItems": 1,
+      "item": {
+        "type": "object",
+        "fields": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "title": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string", "minLength": 1 },
+          "verified": { "type": "boolean" },
+          "placeholder": { "type": "boolean" },
+          "verificationLabel": { "type": "string", "minLength": 1 },
+          "steps": {
+            "type": "object[]",
+            "minItems": 1,
+            "fields": {
+              "order": { "type": "integer", "min": 1, "max": 999 },
+              "trialId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+              "note": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "data/questions.json": {
+      "root": "array",
+      "minItems": 1,
+      "item": {
+        "type": "object",
+        "fields": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "stem": { "type": "string", "minLength": 1 },
+          "options": {
+            "type": "object[]",
+            "minItems": 2,
+            "fields": {
+              "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+              "text": { "type": "string", "minLength": 1 }
+            }
+          },
+          "answerId": { "type": "string", "minLength": 1 },
+          "explanation": { "type": "string", "minLength": 1 },
+          "topicId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "trialId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "verified": { "type": "boolean" },
+          "placeholder": { "type": "boolean" },
+          "verificationLabel": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
