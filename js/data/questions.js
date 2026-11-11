@@ -2,7 +2,7 @@
 window.CRITCARE_QUESTIONS = {
   "meta": {
     "title": "Practice questions",
-    "examDurationSeconds": 1620
+    "examDurationSeconds": 2160
   },
   "items": [
     {
@@ -105,6 +105,39 @@ window.CRITCARE_QUESTIONS = {
       }
     },
     {
+      "id": "q-vasopressors-4",
+      "placeholder": false,
+      "topic": "vasopressors",
+      "relatedTrialId": "leopards",
+      "stem": "An adult with sepsis in the intensive care unit is being considered for levosimendan added to standard care. Which statement matches the LeoPARDS trial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Organ dysfunction was not reduced (mean SOFA 6.68 versus 6.06), and arrhythmia was more frequent."
+        },
+        {
+          "id": "b",
+          "text": "Levosimendan significantly lowered 28-day mortality compared with placebo (34.5% versus 30.9%)."
+        },
+        {
+          "id": "c",
+          "text": "Levosimendan made successful weaning from mechanical ventilation more likely over 28 days."
+        },
+        {
+          "id": "d",
+          "text": "Supraventricular tachyarrhythmia was less frequent with levosimendan than placebo (0.4% versus 3.1%)."
+        }
+      ],
+      "correctId": "a",
+      "explanation": "LeoPARDS found no significant difference in mean SOFA score (6.68 versus 6.06; mean difference 0.61; 95% CI -0.07 to 1.29; P=0.053), and supraventricular tachyarrhythmia was more frequent with levosimendan (3.1% versus 0.4%; P=0.04), the reverse of D. Mortality at 28 days was 34.5% with levosimendan and 30.9% with placebo (P=0.43), so B is incorrect. Among patients ventilated at baseline, weaning was less likely with levosimendan (hazard ratio 0.77), the reverse of C.",
+      "source": {
+        "label": "LeoPARDS PubMed abstract",
+        "pmid": "27705084",
+        "doi": "10.1056/NEJMoa1609409",
+        "note": "Primary result, mortality, weaning, and arrhythmia figures used in this item."
+      }
+    },
+    {
       "id": "q-steroids-1",
       "placeholder": false,
       "topic": "steroids",
@@ -201,6 +234,39 @@ window.CRITCARE_QUESTIONS = {
         "pmid": "32678530",
         "doi": "10.1056/NEJMoa2021436",
         "note": "Oxygen-without-invasive-ventilation subgroup of the primary mortality result. The same percentages and rate ratio are printed in the PubMed abstract."
+      }
+    },
+    {
+      "id": "q-steroids-4",
+      "placeholder": false,
+      "topic": "steroids",
+      "relatedTrialId": "hypress",
+      "stem": "An adult has severe sepsis but is not in septic shock. The team asks whether hydrocortisone could prevent progression to shock. Which statement matches the HYPRESS trial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hydrocortisone significantly reduced progression to septic shock within 14 days."
+        },
+        {
+          "id": "b",
+          "text": "Hydrocortisone significantly lowered 180-day mortality (22.2% versus 26.8%)."
+        },
+        {
+          "id": "c",
+          "text": "Septic shock within 14 days occurred in 21.2% versus 22.9% of patients (P=.70)."
+        },
+        {
+          "id": "d",
+          "text": "Hyperglycemia and muscle weakness were less frequent with hydrocortisone than with placebo."
+        }
+      ],
+      "correctId": "c",
+      "explanation": "HYPRESS reported septic shock within 14 days in 36 of 170 patients (21.2%) with hydrocortisone and 39 of 170 (22.9%) with placebo (difference -1.8%; 95% CI -10.7% to 7.2%; P=.70), so A is incorrect. Mortality at 180 days was 26.8% with hydrocortisone and 22.2% with placebo (P=.32), not lower with hydrocortisone (B). Hyperglycemia (90.9% versus 81.5%) and muscle weakness (30.7% versus 23.8%) were more frequent with hydrocortisone, the reverse of D.",
+      "source": {
+        "label": "HYPRESS PubMed abstract",
+        "pmid": "27695824",
+        "doi": "10.1001/jama.2016.14799",
+        "note": "Primary result, mortality, and adverse-event figures used in this item."
       }
     },
     {
@@ -303,6 +369,39 @@ window.CRITCARE_QUESTIONS = {
       }
     },
     {
+      "id": "q-fluids-4",
+      "placeholder": false,
+      "topic": "fluids",
+      "relatedTrialId": "cristal",
+      "stem": "An adult in the intensive care unit has hypovolemic shock. The team is choosing between colloids and crystalloids for resuscitation. Which statement matches the CRISTAL trial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Colloids significantly reduced death within 28 days, which was the primary outcome of the trial."
+        },
+        {
+          "id": "b",
+          "text": "Death within 28 days was 25.4% versus 27.0% (P=.26); the 90-day difference was exploratory."
+        },
+        {
+          "id": "c",
+          "text": "Colloids were limited to hydroxyethyl starch, and albumin was not permitted in the trial."
+        },
+        {
+          "id": "d",
+          "text": "Renal replacement therapy was used significantly more often with colloids."
+        }
+      ],
+      "correctId": "b",
+      "explanation": "CRISTAL reported death within 28 days in 25.4% with colloids and 27.0% with crystalloids (relative risk 0.96; 95% CI 0.88 to 1.04; P=.26), so A is incorrect. Lower 90-day mortality with colloids (30.7% versus 34.2%; P=.03) was a secondary outcome that the authors call exploratory. Colloids included gelatins, dextrans, hydroxyethyl starches, and 4% or 20% albumin (C). Renal replacement therapy was used in 11.0% versus 12.5% (P=.19), not more often with colloids (D).",
+      "source": {
+        "label": "CRISTAL PubMed abstract",
+        "pmid": "24108515",
+        "doi": "10.1001/jama.2013.280502",
+        "note": "Primary result, 90-day result, colloid types, and renal replacement therapy figures used in this item."
+      }
+    },
+    {
       "id": "q-sedation-1",
       "placeholder": false,
       "topic": "sedation",
@@ -399,6 +498,39 @@ window.CRITCARE_QUESTIONS = {
         "pmid": "20116842",
         "doi": "10.1016/S0140-6736(09)62072-9",
         "note": "Primary result used in this item."
+      }
+    },
+    {
+      "id": "q-sedation-4",
+      "placeholder": false,
+      "topic": "sedation",
+      "relatedTrialId": "a2b",
+      "stem": "An adult intubated about a day ago is receiving propofol and an opioid and is expected to need mechanical ventilation for 48 hours or longer. The team considers switching to an alpha-2 agonist. Which statement matches the A2B trial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Neither dexmedetomidine nor clonidine shortened time to successful extubation compared with propofol."
+        },
+        {
+          "id": "b",
+          "text": "Dexmedetomidine significantly shortened time to extubation compared with propofol (136 versus 162 hours; P=.20)."
+        },
+        {
+          "id": "c",
+          "text": "Agitation was less frequent with dexmedetomidine and with clonidine than with propofol."
+        },
+        {
+          "id": "d",
+          "text": "Severe bradycardia was similar with clonidine and propofol (risk ratio 1.58)."
+        }
+      ],
+      "correctId": "a",
+      "explanation": "A2B found subdistribution hazard ratios for successful extubation of 1.09 (95% CI 0.96 to 1.25; P=.20) for dexmedetomidine and 1.05 (95% CI 0.95 to 1.17; P=.34) for clonidine versus propofol. The median times of 136 and 162 hours did not differ significantly, so B misreads a nonsignificant P value. Agitation was more frequent with dexmedetomidine (risk ratio 1.54) and clonidine (risk ratio 1.55), the reverse of C. Severe bradycardia was more frequent with clonidine (risk ratio 1.58; 95% CI 1.33 to 1.88), so D is incorrect.",
+      "source": {
+        "label": "A2B PubMed abstract",
+        "pmid": "40388916",
+        "doi": "10.1001/jama.2025.7200",
+        "note": "Primary result, median times, agitation, and bradycardia figures used in this item."
       }
     },
     {
@@ -501,6 +633,39 @@ window.CRITCARE_QUESTIONS = {
       }
     },
     {
+      "id": "q-antimicrobials-4",
+      "placeholder": false,
+      "topic": "antimicrobials",
+      "relatedTrialId": "adapt-sepsis",
+      "stem": "An adult in the intensive care unit started intravenous antibiotics for suspected sepsis and is likely to continue them for at least 72 hours. The team considers a daily biomarker protocol to guide duration. Which statement matches the ADAPT-Sepsis trial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A daily C-reactive protein protocol shortened antibiotic duration and was noninferior for mortality."
+        },
+        {
+          "id": "b",
+          "text": "The procalcitonin protocol shortened antibiotic duration but raised 28-day mortality beyond the margin."
+        },
+        {
+          "id": "c",
+          "text": "Both biomarker protocols shortened antibiotic duration by a similar amount compared with standard care."
+        },
+        {
+          "id": "d",
+          "text": "Procalcitonin guidance shortened duration (mean difference 0.88 days) with noninferior mortality."
+        }
+      ],
+      "correctId": "d",
+      "explanation": "ADAPT-Sepsis found a mean antibiotic duration of 9.8 days with the procalcitonin protocol versus 10.7 days with standard care (mean difference 0.88 days; 95% CI 0.19 to 1.58), and 28-day mortality of 20.9% versus 19.4% met the 5.4% noninferiority margin (B). The C-reactive protein protocol did not change duration (mean difference 0.09 days; P=.79), and its mortality result was inconclusive, so A and C are incorrect.",
+      "source": {
+        "label": "ADAPT-Sepsis PubMed abstract",
+        "pmid": "39652885",
+        "doi": "10.1001/jama.2024.26458",
+        "note": "Duration and mortality figures for both biomarker protocols used in this item."
+      }
+    },
+    {
       "id": "q-ulcer-1",
       "placeholder": false,
       "topic": "ulcer-prophylaxis",
@@ -597,6 +762,39 @@ window.CRITCARE_QUESTIONS = {
         "pmid": "38875111",
         "doi": "10.1056/NEJMoa2404245",
         "note": "Primary efficacy and primary safety results used in this item."
+      }
+    },
+    {
+      "id": "q-ulcer-4",
+      "placeholder": false,
+      "topic": "ulcer-prophylaxis",
+      "relatedTrialId": "pop-up",
+      "stem": "A mechanically ventilated adult in the intensive care unit is expected to receive enteral nutrition, and the team questions routine pantoprazole. Which statement matches the POP-UP study?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pantoprazole significantly reduced clinically significant gastrointestinal bleeding compared with placebo."
+        },
+        {
+          "id": "b",
+          "text": "Pantoprazole significantly increased mortality (adjusted hazard ratio 1.68)."
+        },
+        {
+          "id": "c",
+          "text": "No patient had clinically significant bleeding, and overt bleeding did not differ (P=0.50)."
+        },
+        {
+          "id": "d",
+          "text": "This was a large multicenter, open-label trial conducted in several countries."
+        }
+      ],
+      "correctId": "c",
+      "explanation": "POP-UP enrolled 214 patients at one intensive care unit in a double-blind design, so D is incorrect. None had clinically significant gastrointestinal bleeding, so A is incorrect, and overt bleeding did not differ (6 versus 3; P=0.50). The adjusted mortality hazard ratio for pantoprazole was 1.68 (95% CI 0.97 to 2.90; P=0.06), not statistically significant (B).",
+      "source": {
+        "label": "POP-UP PubMed abstract",
+        "pmid": "27635481",
+        "doi": "10.1097/CCM.0000000000001819",
+        "note": "Bleeding, mortality, and design details used in this item."
       }
     }
   ]

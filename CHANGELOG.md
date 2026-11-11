@@ -2,6 +2,19 @@
 
 Newest first. Record site changes here. The site does not render this file.
 
+## 2026-11-11 — Phase 2 trial cards
+
+- 20 trial cards added to the six existing lanes, each read from its PubMed abstract this session:
+  - Vasopressors and inotropes: CATS (2007), CAT (2008), LeoPARDS (2016), VITAMINS (2020).
+  - Corticosteroids: LaSRS (2006), HYPRESS (2016), ESCAPe (2022).
+  - Resuscitation fluids: FACTT fluid-strategy comparison (2006), CRISTAL (2013), SPLIT (2015).
+  - Sedation, analgesia, delirium: SLEAP (2012), DahLIA (2016), REDUCE (2018), A2B (2025).
+  - Antimicrobial strategy: ZEPHyR (2012), BLING II (2015), EMPIRICUS (2016), AMIKINHAL (2023), ADAPT-Sepsis (2025).
+  - Stress ulcer prophylaxis: POP-UP (2016).
+- Guideline lists stay empty. Applicability notes cover HYPRESS (intermediate care units included) and ZEPHyR (hospital-wide nosocomial pneumonia; the abstract gives no intensive care unit count).
+- Six practice questions, one per lane. Answer letters are now A 6, B 6, C 6, D 6. The timed exam is 2160 seconds (90 seconds per question).
+- Abbreviation key adds short forms printed inside quoted abstract text: CRP, EOS, IFI, IV, MRSA, MV, PCT, PP, RRT, VAS, mITT, mg/d, mg/day, mg/dL, mmHg, pg/mL, and µg/kg/h ("vs" is now added with the phase 1 final-review fixes).
+
 ## 2026-11-11 — Phase 1 literature recheck items
 
 - SUP-ICU: the REVISE clause, its source entry, and its quote in the source note were removed because the NEJM full text could not be opened directly; the limitation keeps the post hoc and 1-year follow-up qualifiers. The now-unused APACHE key entry was removed.

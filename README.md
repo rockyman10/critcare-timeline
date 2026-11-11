@@ -4,7 +4,7 @@ A static teaching timeline of randomized **medication** trials in adult ICU care
 
 The page is plain HTML, CSS, and JavaScript. There is no build step. Procedures, devices, and ventilation strategies are out of scope.
 
-Phase 1 has 48 trial cards on six lanes and 18 practice questions. The card fields are the same on every card. `sourceNotes` records where each number was read.
+Phase 1 has 48 trial cards on six lanes and 18 practice questions. Phase 2 adds 20 cards on the same lanes and 6 questions, for 68 cards and 24 questions. The card fields are the same on every card. `sourceNotes` records where each number was read.
 
 ## Open locally
 

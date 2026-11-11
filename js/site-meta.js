@@ -77,6 +77,23 @@ window.CRITCARE_SITE_META = {
     ["NEJM", "New England Journal of Medicine"],
     ["SAPS II", "Simplified Acute Physiology Score II (as printed in a quoted source)"],
     ["UOHI", "University of Ottawa Heart Institute (as printed in a quoted source)"],
-    ["vs", "versus (as printed in a quoted source)"]
+    ["vs", "versus (as printed in a quoted source)"],
+    ["CRP", "C-reactive protein (as printed in a quoted source)"],
+    ["EOS", "end of study (as printed in a quoted source)"],
+    ["IFI", "invasive fungal infection (as printed in a quoted source)"],
+    ["IV", "intravenous (as printed in a quoted source)"],
+    ["MRSA", "methicillin-resistant Staphylococcus aureus (as printed in a quoted source)"],
+    ["MV", "mechanical ventilation (as printed in a quoted source)"],
+    ["PCT", "procalcitonin (as printed in a quoted source)"],
+    ["PP", "per-protocol (as printed in a quoted source)"],
+    ["RRT", "renal replacement therapy (as printed in a quoted source)"],
+    ["VAS", "visual analog scale (as printed in a quoted source)"],
+    ["mITT", "modified intention-to-treat (as printed in a quoted source)"],
+    ["mg/d", "milligrams per day"],
+    ["mg/day", "milligrams per day"],
+    ["mg/dL", "milligrams per deciliter"],
+    ["mmHg", "millimeters of mercury (as printed in a quoted source)"],
+    ["pg/mL", "picograms per milliliter"],
+    ["µg/kg/h", "micrograms per kilogram per hour"]
   ]
 };
