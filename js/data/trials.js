@@ -136,7 +136,7 @@ window.CRITCARE_TRIALS = [
     "population": "Adult patients with septic shock requiring vasopressors despite fluid resuscitation within a maximum of 6 hours after the onset of shock. A total of 409 patients were included (median age, 66 years; men, 58.2%), with a median time to study drug administration of 3.5 hours after diagnosis of shock.",
     "intervention": "Vasopressin titrated up to 0.06 units per minute, allocated with hydrocortisone (101 patients) or placebo (104 patients).",
     "comparator": "Norepinephrine allocated with hydrocortisone (101 patients) or placebo (103 patients).",
-    "primaryResult": "The number of survivors who never developed kidney failure was 94 of 165 patients (57.0%) in the vasopressin group and 93 of 157 patients (59.2%) in the norepinephrine group (difference, -2.3% [95% confidence interval, -13.0% to 8.5%]). The median number of kidney failure-free days for patients who did not survive, who experienced kidney failure, or both was 9 days (interquartile range, 1 to -24) in the vasopressin group and 13 days (interquartile range, 1 to -25) in the norepinephrine group (difference, -4 days [95% confidence interval, -11 to 5]).",
+    "primaryResult": "The number of survivors who never developed kidney failure was 94 of 165 patients (57.0%) in the vasopressin group and 93 of 157 patients (59.2%) in the norepinephrine group (difference, -2.3% [95% confidence interval, -13.0% to 8.5%]). The median number of kidney failure-free days for patients who did not survive, who experienced kidney failure, or both was 9 days (interquartile range, 1 to 24) in the vasopressin group and 13 days (interquartile range, 1 to 25) in the norepinephrine group (difference, -4 days [95% confidence interval, -11 to 5]).",
     "safety": "In total, 22 of 205 patients (10.7%) had a serious adverse event in the vasopressin group versus 17 of 204 patients (8.3%) in the norepinephrine group (difference, 2.5% [95% confidence interval, -3.3% to 8.2%]).",
     "takeaway": "Among 409 adults with septic shock, early vasopressin compared with norepinephrine did not improve kidney failure-free days. Survivors who never developed kidney failure were 94 of 165 (57.0%) and 93 of 157 (59.2%) (difference, -2.3%; 95% confidence interval, -13.0% to 8.5%).",
     "limitations": "The trial conclusions state that the confidence interval included a potential clinically important benefit for vasopressin. Allocation was factorial, and each vasopressor was paired with hydrocortisone or placebo. The abstract states that mortality did not differ significantly between groups.",
@@ -154,11 +154,11 @@ window.CRITCARE_TRIALS = [
       "population 6, 409, 66, 58.2, 3.5: PubMed abstract PMID 27483065 DESIGN 'within a maximum of 6 hours after the onset of shock' and RESULTS 'A total of 409 patients (median age, 66 years; men, 58.2%) were included in the study, with a median time to study drug administration of 3.5 hours after diagnosis of shock.'",
       "intervention 0.06, 101, 104: PubMed abstract PMID 27483065 INTERVENTIONS 'vasopressin (titrated up to 0.06 U/min) and hydrocortisone (n = 101), vasopressin and placebo (n = 104)'.",
       "comparator 101, 103: PubMed abstract PMID 27483065 INTERVENTIONS 'norepinephrine and hydrocortisone (n = 101), or norepinephrine and placebo (n = 103).' No norepinephrine dose is printed in the abstract.",
-      "primaryResult 94, 165, 57.0%, 93, 157, 59.2%, difference -2.3%, 95% confidence interval -13.0% to 8.5%, 9 days, interquartile range 1 to -24, 13 days, interquartile range 1 to -25, difference -4 days, 95% confidence interval -11 to 5: PubMed abstract PMID 27483065 RESULTS 'The number of survivors who never developed kidney failure was 94 of 165 patients (57.0%) in the vasopressin group and 93 of 157 patients (59.2%) in the norepinephrine group (difference, -2.3% [95% CI, -13.0% to 8.5%]). The median number of kidney failure-free days for patients who did not survive, who experienced kidney failure, or both was 9 days (interquartile range [IQR], 1 to -24) in the vasopressin group and 13 days (IQR, 1 to -25) in the norepinephrine group (difference, -4 days [95% CI, -11 to 5]).'",
+      "primaryResult 94, 165, 57.0%, 93, 157, 59.2%, difference -2.3%, 95% confidence interval -13.0% to 8.5%, medians 9 and 13 days, difference -4 days, 95% confidence interval -11 to 5: PubMed abstract PMID 27483065. Interquartile ranges 1 to 24 and 1 to 25: JAMA full text Table 2. The abstract prints those ranges as 1 to -24 and 1 to -25.",
       "safety 22, 205, 10.7%, 17, 204, 8.3%, difference 2.5%, 95% confidence interval -3.3% to 8.2%: PubMed abstract PMID 27483065 RESULTS '22 of 205 patients (10.7%) had a serious adverse event in the vasopressin group' and '17 of 204 patients (8.3%) in the norepinephrine group (difference, 2.5% [95% CI, -3.3% to 8.2%]).'",
       "takeaway uses 409, 94, 165, 57.0, 93, 157, 59.2, -2.3, 95, -13.0, and 8.5 from the population and primary-result sentences quoted above.",
       "limitations: no additional numerals. The confidence-interval statement is the CONCLUSIONS sentence 'the confidence interval included a potential clinically important benefit for vasopressin'. Mortality without counts is the RESULTS clause 'There was no significant difference in mortality rates between groups.'",
-      "The PubMed abstract PMID 27483065 prints the interquartile ranges as 1 to -24 and 1 to -25, in that order. The card copies that printed order and does not swap the bounds."
+      "The PubMed abstract PMID 27483065 prints the interquartile ranges as '1 to -24' and '1 to -25'; the JAMA full text and Table 2 print 1 to 24 and 1 to 25, and the card follows the full text."
     ]
   },
   {
@@ -179,8 +179,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "Infusion of placebo, added while background vasopressors were continued.",
     "primaryResult": "The primary end point was reached by more patients in the angiotensin II group (114 of 163 patients, 69.9%) than in the placebo group (37 of 158 patients, 23.4%) (odds ratio, 7.95; 95% confidence interval, 4.76 to 13.3; P<0.001).",
     "safety": "Serious adverse events were reported in 60.7% of the patients in the angiotensin II group and in 67.1% in the placebo group. Death by day 28 occurred in 75 of 163 patients (46%) in the angiotensin II group and in 85 of 158 patients (54%) in the placebo group (hazard ratio, 0.78; 95% confidence interval, 0.57 to 1.07; P=0.12).",
-    "takeaway": "In patients with vasodilatory shock receiving high-dose vasopressors, a mean arterial pressure response at hour 3 occurred in 69.9% with angiotensin II and 23.4% with placebo (odds ratio, 7.95; 95% confidence interval, 4.76 to 13.3; P<0.001).",
-    "limitations": "Angiotensin II or placebo was added for shock that was already being treated with high-dose vasopressors, and the primary response required no increase in the background vasopressor dose.",
+    "takeaway": "In patients with vasodilatory shock receiving high-dose vasopressors, angiotensin II increased the proportion with a mean arterial pressure response at hour 3 compared with placebo (69.9% versus 23.4%; odds ratio, 7.95; 95% CI, 4.76 to 13.3; P<0.001). The primary end point was a hemodynamic response, not a patient-centered outcome; death by day 28 was 46% versus 54% (hazard ratio, 0.78; 95% CI, 0.57 to 1.07; P=0.12), not significantly different.",
+    "limitations": "The primary end point was a 3-hour blood-pressure response, a surrogate outcome. Angiotensin II or placebo was added to high-dose background vasopressors, and the response definition required no increase in background vasopressor dose. Death by day 28 was 46% versus 54% (hazard ratio, 0.78; 95% CI, 0.57 to 1.07; P=0.12).",
     "guidelines": [],
     "sources": [
       {
@@ -197,7 +197,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 114, 163, 69.9%, 37, 158, 23.4%, odds ratio 7.95, 95% confidence interval 4.76 to 13.3, P<0.001: PubMed abstract PMID 28528561 RESULTS 'The primary end point was reached by more patients in the angiotensin II group (114 of 163 patients, 69.9%) than in the placebo group (37 of 158 patients, 23.4%) (odds ratio, 7.95; 95% confidence interval [CI], 4.76 to 13.3; P<0.001).'",
       "safety 60.7%, 67.1%, day 28, 75 of 163, 46%, 85 of 158, 54%, hazard ratio 0.78, 95% confidence interval 0.57 to 1.07, P=0.12: PubMed abstract PMID 28528561 RESULTS 'Serious adverse events were reported in 60.7% of the patients in the angiotensin II group and in 67.1% in the placebo group. Death by day 28 occurred in 75 of 163 patients (46%) in the angiotensin II group and in 85 of 158 patients (54%) in the placebo group (hazard ratio, 0.78; 95% CI, 0.57 to 1.07; P=0.12).'",
       "takeaway uses hour 3, 69.9, 23.4, 7.95, 95, 4.76, 13.3, and 0.001 from the primary-result sentence quoted above.",
-      "limitations: no additional numerals. High-dose background vasopressors and the requirement of no increase in background dose are the METHODS sentence quoted under design."
+      "limitations: no additional numerals. High-dose background vasopressors and the requirement of no increase in background dose are the METHODS sentence quoted under design.",
+      "takeaway and limitations day-28 death 75 of 163 (46%) versus 85 of 158 (54%), hazard ratio 0.78, 95% CI 0.57 to 1.07, P=0.12: PubMed abstract PMID 28528561 results."
     ]
   },
   {
@@ -232,7 +233,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "32049269",
         "doi": "10.1001/jama.2020.0930",
-        "note": "Full text read from the PubMed Central text file. A PMC identifier for this article was not printed in that file."
+        "note": "Full text read from the PubMed Central text file. PubMed Central identifier PMC7064880."
       }
     ],
     "sourceNotes": [
@@ -263,9 +264,9 @@ window.CRITCARE_TRIALS = [
     "intervention": "Milrinone.",
     "comparator": "Dobutamine.",
     "primaryResult": "A primary outcome event occurred in 47 participants (49%) in the milrinone group and in 52 participants (54%) in the dobutamine group (relative risk, 0.90; 95% confidence interval, 0.69 to 1.19; P=0.47).",
-    "safety": "The abstract reports no separate serious-adverse-event table. In-hospital death occurred in 37% of the milrinone group and 43% of the dobutamine group (relative risk, 0.85; 95% confidence interval, 0.60 to 1.21). Resuscitated cardiac arrest occurred in 7% and 9% (hazard ratio, 0.78; 95% confidence interval, 0.29 to 2.07). Mechanical circulatory support was received by 12% and 15% (hazard ratio, 0.78; 95% confidence interval, 0.36 to 1.71). Renal replacement therapy was initiated in 22% and 17% (hazard ratio, 1.39; 95% confidence interval, 0.73 to 2.67).",
+    "safety": "The abstract does not report serious adverse events separately. Secondary outcomes did not differ significantly: In-hospital death occurred in 37% of the milrinone group and 43% of the dobutamine group (relative risk, 0.85; 95% confidence interval, 0.60 to 1.21). Resuscitated cardiac arrest occurred in 7% and 9% (hazard ratio, 0.78; 95% confidence interval, 0.29 to 2.07). Mechanical circulatory support was received by 12% and 15% (hazard ratio, 0.78; 95% confidence interval, 0.36 to 1.71). Renal replacement therapy was initiated in 22% and 17% (hazard ratio, 1.39; 95% confidence interval, 0.73 to 2.67).",
     "takeaway": "In 192 participants with cardiogenic shock, a primary composite outcome event occurred in 49% assigned to milrinone and 54% assigned to dobutamine (relative risk, 0.90; 95% confidence interval, 0.69 to 1.19; P=0.47).",
-    "limitations": "The assignment was double-blind, and the primary outcome was a composite of several in-hospital events.",
+    "limitations": "The primary outcome was a broad in-hospital composite that included resuscitated cardiac arrest, receipt of mechanical circulatory support, and initiation of renal-replacement therapy. The trial enrolled 192 participants. The abstract does not state the number of centers or whether dosing was protocolized.",
     "guidelines": [],
     "sources": [
       {
@@ -282,7 +283,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 47, 49%, 52, 54%, relative risk 0.90, 95% confidence interval 0.69 to 1.19, P=0.47: PubMed abstract PMID 34347952 RESULTS 'a primary outcome event occurred in 47 participants (49%) in the milrinone group and in 52 participants (54%) in the dobutamine group (relative risk, 0.90; 95% confidence interval [CI], 0.69 to 1.19; P = 0.47).'",
       "safety 37%, 43%, relative risk 0.85, 95% confidence interval 0.60 to 1.21, 7%, 9%, hazard ratio 0.78, 95% confidence interval 0.29 to 2.07, 12%, 15%, hazard ratio 0.78, 95% confidence interval 0.36 to 1.71, 22%, 17%, hazard ratio 1.39, 95% confidence interval 0.73 to 2.67: PubMed abstract PMID 34347952 RESULTS 'in-hospital death (37% and 43% of the participants, respectively; relative risk, 0.85; 95% CI, 0.60 to 1.21), resuscitated cardiac arrest (7% and 9%; hazard ratio, 0.78; 95% CI, 0.29 to 2.07), receipt of mechanical circulatory support (12% and 15%; hazard ratio, 0.78; 95% CI, 0.36 to 1.71), or initiation of renal replacement therapy (22% and 17%; hazard ratio, 1.39; 95% CI, 0.73 to 2.67).' Respectively follows the milrinone-then-dobutamine order in the preceding primary-result clause.",
       "takeaway uses 192, 49, 54, 0.90, 95, 0.69, 1.19, and 0.47 from the population and primary-result sentences quoted above.",
-      "limitations: no numerals. Double-blind composite outcome is the METHODS sentence quoted under design."
+      "limitations: no numerals. Double-blind composite outcome is the METHODS sentence quoted under design.",
+      "safety secondary outcomes: PubMed abstract PMID 34347952 states there were no significant differences in secondary outcomes, including the component percentages printed on this card. limitations 192 participants: the same abstract."
     ]
   },
   {
@@ -304,7 +306,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "The primary outcome occurred in 191 of 429 patients (44.5%) in the vitamin C group and in 167 of 434 patients (38.5%) in the control group (risk ratio, 1.21; 95% confidence interval, 1.04 to 1.40; P=0.01).",
     "safety": "At 28 days, death had occurred in 152 of 429 patients (35.4%) in the vitamin C group and in 137 of 434 patients (31.6%) in the placebo group (risk ratio, 1.17; 95% confidence interval, 0.98 to 1.40). In the vitamin C group, one patient had a severe hypoglycemic episode and another had a serious anaphylaxis event.",
     "takeaway": "In adults with sepsis who were receiving vasopressor therapy in the intensive care unit, intravenous vitamin C was associated with a higher risk of death or persistent organ dysfunction at 28 days than placebo (44.5% versus 38.5%; risk ratio, 1.21; 95% confidence interval, 1.04 to 1.40; P=0.01).",
-    "limitations": "The primary outcome was a composite of death or persistent organ dysfunction on day 28. The comparison was randomized and placebo-controlled.",
+    "limitations": "The composite primary outcome was driven by both components, neither significant alone: death at 28 days, 152 of 429 (35.4%) versus 137 of 434 (31.6%), risk ratio 1.17 (95% CI, 0.98 to 1.40); persistent organ dysfunction, 39 of 429 (9.1%) versus 30 of 434 (6.9%), risk ratio 1.30 (95% CI, 0.83 to 2.05). LOVIT tested vitamin C alone, not combined with hydrocortisone and thiamine. This card sits in the vasopressor lane because enrollment required vasopressor therapy; vitamin C is a sepsis adjunct, not a vasopressor.",
     "guidelines": [],
     "sources": [
       {
@@ -322,7 +324,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 191 of 429, 44.5%, 167 of 434, 38.5%, risk ratio 1.21, 95% confidence interval 1.04 to 1.40, P=0.01: PubMed abstract PMID 35704292 RESULTS 'The primary outcome occurred in 191 of 429 patients (44.5%) in the vitamin C group and in 167 of 434 patients (38.5%) in the control group (risk ratio, 1.21; 95% confidence interval [CI], 1.04 to 1.40; P = 0.01).'",
       "safety day 28, 152 of 429, 35.4%, 137 of 434, 31.6%, risk ratio 1.17, 95% confidence interval 0.98 to 1.40, and one severe hypoglycemic episode and one serious anaphylaxis event: PubMed abstract PMID 35704292 RESULTS 'At 28 days, death had occurred in 152 of 429 patients (35.4%) in the vitamin C group and in 137 of 434 patients (31.6%) in the placebo group (risk ratio, 1.17; 95% CI, 0.98 to 1.40)' and 'In the vitamin C group, one patient had a severe hypoglycemic episode and another had a serious anaphylaxis event.'",
       "takeaway uses 28, 44.5, 38.5, 1.21, 95, 1.04, 1.40, and 0.01 from the primary-result sentence quoted above.",
-      "limitations day 28: the METHODS primary-outcome sentence quoted under design. The abstract does not print a center count."
+      "limitations day 28: the METHODS primary-outcome sentence quoted under design. The abstract does not print a center count.",
+      "limitations persistent organ dysfunction 39 of 429 (9.1%) versus 30 of 434 (6.9%), risk ratio 1.30, 95% CI 0.83 to 2.05, and death risk ratio 1.17, 95% CI 0.98 to 1.40: PubMed abstract PMID 35704292 results."
     ]
   },
   {
@@ -344,7 +347,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "In nonresponders to the corticotropin test, there were 73 deaths (63%) in the placebo group and 60 deaths (53%) in the corticosteroid group (hazard ratio 0.67; 95% CI 0.47 to 0.95; P=.02). There was no significant difference between groups in responders.",
     "safety": "Adverse event rates were similar in the 2 groups.",
     "takeaway": "In nonresponders with septic shock and relative adrenal insufficiency, 7 days of hydrocortisone plus fludrocortisone compared with placebo was associated with 60 deaths (53%) versus 73 deaths (63%) at 28 days (hazard ratio 0.67; 95% CI 0.47 to 0.95; P=.02). Vasopressor therapy was withdrawn within 28 days in 65 patients (57%) in the corticosteroid group and in 46 patients (40%) in the placebo group (hazard ratio 1.91; 95% CI 1.29 to 2.84; P=.001).",
-    "limitations": "The primary comparison was the 28-day survival distribution in the 229 corticotropin nonresponders rather than in every enrolled patient. One patient in the corticosteroid group was excluded from analyses because of consent withdrawal. The trial was performed in 19 intensive care units in France.",
+    "limitations": "The primary comparison was the 28-day survival distribution in the 229 corticotropin nonresponders rather than in every enrolled patient. One patient in the corticosteroid group was excluded from analyses because of consent withdrawal. The trial was performed in 19 intensive care units in France. The later CORTICUS trial found no significant 28-day mortality difference among corticotropin nonresponders (39.2% versus 36.1%; P=0.69).",
     "guidelines": [],
     "sources": [
       {
@@ -352,6 +355,12 @@ window.CRITCARE_TRIALS = [
         "pmid": "12186604",
         "doi": "10.1001/jama.288.7.862",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "CORTICUS PubMed abstract",
+        "pmid": "18184957",
+        "doi": "10.1056/NEJMoa071366",
+        "note": "Nonresponder 28-day mortality used in the Annane 2002 limitation."
       }
     ],
     "sourceNotes": [
@@ -361,7 +370,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 73, 63, 60, 53, 0.67, 95, 0.47, 0.95, .02: RESULTS 'In nonresponders, there were 73 deaths (63%) in the placebo group and 60 deaths (53%) in the corticosteroid group (hazard ratio, 0.67; 95% confidence interval, 0.47-0.95; P =.02).' The responder sentence has no separate percentages.",
       "safety 2: RESULTS 'Adverse events rates were similar in the 2 groups.' No event counts are printed.",
       "takeaway 7, 60, 53, 73, 63, 28, 0.67, 95, 0.47, 0.95, .02, 65, 57, 46, 40, 1.91, 1.29, 2.84, .001: the primary RESULTS sentence above and 'Vasopressor therapy was withdrawn within 28 days in 46 patients (40%) in the placebo group and in 65 patients (57%) in the corticosteroid group (hazard ratio, 1.91; 95% confidence interval, 1.29-2.84; P =.001).'",
-      "limitations 28, 229, 19: MAIN OUTCOME MEASURE and RESULTS nonresponder sentence and DESIGN AND SETTING '19 intensive care units in France.' One exclusion is the word One."
+      "limitations 28, 229, 19: MAIN OUTCOME MEASURE and RESULTS nonresponder sentence and DESIGN AND SETTING '19 intensive care units in France.' One exclusion is the word One.",
+      "limitations CORTICUS nonresponder mortality 39.2% versus 36.1%, P=0.69: PubMed abstract PMID 18184957. An etomidate percentage cited in the CORTICUS discussion was not in the abstract that was read, so that percentage is not on this card."
     ]
   },
   {
@@ -382,8 +392,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "Placebo every 6 hours for 5 days, with the dose then tapered during a 6-day period.",
     "primaryResult": "The primary outcome was death at 28 days among patients who did not have a response to corticotropin. Mortality in that group was 39.2% with hydrocortisone and 36.1% with placebo (P=0.69). Among patients who had a response to corticotropin, mortality was 28.8% with hydrocortisone and 28.7% with placebo (P=1.00). At 28 days, 86 of 251 patients in the hydrocortisone group (34.3%) and 78 of 248 patients in the placebo group (31.5%) had died (P=0.51).",
     "safety": "There were more episodes of superinfection, including new sepsis and septic shock, in the hydrocortisone group.",
-    "takeaway": "In 499 patients with septic shock, hydrocortisone did not reduce 28-day mortality among corticotropin nonresponders (39.2% versus 36.1%, P=0.69) or overall (34.3%, 86 of 251, versus 31.5%, 78 of 248, P=0.51). Shock was reversed more quickly with hydrocortisone than with placebo, and there were more episodes of superinfection, including new sepsis and septic shock.",
-    "limitations": "The primary outcome was 28-day death among the 233 patients (46.7% of 499) who did not respond to corticotropin. Hydrocortisone was given for 5 days and then tapered during a 6-day period.",
+    "takeaway": "In 499 patients with septic shock, hydrocortisone did not reduce 28-day mortality among corticotropin nonresponders (39.2% versus 36.1%, P=0.69) or overall (34.3%, 86 of 251, versus 31.5%, 78 of 248, P=0.51). In the hydrocortisone group, shock was reversed more quickly than in the placebo group among patients in whom shock was reversed; the conclusions state that hydrocortisone did not improve reversal of shock overall, and there were more episodes of superinfection, including new sepsis and septic shock.",
+    "limitations": "The primary outcome was 28-day death among the 233 corticotropin nonresponders (46.7% of 499). Hydrocortisone was given for 5 days and then tapered over 6 days, without fludrocortisone. The abstract that was read does not give the planned sample size.",
     "guidelines": [],
     "sources": [
       {
@@ -400,7 +410,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 28, 39.2, 36.1, 0.69, 28.8, 28.7, 1.00, 86, 251, 34.3, 78, 248, 31.5, 0.51: RESULTS 'At 28 days, there was no significant difference in mortality between patients in the two study groups who did not have a response to corticotropin (39.2% in the hydrocortisone group and 36.1% in the placebo group, P=0.69) or between those who had a response to corticotropin (28.8% in the hydrocortisone group and 28.7% in the placebo group, P=1.00). At 28 days, 86 of 251 patients in the hydrocortisone group (34.3%) and 78 of 248 patients in the placebo group (31.5%) had died (P=0.51).' No confidence interval is printed for these comparisons.",
       "safety: RESULTS 'However, there were more episodes of superinfection, including new sepsis and septic shock.' No episode counts are printed. The preceding sentence begins 'In the hydrocortisone group, shock was reversed more quickly'.",
       "takeaway 499, 28, 39.2, 36.1, 0.69, 34.3, 86, 251, 31.5, 78, 248, 0.51: same RESULTS sentences. No numeric interval to shock reversal is printed.",
-      "limitations 28, 233, 46.7, 499, 5, 6: METHODS primary-outcome sentence, RESULTS '233 (46.7%)', and the 5-day plus 6-day dosing sentence."
+      "limitations 28, 233, 46.7, 499, 5, 6: METHODS primary-outcome sentence, RESULTS '233 (46.7%)', and the 5-day plus 6-day dosing sentence.",
+      "takeaway shock reversal: PubMed abstract PMID 18184957 conclusions, hydrocortisone did not improve survival or reversal of shock, although shock was reversed more quickly among patients in whom shock was reversed."
     ]
   },
   {
@@ -499,8 +510,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "Continued routine intensive care. Patients were ventilated with lung-protective mechanical ventilation.",
     "primaryResult": "The primary outcome was the number of ventilator-free days at 28 days. The mean number of ventilator-free days was higher in the dexamethasone group than in the control group (between-group difference 4.8 days [95% CI 2.57 to 7.03]; P<0.0001).",
     "safety": "The proportion of adverse events did not differ significantly between the dexamethasone group and the control group. The most common adverse events were hyperglycemia in the ICU (105 [76%] patients in the dexamethasone group versus 97 [70%] patients in the control group), new infections in the ICU (33 [24%] in the dexamethasone group versus 35 [25%] in the control group), and barotrauma (14 [10%] in the dexamethasone group versus 10 [7%] in the control group).",
-    "takeaway": "In 277 patients with established moderate-to-severe acute respiratory distress syndrome, dexamethasone compared with continued routine intensive care increased ventilator-free days at 28 days (between-group difference 4.8 days; 95% CI 2.57 to 7.03; P<0.0001). At 60 days, 29 (21%) patients in the dexamethasone group and 50 (36%) in the control group had died (between-group difference -15.3% [-25.9 to -4.9]; P=0.0047).",
-    "limitations": "The trial was stopped by the data safety monitoring board because of a low enrolment rate after enrolling more than 88% (277/314) of the planned sample size. The comparator was continued routine intensive care. Enrollment was 277 patients, with 139 assigned to dexamethasone and 138 to control, in 17 intensive care units.",
+    "takeaway": "In 277 patients with established moderate-to-severe acute respiratory distress syndrome, dexamethasone compared with continued routine intensive care increased ventilator-free days at 28 days (between-group difference 4.8 days; 95% CI 2.57 to 7.03; P<0.0001). At 60 days, 29 (21%) patients assigned to dexamethasone and 50 (36%) assigned to control had died (between-group difference -15.3% [-25.9 to -4.9]; P=0.0047).",
+    "limitations": "There was no placebo. The comparator was continued routine intensive care, so the assignment was known. The trial was stopped by the data safety monitoring board for a low enrollment rate after 277 of 314 planned patients, in 17 intensive care units in Spain. The abstract reports 60-day mortality in addition to ventilator-free days and does not label 60-day mortality as the primary outcome.",
     "guidelines": [],
     "sources": [
       {
@@ -516,10 +527,11 @@ window.CRITCARE_TRIALS = [
       "intervention 20, 1, 5, 10, 6, 10: METHODS 'an intravenous dose of 20 mg once daily from day 1 to day 5, which was reduced to 10 mg once daily from day 6 to day 10.'",
       "comparator: METHODS 'continued routine intensive care (control group)' and 'Patients in both groups were ventilated with lung-protective mechanical ventilation.'",
       "primaryResult 28, 4.8, 95, 2.57, 7.03, 0.0001: FINDINGS 'The mean number of ventilator-free days was higher in the dexamethasone group than in the control group (between-group difference 4.8 days [95% CI 2.57 to 7.03]; p<0.0001).' Separate mean ventilator-free days for each group are not printed.",
-      "safety 105, 76, 97, 70, 33, 24, 35, 25, 14, 10, 7: FINDINGS 'The proportion of adverse events did not differ significantly between the dexamethasone group and control group. The most common adverse events were hyperglycaemia in the ICU (105 [76%] patients in the dexamethasone group versus 97 [70%] patients in the control group), new infections in the ICU (eg, pneumonia or sepsis; 33 [24%] versus 35 [25%]), and barotrauma (14 [10%] versus 10 [7%]).' No P value is printed for that comparison.",
+      "safety 105, 76, 97, 70, 33, 24, 35, 25, 14, 10, 7: FINDINGS 'The proportion of adverse events did not differ significantly between the dexamethasone group and control group. The most common adverse events were hyperglycaemia in the ICU (105 [76%] patients in the dexamethasone group versus 97 [70%] patients in the control group), new infections in the ICU (for example, pneumonia or sepsis; 33 [24%] versus 35 [25%]), and barotrauma (14 [10%] versus 10 [7%]).' No P value is printed for that comparison.",
       "takeaway 277, 28, 4.8, 95, 2.57, 7.03, 0.0001, 60, 29, 21, 50, 36, -15.3, -25.9, -4.9, 0.0047: FINDINGS ventilator-free sentence and 'At 60 days, 29 (21%) patients in the dexamethasone group and 50 (36%) patients in the control group had died (between-group difference -15.3% [-25.9 to -4.9]; p=0.0047).'",
       "limitations 88, 277, 314, 139, 138, 17: FINDINGS 'stopped by the data safety monitoring board due to low enrolment rate after enrolling more than 88% (277/314) of the planned sample size' and the assignment counts, and METHODS '17 intensive care units'.",
-      "The Lancet Respiratory Medicine abstract prints the decimal mark as a centered dot (4·8, 2·57, 7·03, P<0·0001). The card uses a period for those same digits."
+      "The Lancet Respiratory Medicine abstract prints the decimal mark as a centered dot (4·8, 2·57, 7·03, P<0·0001). The card uses a period for those same digits.",
+      "limitations no placebo, 17 intensive care units in Spain, stopped after 277 of 314: PubMed abstract PMID 32043986. Sixty-day deaths 29 (21%) and 50 (36%), difference -15.3% [-25.9 to -4.9], P=0.0047: the same abstract."
     ]
   },
   {
@@ -554,7 +566,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "32678530",
         "doi": "10.1056/NEJMoa2021436",
-        "note": "Full text read from the open file. A PMC identifier was not printed in the file. Where the abstract and full text disagree, the full text figure is used."
+        "note": "Full text read from the open file. PubMed Central identifier PMC7383595. Where the abstract and full text disagree, the full text figure is used."
       }
     ],
     "sourceNotes": [
@@ -587,7 +599,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "The primary outcome was death at 28 days. By day 28, death had occurred in 25 of 400 patients (6.2%; 95% CI 3.9 to 8.6) in the hydrocortisone group and in 47 of 395 patients (11.9%; 95% CI 8.7 to 15.1) in the placebo group (absolute difference -5.6 percentage points; 95% CI -9.6 to -1.7; P=0.006).",
     "safety": "The frequencies of hospital-acquired infections and gastrointestinal bleeding were similar in the two groups. Patients in the hydrocortisone group received higher daily doses of insulin during the first week of treatment.",
     "takeaway": "Among patients in the intensive care unit with severe community-acquired pneumonia, death by day 28 occurred in 25 of 400 (6.2%) with hydrocortisone and in 47 of 395 (11.9%) with placebo (absolute difference -5.6 percentage points; 95% CI -9.6 to -1.7; P=0.006). Among patients not undergoing mechanical ventilation at baseline, intubation occurred in 40 of 222 (18.0%) with hydrocortisone versus 65 of 220 (29.5%) with placebo (hazard ratio 0.59; 95% CI 0.40 to 0.86), and among patients not receiving vasopressors at baseline, vasopressors were started by day 28 in 55 of 359 (15.3%) with hydrocortisone versus 86 of 344 (25.0%) with placebo (hazard ratio 0.59; 95% CI 0.43 to 0.82).",
-    "limitations": "The trial was stopped after the second planned interim analysis, when 800 patients had undergone randomization. Data from 795 patients were analyzed.",
+    "limitations": "The trial was stopped after the second planned interim analysis, when 800 patients had undergone randomization and data from 795 were analyzed. Stopping at an interim analysis can overestimate a treatment effect. Patients treated with vasopressors for septic shock at inclusion, and patients with a positive rapid polymerase chain reaction test for influenza, were excluded, so the result does not apply to those groups.",
     "guidelines": [],
     "sources": [
       {
@@ -595,6 +607,11 @@ window.CRITCARE_TRIALS = [
         "pmid": "36942789",
         "doi": "10.1056/NEJMoa2215145",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "ClinicalTrials.gov",
+        "url": "https://clinicaltrials.gov/study/NCT02517489",
+        "note": "Exclusion criteria read from the registry eligibility module."
       }
     ],
     "sourceNotes": [
@@ -604,7 +621,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 28, 25, 400, 6.2, 95, 3.9, 8.6, 47, 395, 11.9, 8.7, 15.1, -5.6, -9.6, -1.7, 0.006: RESULTS 'By day 28, death had occurred in 25 of 400 patients (6.2%; 95% confidence interval [CI], 3.9 to 8.6) in the hydrocortisone group and in 47 of 395 patients (11.9%; 95% CI, 8.7 to 15.1) in the placebo group (absolute difference, -5.6 percentage points; 95% CI, -9.6 to -1.7; P = 0.006).'",
       "safety: RESULTS 'The frequencies of hospital-acquired infections and gastrointestinal bleeding were similar in the two groups; patients in the hydrocortisone group received higher daily doses of insulin during the first week of treatment.' No infection, bleeding, or insulin amounts are printed. two and first are words.",
       "takeaway 28, 25, 400, 6.2, 47, 395, 11.9, -5.6, 95, -9.6, -1.7, 0.006, 40, 222, 18.0, 65, 220, 29.5, 0.59, 0.40, 0.86, 55, 359, 15.3, 86, 344, 25.0, 0.59, 0.43, 0.82: primary RESULTS sentence and 'endotracheal intubation was performed in 40 of 222 (18.0%) in the hydrocortisone group and in 65 of 220 (29.5%) in the placebo group (hazard ratio, 0.59; 95% CI, 0.40 to 0.86)' and 'initiated by day 28 in 55 of 359 (15.3%) of the hydrocortisone group and in 86 of 344 (25.0%) in the placebo group (hazard ratio, 0.59; 95% CI, 0.43 to 0.82).'",
-      "limitations 800, 795: RESULTS '800 patients had undergone randomization when the trial was stopped after the second planned interim analysis. Data from 795 patients were analyzed.'"
+      "limitations 800, 795: RESULTS '800 patients had undergone randomization when the trial was stopped after the second planned interim analysis. Data from 795 patients were analyzed.'",
+      "limitations stopping at 800 randomized and 795 analyzed: PubMed abstract PMID 36942789. Exclusions for vasopressors for septic shock at inclusion and a positive rapid polymerase chain reaction test for influenza: ClinicalTrials.gov NCT02517489 eligibility criteria."
     ]
   },
   {
@@ -626,7 +644,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Death from any cause at 28 days occurred in 726 patients in the albumin group and 729 patients in the saline group (relative risk of death, 0.99; 95% CI, 0.91 to 1.09; P=0.87).",
     "safety": "The proportion of patients with new single-organ and multiple-organ failure was similar in the two groups (P=0.85). Mean days of renal-replacement therapy were 0.5 (standard deviation 2.3) in the albumin group and 0.4 (standard deviation 2.0) in the saline group (P=0.41).",
     "takeaway": "In a heterogeneous population of patients in the ICU, fluid resuscitation with 4 percent albumin or normal saline resulted in similar 28-day mortality (726 deaths and 729 deaths; relative risk, 0.99; 95% CI, 0.91 to 1.09; P=0.87).",
-    "limitations": "The trial compared the two fluids in a heterogeneous population of patients in the ICU and assessed mortality at 28 days. The abstract reports similar organ failure and similar days of organ support, and it does not report a separate adverse-event tally.",
+    "limitations": "SAFE enrolled a heterogeneous intensive care unit population and tested 4% albumin, not a more concentrated albumin solution. A post hoc follow-up of patients with traumatic brain injury (SAFE-TBI) found higher mortality with albumin than with saline, so the overall neutral result does not extend to traumatic brain injury.",
     "guidelines": [],
     "sources": [
       {
@@ -634,6 +652,12 @@ window.CRITCARE_TRIALS = [
         "pmid": "15163774",
         "doi": "10.1056/NEJMoa040232",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "SAFE-TBI PubMed abstract",
+        "pmid": "17761591",
+        "doi": "10.1056/NEJMoa067514",
+        "note": "Post hoc follow-up in traumatic brain injury."
       }
     ],
     "sourceNotes": [
@@ -644,7 +668,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 28, 726, 729, 0.99, 95, 0.91, 1.09, P=0.87: PubMed abstract PMID 15163774 RESULTS, 'There were 726 deaths in the albumin group, as compared with 729 deaths in the saline group (relative risk of death, 0.99; 95 percent confidence interval, 0.91 to 1.09; P=0.87).'",
       "safety P=0.85, 0.5, 2.3, 0.4, 2.0, P=0.41: PubMed abstract PMID 15163774 RESULTS, 'new single-organ and multiple-organ failure was similar in the two groups (P=0.85)' and 'days of renal-replacement therapy (0.5+/-2.3 and 0.4+/-2.0, respectively; P=0.41).'",
       "takeaway 4 percent, 28, 726, 729, 0.99, 95, 0.91, 1.09, P=0.87: same RESULTS sentence as primaryResult, plus CONCLUSIONS '4 percent albumin or normal saline' and 'similar outcomes at 28 days.'",
-      "limitations 28 days: PubMed abstract PMID 15163774 BACKGROUND 'heterogeneous population of patients in the ICU' and METHODS '28-day period.' No separate adverse-event count is printed in the RESULTS section."
+      "limitations 28 days: PubMed abstract PMID 15163774 BACKGROUND 'heterogeneous population of patients in the ICU' and METHODS '28-day period.' No separate adverse-event count is printed in the RESULTS section.",
+      "limitations SAFE-TBI higher mortality with albumin than saline: PubMed abstract PMID 17761591. Death counts from that follow-up are not copied onto this card."
     ]
   },
   {
@@ -719,12 +744,12 @@ window.CRITCARE_TRIALS = [
     "sourceNotes": [
       "design 90 days: PubMed abstract PMID 22738085 METHODS, 'multicenter, parallel-group, blinded trial' and 'death or end-stage kidney failure (dependence on dialysis) at 90 days after randomization.'",
       "population 804, 798: PubMed abstract PMID 22738085 RESULTS, 'Of the 804 patients who underwent randomization, 798 were included in the modified intention-to-treat population.'",
-      "intervention 6, 130, 0.42, 33: PubMed abstract PMID 22738085 METHODS, '6% HES 130/0.42 (Tetraspan) or Ringer's acetate at a dose of up to 33 ml per kilogram of ideal body weight per day.'",
+      "intervention 6, 130, 0.42, 33: PubMed abstract PMID 22738085 METHODS, '6% HES 130/0.42 (Tetraspan) or Ringer's acetate at a dose of up to 33 mL per kilogram of ideal body weight per day.'",
       "comparator 33: same METHODS sentence; Ringer's acetate is the named comparator.",
       "primaryResult 90, 201, 398, 51, 172, 400, 43, 1.17, 95, 1.01, 1.36, P=0.03, 1 patient: PubMed abstract PMID 22738085 RESULTS, 'At 90 days after randomization, 201 of 398 patients (51%) assigned to HES 130/0.42 had died, as compared with 172 of 400 patients (43%) assigned to Ringer's acetate (relative risk, 1.17; 95% confidence interval [CI], 1.01 to 1.36; P=0.03); 1 patient in each group had end-stage kidney failure.'",
       "safety 90, 87, 22, 65, 16, 1.35, 95, 1.01, 1.80, P=0.04, 38, 10, 25, 6, 1.52, 0.94, 2.48, P=0.09: PubMed abstract PMID 22738085 RESULTS, 'In the 90-day period, 87 patients (22%) assigned to HES 130/0.42 were treated with renal-replacement therapy versus 65 patients (16%) assigned to Ringer's acetate (relative risk, 1.35; 95% CI, 1.01 to 1.80; P=0.04), and 38 patients (10%) and 25 patients (6%), respectively, had severe bleeding (relative risk, 1.52; 95% CI, 0.94 to 2.48; P=0.09).'",
       "takeaway 90, 51, 43, 1.17, 95, 1.01, 1.36, P=0.03, 22, 16: same RESULTS sentences as primaryResult and safety.",
-      "limitations 798, 804, 33: PubMed abstract PMID 22738085 RESULTS '798 were included in the modified intention-to-treat population' of '804 patients,' and METHODS 'up to 33 ml per kilogram of ideal body weight per day.'"
+      "limitations 798, 804, 33: PubMed abstract PMID 22738085 RESULTS '798 were included in the modified intention-to-treat population' of '804 patients,' and METHODS 'up to 33 mL per kilogram of ideal body weight per day.'"
     ]
   },
   {
@@ -746,7 +771,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Death within 90 days occurred in 597 of 3315 patients (18.0%) in the HES group and 566 of 3336 patients (17.0%) in the saline group (relative risk in the HES group, 1.06; 95% CI, 0.96 to 1.18; P=0.26).",
     "safety": "Renal-replacement therapy was used in 235 of 3352 patients (7.0%) in the HES group and 196 of 3375 patients (5.8%) in the saline group (relative risk, 1.21; 95% CI, 1.00 to 1.45; P=0.04). Renal injury occurred in 34.6% of the HES group and 38.0% of the saline group (P=0.005), and renal failure occurred in 10.4% of the HES group and 9.2% of the saline group (P=0.12). Adverse events occurred in 5.3% of the HES group versus 2.8% of the saline group (P<0.001).",
     "takeaway": "Among patients in the ICU, 90-day mortality was 18.0% with 6% HES (130/0.4) and 17.0% with saline (relative risk, 1.06; 95% CI, 0.96 to 1.18; P=0.26). Renal-replacement therapy was more common with HES (7.0% versus 5.8%; relative risk, 1.21; P=0.04).",
-    "limitations": "The abstract states a 1:1 random assignment of 7000 patients and does not describe blinding. Mortality is reported with denominators of 3315 and 3336, and renal-replacement therapy with denominators of 3352 and 3375.",
+    "limitations": "The abstract does not describe blinding; the registry record NCT00935168 lists quadruple masking (participant, care provider, investigator, outcomes assessor). Renal-replacement therapy was more frequent with HES (7.0% versus 5.8%) even though renal injury was less frequent (34.6% versus 38.0%), so the renal conclusion depends on the outcome definition. HES was associated with more adverse events (5.3% versus 2.8%).",
     "guidelines": [],
     "sources": [
       {
@@ -754,6 +779,11 @@ window.CRITCARE_TRIALS = [
         "pmid": "23075127",
         "doi": "10.1056/NEJMoa1209759",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "ClinicalTrials.gov",
+        "url": "https://clinicaltrials.gov/study/NCT00935168",
+        "note": "NCT00935168 masking: participant, care provider, investigator, outcomes assessor."
       }
     ],
     "sourceNotes": [
@@ -764,7 +794,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 90, 597, 3315, 18.0, 566, 3336, 17.0, 1.06, 95, 0.96, 1.18, P=0.26: PubMed abstract PMID 23075127 RESULTS, 'A total of 597 of 3315 patients (18.0%) in the HES group and 566 of 3336 (17.0%) in the saline group died (relative risk in the HES group, 1.06; 95% confidence interval [CI], 0.96 to 1.18; P=0.26).'",
       "safety 235, 3352, 7.0, 196, 3375, 5.8, 1.21, 95, 1.00, 1.45, P=0.04, 34.6, 38.0, P=0.005, 10.4, 9.2, P=0.12, 5.3, 2.8, P<0.001: PubMed abstract PMID 23075127 RESULTS, 'Renal-replacement therapy was used in 235 of 3352 patients (7.0%) in the HES group and 196 of 3375 (5.8%) in the saline group (relative risk, 1.21; 95% CI, 1.00 to 1.45; P=0.04).' 'renal injury occurred in 34.6% and 38.0% of patients, respectively (P=0.005), and renal failure occurred in 10.4% and 9.2% of patients, respectively (P=0.12). HES was associated with significantly more adverse events (5.3% versus 2.8%, P<0.001).'",
       "takeaway 90, 18.0, 6, 130, 0.4, 17.0, 1.06, 95, 0.96, 1.18, P=0.26, 7.0, 5.8, 1.21, P=0.04: same RESULTS sentences.",
-      "limitations 1:1, 7000, 3315, 3336, 3352, 3375: METHODS '1:1' and '7000 patients'; RESULTS denominators quoted above. The METHODS paragraph does not use the words blinded or open-label."
+      "limitations 1:1, 7000, 3315, 3336, 3352, 3375: METHODS '1:1' and '7000 patients'; RESULTS denominators quoted above. The METHODS paragraph does not use the words blinded or open-label.",
+      "limitations blinding: ClinicalTrials.gov NCT00935168 lists quadruple masking. Renal-replacement therapy 7.0% versus 5.8%, renal injury 34.6% versus 38.0%, and adverse events 5.3% versus 2.8% are in the PubMed abstract PMID 23075127."
     ]
   },
   {
@@ -839,7 +870,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "29485925",
         "doi": "10.1056/NEJMoa1711584",
-        "note": "Full text read from the PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the PubMed Central text file. PubMed Central identifier PMC5846085."
       }
     ],
     "sourceNotes": [
@@ -864,7 +895,7 @@ window.CRITCARE_TRIALS = [
     "topic": "fluids",
     "status": "published",
     "title": "Effect of Intravenous Fluid Treatment With a Balanced Solution versus 0.9% Saline Solution on Mortality in Critically Ill Patients: The BaSICS Randomized Clinical Trial",
-    "citation": "Zampieri FG, Machado FR, Biondi RS, and others. Effect of Intravenous Fluid Treatment With a Balanced Solution versus 0.9% Saline Solution on Mortality in Critically Ill Patients: The BaSICS Randomized Clinical Trial. Journal of the American Medical Association. 2021;326(9):1-12.",
+    "citation": "Zampieri FG, Machado FR, Biondi RS, and others. Effect of Intravenous Fluid Treatment With a Balanced Solution versus 0.9% Saline Solution on Mortality in Critically Ill Patients: The BaSICS Randomized Clinical Trial. Journal of the American Medical Association. 2021;326(9):818.",
     "pmid": "34375394",
     "doi": "10.1001/jama.2021.11684",
     "design": "Double-blind, factorial, randomized clinical trial at 75 ICUs. Patients were assigned to a fluid type, reported here, and to an infusion speed, reported separately. The primary outcome was 90-day survival. There was no significant interaction between fluid type and infusion speed (P=.98).",
@@ -887,7 +918,13 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "34375394",
         "doi": "10.1001/jama.2021.11684",
-        "note": "Full text read from the PubMed Central text file. A PMC identifier for this article was not printed in that file."
+        "note": "Full text read from the PubMed Central text file. PubMed Central identifier PMC8356144."
+      },
+      {
+        "label": "Crossref",
+        "doi": "10.1001/jama.2021.11684",
+        "url": "https://api.crossref.org/works/10.1001/jama.2021.11684",
+        "note": "Volume 326, issue 9, first page 818. End page not confirmed."
       }
     ],
     "sourceNotes": [
@@ -900,7 +937,8 @@ window.CRITCARE_TRIALS = [
       "safety 90, 31.3, 21.1, 1.48, 95, 1.03, 2.12, 26.2, 27.5, 0.96, 0.89, 1.03, P=.02: Open full text on PubMed Central PMID 34375394, '90-day mortality (31.3% for the balanced solution group versus 21.1% for the saline solution group [HR, 1.48; 95% CI, 1.03-2.12]; 26.2% versus 27.5%, respectively, for patients without a traumatic brain injury [HR, 0.96; 95% CI, 0.89-1.03]; P = .02 for interaction).'",
       "safety 393, 5218, 7.5, 427, 5287, 8.1, 0.93, 95, 0.81, 1.06: Open full text on PubMed Central PMID 34375394 Table 2, 'In the hospital (≥1 episode during stay) 393/5218 (7.5) 427/5287 (8.1)' and 'OR, 0.93 (0.81 to 1.06).'",
       "takeaway 148, 90, 26.4, 0.9, 27.2, 0.97, 95, 0.90, 1.05, P=.47: same primary-outcome sentence and INTRODUCTION 'Plasma-Lyte 148.'",
-      "limitations 90, 148: Open full text on PubMed Central PMID 34375394 LIMITATIONS, 'postrandomization exclusions occurred, mostly due to lack of consent,' 'patients frequently received fluids' before enrollment, 'high number of planned surgical admissions,' 'higher expected mortality at 90 days than the observed mortality,' 'relatively small amounts of fluid,' and 'a specific balanced solution' with uncertain results for 'other solutions with different buffers.' INTRODUCTION names Plasma-Lyte 148. 'allowing the use of nonstudy fluids' 'led to some degree of contamination.' Factorial design is in METHODS."
+      "limitations 90, 148: Open full text on PubMed Central PMID 34375394 LIMITATIONS, 'postrandomization exclusions occurred, mostly due to lack of consent,' 'patients frequently received fluids' before enrollment, 'high number of planned surgical admissions,' 'higher expected mortality at 90 days than the observed mortality,' 'relatively small amounts of fluid,' and 'a specific balanced solution' with uncertain results for 'other solutions with different buffers.' INTRODUCTION names Plasma-Lyte 148. 'allowing the use of nonstudy fluids' 'led to some degree of contamination.' Factorial design is in METHODS.",
+      "citation page 818: Crossref record for 10.1001/jama.2021.11684, volume 326, issue 9, page 818. The end page was not confirmed. The previous 1-12 pagination was the online-first pagination."
     ]
   },
   {
@@ -922,7 +960,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "At 90 days, death occurred in 323 of 764 patients (42.3%) in the restrictive-fluid group, as compared with 329 of 781 patients (42.1%) in the standard-fluid group (adjusted absolute difference, 0.1 percentage points; 95% CI, -4.7 to 4.9; P=0.96).",
     "safety": "In the ICU, serious adverse events occurred at least once in 221 of 751 patients (29.4%) in the restrictive-fluid group and in 238 of 772 patients (30.8%) in the standard-fluid group (adjusted absolute difference, -1.7 percentage points; 99% CI, -7.7 to 4.3).",
     "takeaway": "In this fluid-volume trial of adults with septic shock in the ICU, intravenous fluid restriction did not result in fewer deaths at 90 days than standard intravenous fluid therapy (42.3% versus 42.1%; adjusted absolute difference, 0.1 percentage points; 95% CI, -4.7 to 4.9; P=0.96), although the median ICU fluid volume was 1798 milliliters versus 3811 milliliters.",
-    "limitations": "Patients were enrolled only after they had received at least 1 liter of intravenous fluid and only if shock onset was within 12 hours before screening. The abstract reports volumes received and does not print a protocol rule in milliliters for each arm. The trial enrolled 1554 patients. Primary outcome data were available for 1545 patients (99.4%).",
+    "limitations": "Patients were enrolled only after receiving at least 1 liter of intravenous fluid and within 12 hours of shock onset, so the trial tested fluid volume after initial resuscitation. The 95% CI for the mortality difference (-4.7 to 4.9 percentage points) does not exclude a clinically important difference in either direction, so a nonsignificant difference does not by itself establish equivalence or noninferiority.",
     "guidelines": [],
     "sources": [
       {
@@ -935,12 +973,13 @@ window.CRITCARE_TRIALS = [
     "sourceNotes": [
       "design 90: PubMed abstract PMID 35709019 METHODS, 'international, randomized trial' assigning 'restricted intravenous fluid or standard intravenous fluid therapy' and 'death from any cause within 90 days after randomization.' The fluid-volume description uses that assignment.",
       "population 1, 12, 1554, 770, 784, 1545, 99.4: PubMed abstract PMID 35709019 METHODS, 'at least 1 liter of intravenous fluid' and 'within 12 hours before screening,' and RESULTS, 'We enrolled 1554 patients; 770 were assigned to the restrictive-fluid group and 784 to the standard-fluid group. Primary outcome data were available for 1545 patients (99.4%).'",
-      "intervention 1798, 500, 4366: PubMed abstract PMID 35709019 RESULTS, 'the restrictive-fluid group received a median of 1798 ml of intravenous fluid (interquartile range, 500 to 4366).'",
-      "comparator 3811, 1861, 6762: PubMed abstract PMID 35709019 RESULTS, 'the standard-fluid group received a median of 3811 ml (interquartile range, 1861 to 6762).'",
+      "intervention 1798, 500, 4366: PubMed abstract PMID 35709019 RESULTS, 'the restrictive-fluid group received a median of 1798 mL of intravenous fluid (interquartile range, 500 to 4366).'",
+      "comparator 3811, 1861, 6762: PubMed abstract PMID 35709019 RESULTS, 'the standard-fluid group received a median of 3811 mL (interquartile range, 1861 to 6762).'",
       "primaryResult 90, 323, 764, 42.3, 329, 781, 42.1, 0.1, 95, -4.7, 4.9, P=0.96: PubMed abstract PMID 35709019 RESULTS, 'At 90 days, death had occurred in 323 of 764 patients (42.3%) in the restrictive-fluid group, as compared with 329 of 781 patients (42.1%) in the standard-fluid group (adjusted absolute difference, 0.1 percentage points; 95% confidence interval [CI], -4.7 to 4.9; P = 0.96).'",
       "safety 221, 751, 29.4, 238, 772, 30.8, -1.7, 99, -7.7, 4.3: PubMed abstract PMID 35709019 RESULTS, 'serious adverse events occurred at least once in 221 of 751 patients (29.4%) in the restrictive-fluid group and in 238 of 772 patients (30.8%) in the standard-fluid group (adjusted absolute difference, -1.7 percentage points; 99% CI, -7.7 to 4.3).'",
       "takeaway 90, 42.3, 42.1, 0.1, 95, -4.7, 4.9, P=0.96, 1798, 3811: same RESULTS sentences.",
-      "limitations 1, 12, 1545, 99.4, 1554: METHODS 'at least 1 liter' and 'within 12 hours before screening.' RESULTS '1545 patients (99.4%)' and '1554 patients.' The abstract prints volumes received and does not print a separate protocol volume target in milliliters."
+      "limitations 1, 12, 1545, 99.4, 1554: METHODS 'at least 1 liter' and 'within 12 hours before screening.' RESULTS '1545 patients (99.4%)' and '1554 patients.' The abstract prints volumes received and does not print a separate protocol volume target in milliliters.",
+      "limitations at least 1 liter, 12 hours, and 95% CI -4.7 to 4.9: PubMed abstract PMID 35709019."
     ]
   },
   {
@@ -962,7 +1001,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Death within 90 days occurred in 530 of 2433 patients (21.8%) in the balanced multielectrolyte solution group and in 530 of 2413 patients (22.0%) in the saline group (difference, -0.15 percentage points; 95% CI, -3.60 to 3.30; P=0.90).",
     "safety": "New renal-replacement therapy was initiated in 306 of 2403 patients (12.7%) in the balanced multielectrolyte solution group and in 310 of 2394 patients (12.9%) in the saline group (difference, -0.20 percentage points; 95% CI, -2.96 to 2.56). The mean maximum increase in serum creatinine was 0.41 (standard deviation 1.06) milligrams per deciliter in the balanced multielectrolyte solution group and 0.41 (standard deviation 1.02) milligrams per deciliter in the saline group (difference, 0.01 milligrams per deciliter; 95% CI, -0.05 to 0.06). The number of adverse and serious adverse events did not differ meaningfully between the groups.",
     "takeaway": "Among critically ill adults in the ICU, death within 90 days occurred in 21.8% with balanced multielectrolyte solution (Plasma-Lyte 148) and 22.0% with saline (difference, -0.15 percentage points; 95% CI, -3.60 to 3.30; P=0.90).",
-    "limitations": "The trial was double-blind, assigned fluid therapy for 90 days, and recruited patients from 53 ICUs. Death within 90 days was reported for 2433 and 2413 patients, while 2515 and 2522 patients were assigned.",
+    "limitations": "The abstract does not report a traumatic brain injury subgroup. BaSICS reported higher 90-day mortality with a balanced solution than with saline in its traumatic brain injury subgroup (31.3% versus 21.1%). Mortality in this trial was reported for 2433 and 2413 of 2515 and 2522 assigned patients.",
     "guidelines": [],
     "sources": [
       {
@@ -970,6 +1009,12 @@ window.CRITCARE_TRIALS = [
         "pmid": "35041780",
         "doi": "10.1056/NEJMoa2114464",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "BaSICS PubMed abstract",
+        "pmid": "34375394",
+        "doi": "10.1001/jama.2021.11684",
+        "note": "Traumatic brain injury subgroup cited in the PLUS limitation."
       }
     ],
     "sourceNotes": [
@@ -980,7 +1025,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 90, 530, 2433, 21.8, 530, 2413, 22.0, -0.15, 95, -3.60, 3.30, P=0.90: PubMed abstract PMID 35041780 RESULTS, 'Death within 90 days after randomization occurred in 530 of 2433 patients (21.8%) in the BMES group and in 530 of 2413 patients (22.0%) in the saline group, for a difference of -0.15 percentage points (95% confidence interval [CI], -3.60 to 3.30; P = 0.90).'",
       "safety 306, 2403, 12.7, 310, 2394, 12.9, -0.20, 95, -2.96, 2.56, 0.41, 1.06, 0.41, 1.02, 0.01, 95, -0.05, 0.06: PubMed abstract PMID 35041780 RESULTS, 'New renal-replacement therapy was initiated in 306 of 2403 patients (12.7%) in the BMES group and in 310 of 2394 patients (12.9%) in the saline group, for a difference of -0.20 percentage points (95% CI, -2.96 to 2.56). The mean (±SD) maximum increase in serum creatinine level was 0.41±1.06 mg per deciliter ... and 0.41±1.02 mg per deciliter ..., for a difference of 0.01 mg per deciliter (95% CI, -0.05 to 0.06).' 'The number of adverse and serious adverse events did not differ meaningfully between the groups.'",
       "takeaway 90, 21.8, 148, 22.0, -0.15, 95, -3.60, 3.30, P=0.90: same death sentence, and METHODS 'Plasma-Lyte 148.'",
-      "limitations 90, 53, 2433, 2413, 2515, 2522: METHODS 'double-blind' and 'for 90 days'; RESULTS '53 ICUs,' assignment '2515' and '2522,' and death denominators '2433' and '2413.'"
+      "limitations 90, 53, 2433, 2413, 2515, 2522: METHODS 'double-blind' and 'for 90 days'; RESULTS '53 ICUs,' assignment '2515' and '2522,' and death denominators '2433' and '2413.'",
+      "limitations BaSICS traumatic brain injury mortality 31.3% versus 21.1%: PubMed abstract PMID 34375394. PLUS assigned counts 2515 and 2522 and analyzed counts 2433 and 2413: PubMed abstract PMID 35041780. The PLUS abstract does not state a traumatic brain injury exclusion."
     ]
   },
   {
@@ -998,7 +1044,7 @@ window.CRITCARE_TRIALS = [
     "design": "This was a fluid-volume trial: a multicenter, randomized, unblinded superiority trial at 60 centers in the United States. For 24 hours, patients were assigned to a restrictive fluid strategy, prioritizing vasopressors and lower intravenous fluid volumes, or a liberal fluid strategy, prioritizing higher intravenous fluid volumes before vasopressor use. The primary outcome was death from any cause before discharge home by day 90.",
     "population": "Adults 18 years of age or older with suspected or confirmed infection and sepsis-induced hypotension. Randomization occurred within 4 hours after criteria for hypotension refractory to initial treatment with 1 to 3 liters of intravenous fluid were met. 1563 patients were enrolled; 782 were assigned to the restrictive fluid group and 781 to the liberal fluid group.",
     "intervention": "Restrictive fluid strategy for 24 hours, prioritizing vasopressors, with rescue fluids allowed for prespecified indications. During the 24 hours after randomization, the median intravenous fluid volume was 1267 milliliters (interquartile range, 555 to 2279). Vasopressors were used in 59% of this group.",
-    "comparator": "Liberal fluid strategy for 24 hours, with a recommended initial 2000-milliliter infusion of isotonic crystalloid, then boluses based on clinical triggers, and rescue vasopressors allowed. An amendment allowed the initial infusion to be limited to 1000 milliliters if blood pressure and heart rate had stabilized and the patient was judged volume replete. During the 24 hours after randomization, the median volume was 3400 milliliters (interquartile range, 2500 to 4495). The reported mean difference was -2134 milliliters (95% CI, -2318 to -1949), and the restrictive-group median was lower than this liberal-group median. Vasopressors were used in 37% of this group.",
+    "comparator": "Liberal fluid strategy for 24 hours, with a recommended initial 2000-milliliter infusion of isotonic crystalloid, then boluses based on clinical triggers, and rescue vasopressors allowed. An amendment allowed the initial infusion to be limited to 1000 milliliters if blood pressure and heart rate had stabilized and the patient was judged volume replete. During the 24 hours after randomization, the median volume was 3400 milliliters (interquartile range, 2500 to 4495). The difference of medians was -2134 milliliters (95% CI, -2318 to -1949). Vasopressors were used in 37% of this group.",
     "primaryResult": "Death before discharge home by day 90 occurred in 109 patients (14.0%) in the restrictive fluid group and in 116 patients (14.9%) in the liberal fluid group (estimated difference, -0.9 percentage points; 95% CI, -4.4 to 2.6; P=0.61). Data were censored for 5 patients in the restrictive fluid group and 4 patients in the liberal fluid group.",
     "safety": "Reported serious adverse events numbered 21 in the restrictive fluid group and 19 in the liberal fluid group. Serious adverse events of fluid overload numbered 0 in the restrictive fluid group and 3 in the liberal fluid group. Serious adverse events of pulmonary edema numbered 0 in the restrictive fluid group and 3 in the liberal fluid group. New invasive ventilation from 0 to 24 hours occurred in 6.2% of the restrictive fluid group and 6.8% of the liberal fluid group (difference, -0.6 percentage points; 95% CI, -3.1 to 1.9). Three instances of potential vasopressor extravasation occurred among 500 patients who received peripheral vasopressors (310 in the restrictive fluid group and 190 in the liberal fluid group); those events resolved without intervention.",
     "takeaway": "In this fluid-volume trial of patients with sepsis-induced hypotension, a restrictive fluid strategy for 24 hours did not result in lower mortality before discharge home by day 90 than a liberal fluid strategy (14.0% versus 14.9%; estimated difference, -0.9 percentage points; 95% CI, -4.4 to 2.6; P=0.61).",
@@ -1015,14 +1061,14 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "36688507",
         "doi": "10.1056/NEJMoa2212663",
-        "note": "Full text read from the PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the PubMed Central text file. PubMed Central identifier PMC10685906."
       }
     ],
     "sourceNotes": [
       "design 60, 24, 90: Open full text on PubMed Central PMID 36688507, 'multicenter, randomized, unblinded superiority trial' and '60 U.S. centers,' protocol 'for a period of 24 hours,' primary outcome 'death from any cause before discharge home by day 90.' The fluid-volume description uses that 24-hour assignment.",
       "population 18, 4, 1, 3, 1563, 782, 781: Open full text on PubMed Central PMID 36688507, 'Adult patients (≥18 years of age)' and abstract and full-text conclusion 'within 4 hours' and '1 to 3 liters of intravenous fluid.' RESULTS, 'we enrolled 1563 patients' and '782 patients were assigned to the restrictive fluid group and 781 to the liberal fluid group.'",
-      "intervention 24, 1267, 555, 2279, 59: Open full text on PubMed Central PMID 36688507, 'restrictive fluid protocol prioritized vasopressors' with 'rescue fluids,' and 'median volume of fluid administered during the 24 hours after randomization was also lower in the restrictive fluid group (1267 ml; interquartile range, 555 to 2279)' and 'Vasopressors were more commonly used in the restrictive fluid group than the liberal fluid group (in 59% versus 37% of the patients).'",
-      "comparator 24, 2000, 1000, 3400, 2500, 4495, -2134, 95, -2318, -1949, 37: Open full text on PubMed Central PMID 36688507, 'recommended initial 2000-ml intravenous infusion' and amendment 'limiting the initial infusion to 1000 ml if the patient’s blood pressure and heart rate had stabilized' and the patient was 'volume replete.' 'liberal fluid group (3400 ml; interquartile range, 2500 to 4495), with a mean difference of −2134 ml (95% CI, −2318 to −1949).' Vasopressor use '59% versus 37%.' The abstract calls the -2134 milliliter figure a difference of medians; the full text calls it a mean difference, and the full text is used here.",
+      "intervention 24, 1267, 555, 2279, 59: Open full text on PubMed Central PMID 36688507, 'restrictive fluid protocol prioritized vasopressors' with 'rescue fluids,' and 'median volume of fluid administered during the 24 hours after randomization was also lower in the restrictive fluid group (1267 mL; interquartile range, 555 to 2279)' and 'Vasopressors were more commonly used in the restrictive fluid group than the liberal fluid group (in 59% versus 37% of the patients).'",
+      "comparator 24, 2000, 1000, 3400, 2500, 4495, -2134, 95, -2318, -1949, 37: Open full text on PubMed Central PMID 36688507, 'recommended initial 2000-mL intravenous infusion' and amendment 'limiting the initial infusion to 1000 mL if the patient’s blood pressure and heart rate had stabilized' and the patient was 'volume replete.' 'liberal fluid group (3400 mL; interquartile range, 2500 to 4495), with a mean difference of −2134 mL (95% CI, −2318 to −1949).' Vasopressor use '59% versus 37%.' The abstract and Table 2 report a difference of medians of -2134 milliliters (95% CI, -2318 to -1949). One full-text sentence says mean difference. The card follows the abstract and Table 2.",
       "primaryResult 90, 109, 14.0, 116, 14.9, -0.9, 95, -4.4, 2.6, P=0.61, 5, 4: Open full text on PubMed Central PMID 36688507, 'occurred in 109 patients (14.0%) in the restrictive fluid group and in 116 patients (14.9%) in the liberal fluid group (estimated difference, −0.9 percentage points; 95% CI, −4.4 to 2.6; P = 0.61)' and '5 patients in the restrictive fluid group and 4 patients in the liberal fluid group had their data censored.'",
       "safety 21, 19, 0, 3, 0, 3, 0, 24, 6.2, 6.8, -0.6, 95, -3.1, 1.9, 500, 310, 190: Open full text on PubMed Central PMID 36688507, 'serious adverse events was similar in the restrictive fluid group (21) and the liberal fluid group (19)' and 'fluid overload in the restrictive fluid group than in the liberal fluid group (0 versus 3) and fewer serious adverse events of pulmonary edema (0 versus 3)' and 'new invasive ventilation (at 0 to 24 hours ...) was 6.2% in the restrictive fluid group and 6.8% in the liberal fluid group (difference, −0.6 percentage points; 95% CI, −3.1 to 1.9)' and 'three instances of potential vasopressor extravasation among 500 patients (310 patients in the restrictive fluid group and 190 in the liberal fluid group)' that 'resolved without intervention.'",
       "takeaway 24, 90, 14.0, 14.9, -0.9, 95, -4.4, 2.6, P=0.61: same primary-outcome sentence.",
@@ -1048,7 +1094,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "The median duration of mechanical ventilation was 4.9 days in the intervention group and 7.3 days in the control group (P=0.004). The median intensive care unit length of stay was 6.4 days and 9.9 days, respectively (P=0.02). Six of the patients in the intervention group (9 percent) underwent diagnostic testing to assess changes in mental status, as compared with 16 of the patients in the control group (27 percent, P=0.02).",
     "safety": "Complications, for example removal of the endotracheal tube by the patient, occurred in three of the patients in the intervention group (4 percent) and four of the patients in the control group (7 percent, P=0.88).",
     "takeaway": "In 128 adults receiving mechanical ventilation and continuous sedative infusions, daily interruption of infusions until patients were awake was compared with interruption only at clinician discretion. Median duration of mechanical ventilation was 4.9 days versus 7.3 days (P=0.004), and median intensive care unit stay was 6.4 days versus 9.9 days (P=0.02).",
-    "limitations": "The trial was conducted in a medical intensive care unit. In the control group, sedative infusions were interrupted only at the discretion of the clinicians in the intensive care unit.",
+    "limitations": "The trial was conducted in one medical intensive care unit and enrolled 128 patients. The report does not describe blinding of clinicians. Mortality was not a reported primary outcome. In a later multicenter trial of protocolized sedation (SLEAP, 2012), adding daily interruption did not reduce the duration of mechanical ventilation or intensive care unit stay.",
     "guidelines": [],
     "sources": [
       {
@@ -1056,6 +1102,12 @@ window.CRITCARE_TRIALS = [
         "pmid": "10816184",
         "doi": "10.1056/NEJM200005183422002",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "SLEAP PubMed abstract",
+        "pmid": "23180503",
+        "doi": "10.1001/jama.2012.13872",
+        "note": "Later protocolized-sedation trial cited as context. No result numbers copied."
       }
     ],
     "sourceNotes": [
@@ -1063,7 +1115,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult and takeaway 4.9 days, 7.3 days, P=0.004: RESULTS sentence beginning 'The median duration of mechanical ventilation was 4.9 days in the intervention group, as compared with 7.3 days in the control group (P=0.004)'.",
       "primaryResult and takeaway 6.4 days, 9.9 days, P=0.02: same RESULTS sentence, 'the median length of stay in the intensive care unit was 6.4 days as compared with 9.9 days, respectively (P=0.02)'.",
       "primaryResult Six is the word used in the source; digits 9 percent, 16, 27 percent, and P=0.02: RESULTS sentence beginning 'Six of the patients in the intervention group (9 percent) underwent diagnostic testing'.",
-      "safety three and four are the words used in the source; digits 4 percent, 7 percent, and P=0.88: RESULTS sentence beginning 'Complications' and containing 'three of the patients in the intervention group (4 percent) and four of the patients in the control group (7 percent, P=0.88)'."
+      "safety three and four are the words used in the source; digits 4 percent, 7 percent, and P=0.88: RESULTS sentence beginning 'Complications' and containing 'three of the patients in the intervention group (4 percent) and four of the patients in the control group (7 percent, P=0.88)'.",
+      "limitations one medical intensive care unit and 128 patients: PubMed abstract PMID 10816184. SLEAP conclusion, daily interruption added to protocolized sedation did not reduce ventilation or intensive care unit stay: PubMed abstract PMID 23180503. No SLEAP result numbers are copied onto this card."
     ]
   },
   {
@@ -1085,7 +1138,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Sedation with dexmedetomidine resulted in more days alive without delirium or coma than lorazepam (median days, 7.0 versus 3.0; P = .01) and a lower prevalence of coma (63% versus 92%; P < .001). The median percentage of days spent within 1 Richmond Agitation-Sedation Scale point of the sedation goal was 80% versus 67% (P = .04).",
     "safety": "The 28-day mortality was 17% in the dexmedetomidine group versus 27% in the lorazepam group (P = .18). The 12-month time to death was 363 days in the dexmedetomidine group versus 188 days in the lorazepam group (P = .48).",
     "takeaway": "In 106 mechanically ventilated intensive care unit patients, a dexmedetomidine infusion was compared with a lorazepam infusion. Dexmedetomidine resulted in more days alive without delirium or coma (median 7.0 versus 3.0 days; P = .01) and more days within 1 point of the sedation goal (median 80% versus 67%; P = .04).",
-    "limitations": "Patients at 2 tertiary care centers received the study sedative for as many as 120 hours. The trial was double-blind.",
+    "limitations": "The trial enrolled 106 patients at 2 centers. The comparator was a lorazepam infusion, so the result compares dexmedetomidine with a benzodiazepine strategy rather than with propofol. Twenty-eight-day mortality did not differ significantly (17% versus 27%; P=.18).",
     "guidelines": [],
     "sources": [
       {
@@ -1102,7 +1155,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult and takeaway median days 7.0 versus 3.0, P = .01: RESULTS sentence beginning 'Sedation with dexmedetomidine resulted in more days alive without delirium or coma (median days, 7.0'.",
       "primaryResult coma 63% versus 92%, P < .001: same RESULTS sentence, 'a lower prevalence of coma (63%'.",
       "primaryResult and takeaway 80% versus 67%, P = .04: RESULTS sentence beginning 'Patients sedated with dexmedetomidine spent more time within 1 RASS point of their sedation goal'.",
-      "safety 28-day mortality 17% versus 27%, P = .18, and 12-month time to death 363 days versus 188 days, P = .48: RESULTS sentences 'The 28-day mortality in the dexmedetomidine group was 17%' and 'The 12-month time to death was 363 days'. No separate adverse-event counts are printed."
+      "safety 28-day mortality 17% versus 27%, P = .18, and 12-month time to death 363 days versus 188 days, P = .48: RESULTS sentences 'The 28-day mortality in the dexmedetomidine group was 17%' and 'The 12-month time to death was 363 days'. No separate adverse-event counts are printed.",
+      "limitations 106 patients, 2 centers, 28-day mortality 17% versus 27%, P=.18: PubMed abstract PMID 18073360."
     ]
   },
   {
@@ -1123,8 +1177,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "Midazolam, 0.02 to 0.1 milligrams per kilogram per hour, titrated to Richmond Agitation-Sedation Scale scores between -2 and +1, from enrollment until extubation or 30 days.",
     "primaryResult": "The percentage of time within the target Richmond Agitation-Sedation Scale range was 77.3% with dexmedetomidine versus 75.1% with midazolam (difference, 2.2% [95% CI, -3.2% to 7.5%]; P = .18).",
     "safety": "Dexmedetomidine-treated patients were more likely to develop bradycardia (42.2% [103/244] versus 18.9% [23/122]; P < .001), with a nonsignificant increase in the proportion requiring treatment (4.9% [12/244] versus 0.8% [1/122]; P = .07). They had a lower likelihood of tachycardia (25.4% [62/244] versus 44.3% [54/122]; P < .001) or hypertension requiring treatment (18.9% [46/244] versus 29.5% [36/122]; P = .02).",
-    "takeaway": "In mechanically ventilated intensive care unit patients, dexmedetomidine and midazolam achieved a similar percentage of time in the target sedation range (77.3% versus 75.1%; difference, 2.2% [95% CI, -3.2% to 7.5%]; P = .18). Delirium during treatment occurred in 54% (132/244) versus 76.6% (93/122) (difference, 22.6% [95% CI, 14% to 33%]; P < .001), median time to extubation was 1.9 days shorter with dexmedetomidine (3.7 days [95% CI, 3.1 to 4.0] versus 5.6 days [95% CI, 4.6 to 5.9]; P = .01), and intensive care unit stay was 5.9 days (95% CI, 5.7 to 7.0) versus 7.6 days (95% CI, 6.7 to 8.6) (P = .24).",
-    "limitations": "The trial was double-blind and was conducted in 68 centers in 5 countries. Sedation could continue from enrollment until extubation or 30 days.",
+    "takeaway": "In mechanically ventilated intensive care unit patients, dexmedetomidine and midazolam achieved a similar percentage of time in the target sedation range, the primary outcome (77.3% versus 75.1%; difference, 2.2% [95% CI, -3.2% to 7.5%]; P = .18). Among other reported outcomes, delirium prevalence was 54% versus 76.6% and median time to extubation was 3.7 versus 5.6 days; bradycardia was more common with dexmedetomidine (42.2% versus 18.9%).",
+    "limitations": "The primary outcome, time at target sedation, was not different. The delirium and extubation findings were not the primary outcome. The comparator was a midazolam infusion. Assignment counts printed with the infusions were 244 for dexmedetomidine and 122 for midazolam.",
     "guidelines": [],
     "sources": [
       {
@@ -1141,7 +1195,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult and takeaway 77.3%, 75.1%, difference 2.2%, 95% CI -3.2% to 7.5%, P = .18: RESULTS sentence beginning 'There was no difference in percentage of time within the target RASS range (77.3% for dexmedetomidine group'.",
       "takeaway delirium 54% (132/244), 76.6% (93/122), difference 22.6%, 95% CI 14% to 33%, P < .001: RESULTS 'The prevalence of delirium during treatment was 54% (n = 132/244) in dexmedetomidine-treated patients' and '76.6% (n = 93/122)' with 'difference, 22.6% [95% CI, 14% to 33%]; P < .001'.",
       "takeaway extubation 1.9 days, 3.7 days (95% CI, 3.1 to 4.0), 5.6 days (95% CI, 4.6 to 5.9), P = .01, and intensive care unit stay 5.9 days (95% CI, 5.7 to 7.0), 7.6 days (95% CI, 6.7 to 8.6), P = .24: RESULTS 'Median time to extubation was 1.9 days shorter' and 'ICU length of stay was similar (5.9 days [95% CI, 5.7 to 7.0]'.",
-      "safety bradycardia 42.2% [103/244] versus 18.9% [23/122], P < .001; treated bradycardia 4.9% [12/244] versus 0.8% [1/122], P = .07; tachycardia 25.4% [62/244] versus 44.3% [54/122], P < .001; hypertension requiring treatment 18.9% [46/244] versus 29.5% [36/122], P = .02: RESULTS sentence beginning 'Dexmedetomidine-treated patients were more likely to develop bradycardia (42.2% [103/244]'."
+      "safety bradycardia 42.2% [103/244] versus 18.9% [23/122], P < .001; treated bradycardia 4.9% [12/244] versus 0.8% [1/122], P = .07; tachycardia 25.4% [62/244] versus 44.3% [54/122], P < .001; hypertension requiring treatment 18.9% [46/244] versus 29.5% [36/122], P = .02: RESULTS sentence beginning 'Dexmedetomidine-treated patients were more likely to develop bradycardia (42.2% [103/244]'.",
+      "takeaway primary sedation time 77.3% versus 75.1%, difference 2.2%, 95% CI -3.2% to 7.5%, P=.18; delirium 54% versus 76.6%; extubation 3.7 versus 5.6 days; bradycardia 42.2% versus 18.9%; n = 244 and n = 122: PubMed abstract PMID 19188334."
     ]
   },
   {
@@ -1162,7 +1217,7 @@ window.CRITCARE_TRIALS = [
     "comparator": "Sedation with propofol at 20 milligrams per milliliter for 48 hours, then midazolam at 1 milligram per milliliter, with daily interruption until awake. Bolus doses of morphine, 2.5 or 5 milligrams, were also used.",
     "primaryResult": "Patients receiving no sedation had more days without ventilation (n=55; mean 13.8 days, standard deviation 11.0) than those receiving interrupted sedation (n=58; mean 9.6 days, standard deviation 10.0; mean difference 4.2 days, 95% CI 0.3-8.1; p=0.0191).",
     "safety": "No difference was recorded in the occurrences of accidental extubations, the need for computed tomography or magnetic resonance imaging of the brain, or ventilator-associated pneumonia. Agitated delirium was more frequent in the intervention group than in the control group (n=11, 20% versus n=4, 7%; p=0.0400).",
-    "takeaway": "In critically ill adults expected to need mechanical ventilation for more than 24 hours, a protocol of no sedation with morphine boluses was compared with propofol for 48 hours followed by midazolam, with daily interruption until awake, plus morphine boluses. The no-sedation group had more days without ventilation (mean 13.8 versus 9.6 days; mean difference 4.2 days; 95% CI 0.3-8.1; p=0.0191), a shorter intensive care unit stay (hazard ratio 1.86, 95% CI 1.05-3.23; p=0.0316), and, for the first 30 days, a shorter hospital stay (3.57, 1.52-9.09; p=0.0039).",
+    "takeaway": "In critically ill adults expected to need mechanical ventilation for more than 24 hours, a protocol of no sedation with morphine boluses was compared with propofol for 48 hours followed by midazolam, with daily interruption until awake, plus morphine boluses. The no-sedation group had more days without ventilation (mean 13.8 versus 9.6 days; mean difference 4.2 days; 95% CI 0.3-8.1; p=0.0191), a shorter intensive care unit stay (hazard ratio 1.86, 95% CI 1.05-3.23; p=0.0316), and, for the first 30 days, a shorter hospital stay (abstract prints 3.57, 1.52-9.09; p=0.0039, in the same format as the hazard ratio above).",
     "limitations": "As specified in the study design, 27 patients who died or were successfully extubated within 48 hours were excluded from the statistical analysis. Assignment was unblinded. The interpretation states that a multicenter study is needed to establish whether this effect can be reproduced in other facilities.",
     "guidelines": [],
     "sources": [
@@ -1200,8 +1255,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "MIDEX used midazolam, assigned to 251 patients, with daily sedation stops and spontaneous breathing trials. PRODEX used propofol, assigned to 247 patients, with daily sedation stops and spontaneous breathing trials.",
     "primaryResult": "In MIDEX, the dexmedetomidine-to-midazolam ratio for time at target sedation was 1.07 (95% CI, 0.97-1.18). In PRODEX, the dexmedetomidine-to-propofol ratio was 1.00 (95% CI, 0.92-1.08). Median duration of mechanical ventilation in MIDEX was 123 hours (IQR, 67-337) with dexmedetomidine versus 164 hours (IQR, 92-380) with midazolam (P = .03). In PRODEX it was 97 hours (IQR, 45-257) with dexmedetomidine versus 118 hours (IQR, 48-327) with propofol (P = .24). Ability to communicate pain differed by an estimated score of 19.7 versus midazolam (95% CI, 15.2-24.2; P < .001) and 11.2 versus propofol (95% CI, 6.4-15.9; P < .001). Length of intensive care unit stay, hospital stay, and mortality were similar.",
     "safety": "In the MIDEX midazolam comparison, hypotension occurred in 51/247 (20.6%) with dexmedetomidine versus 29/250 (11.6%) with midazolam (P = .007), and bradycardia occurred in 35/247 (14.2%) versus 13/250 (5.2%) (P < .001). More adverse effects were associated with dexmedetomidine.",
-    "takeaway": "MIDEX compared dexmedetomidine with midazolam, and PRODEX compared dexmedetomidine with propofol, in adults who needed light to moderate sedation during prolonged mechanical ventilation. Time-at-target ratios were 1.07 (95% CI, 0.97-1.18) versus midazolam and 1.00 (95% CI, 0.92-1.08) versus propofol; median ventilation was 123 hours versus 164 hours in MIDEX (P = .03) and 97 hours versus 118 hours in PRODEX (P = .24).",
-    "limitations": "Time at the target sedation level was analyzed in the per-protocol population, with separate per-protocol counts for MIDEX (233 and 227) and PRODEX (214 and 223). The trials were double-blind.",
+    "takeaway": "In adults needing light to moderate sedation during prolonged mechanical ventilation, dexmedetomidine was noninferior to midazolam (MIDEX; ratio 1.07, 95% CI 0.97-1.18) and to propofol (PRODEX; ratio 1.00, 95% CI 0.92-1.08) for time at target sedation. For duration of mechanical ventilation, the median was shorter versus midazolam (123 versus 164 hours; P = .03) but not versus propofol (97 versus 118 hours; P = .24). Hypotension and bradycardia were more frequent with dexmedetomidine than with midazolam.",
+    "limitations": "Noninferiority for time at target sedation was analyzed in the per-protocol population (MIDEX 233 and 227; PRODEX 214 and 223). Enrollment required light to moderate sedation. The trials were sponsored by Orion Pharma, the originator of dexmedetomidine, and 3 authors were Orion employees.",
     "guidelines": [],
     "sources": [
       {
@@ -1209,6 +1264,12 @@ window.CRITCARE_TRIALS = [
         "pmid": "22436955",
         "doi": "10.1001/jama.2012.304",
         "note": "Structured abstract read from PubMed. One paper reports MIDEX and PRODEX separately."
+      },
+      {
+        "label": "JAMA article page",
+        "doi": "10.1001/jama.2012.304",
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/1105080",
+        "note": "Conflict of interest disclosures: sponsored by Orion Pharma."
       }
     ],
     "sourceNotes": [
@@ -1218,7 +1279,9 @@ window.CRITCARE_TRIALS = [
       "primaryResult and takeaway ratios 1.07 (95% CI, 0.97-1.18) and 1.00 (95% CI, 0.92-1.08): RESULTS 'Dexmedetomidine/midazolam ratio in time at target sedation was 1.07 (95% CI, 0.97-1.18) and dexmedetomidine/propofol, 1.00 (95% CI, 0.92-1.08)'.",
       "primaryResult and takeaway MIDEX ventilation 123 hours (IQR, 67-337) versus 164 hours (IQR, 92-380), P = .03, and PRODEX 97 hours (IQR, 45-257) versus 118 hours (IQR, 48-327), P = .24: RESULTS 'dexmedetomidine (123 hours [IQR, 67-337])' 'midazolam (164 hours [IQR, 92-380]; P = .03)' and 'dexmedetomidine (97 hours [IQR, 45-257])' 'propofol (118 hours [IQR, 48-327]; P = .24)'.",
       "primaryResult communication scores 19.7 (95% CI, 15.2-24.2; P < .001) versus midazolam and 11.2 (95% CI, 6.4-15.9; P < .001) versus propofol: RESULTS sentence containing 'estimated score difference' '19.7 [95% CI, 15.2-24.2]; P < .001' and '11.2 [95% CI, 6.4-15.9]; P < .001'.",
-      "safety MIDEX hypotension 51/247 (20.6%) versus 29/250 (11.6%), P = .007, and bradycardia 35/247 (14.2%) versus 13/250 (5.2%), P < .001: RESULTS sentence containing 'patients had more hypotension (51/247 [20.6%]' and '29/250 [11.6%]; P = .007) and bradycardia (35/247 [14.2%]' and '13/250 [5.2%]; P < .001)'. These counts are the midazolam comparison. CONCLUSIONS: 'More adverse effects were associated with dexmedetomidine'. Length of stay and mortality: 'Length of ICU and hospital stay and mortality were similar'."
+      "safety MIDEX hypotension 51/247 (20.6%) versus 29/250 (11.6%), P = .007, and bradycardia 35/247 (14.2%) versus 13/250 (5.2%), P < .001: RESULTS sentence containing 'patients had more hypotension (51/247 [20.6%]' and '29/250 [11.6%]; P = .007) and bradycardia (35/247 [14.2%]' and '13/250 [5.2%]; P < .001)'. These counts are the midazolam comparison. CONCLUSIONS: 'More adverse effects were associated with dexmedetomidine'. Length of stay and mortality: 'Length of ICU and hospital stay and mortality were similar'.",
+      "takeaway ratios 1.07 (0.97-1.18) and 1.00 (0.92-1.08), ventilation 123 versus 164 hours (P=.03) and 97 versus 118 hours (P=.24), per-protocol 233, 227, 214, and 223: PubMed abstract PMID 22436955.",
+      "limitations sponsorship: JAMA 2012 conflict-of-interest statement, as checked in the literature review, says the study was sponsored by Orion Pharma and names Orion employees among the authors. URL https://jamanetwork.com/journals/jama/fullarticle/1105080"
     ]
   },
   {
@@ -1253,7 +1316,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "30346242",
         "doi": "10.1056/NEJMoa1808217",
-        "note": "Open full text read. No PubMed Central identifier was printed in the file."
+        "note": "Open full text read. PubMed Central identifier PMC6364999."
       }
     ],
     "sourceNotes": [
@@ -1285,7 +1348,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "In a modified intention-to-treat analysis involving 3904 patients, death from any cause at 90 days occurred in 566 of 1948 patients (29.1%) in the dexmedetomidine group and in 569 of 1956 patients (29.1%) in the usual-care group (adjusted risk difference, 0.0 percentage points; 95% CI, -2.9 to 2.8).",
     "safety": "Bradycardia and hypotension were more common in the dexmedetomidine group. More adverse events were reported in the dexmedetomidine group than in the usual-care group.",
     "takeaway": "Among adults undergoing mechanical ventilation in the intensive care unit, early dexmedetomidine as the sole or primary sedative was compared with usual care. Death at 90 days occurred in 29.1% of each group (adjusted risk difference, 0.0 percentage points; 95% CI, -2.9 to 2.8).",
-    "limitations": "The trial was open-label. Patients assigned to dexmedetomidine received supplemental propofol, midazolam, or both to achieve the prescribed level of sedation.",
+    "limitations": "The trial was open-label. Patients assigned to dexmedetomidine received supplemental propofol, midazolam, or both to achieve the prescribed level of sedation. The European Medicines Agency direct healthcare professional communication reports a median age of 63.7 years, with 90-day mortality 22.4% (219 of 976) on dexmedetomidine versus 18.1% (176 of 975) on usual care at or below that age, and 35.7% (347 of 972) versus 40.1% (393 of 981) above it. For patients aged 65 years or younger, that communication reports an odds ratio of 1.26 (95% credibility interval, 1.02 to 1.56) and states that product information is being updated with a warning. These subgroup findings are hypothesis-generating.",
     "guidelines": [],
     "sources": [
       {
@@ -1293,6 +1356,11 @@ window.CRITCARE_TRIALS = [
         "pmid": "31112380",
         "doi": "10.1056/NEJMoa1904710",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "European Medicines Agency direct healthcare professional communication",
+        "url": "https://www.ema.europa.eu/en/documents/dhpc/direct-healthcare-professional-communication-dhpc-dexmedetomidine-increased-risk-mortality-intensive-care-unit-icu-patients-65-years_en.pdf",
+        "note": "Age subgroup table and odds ratio 1.26 read from the PDF."
       }
     ],
     "sourceNotes": [
@@ -1300,7 +1368,8 @@ window.CRITCARE_TRIALS = [
       "population 4000, 12 hours, 3904, and 4.6 hours: RESULTS 'We enrolled 4000 patients at a median interval of 4.6 hours' and 'a modified intention-to-treat analysis involving 3904 patients', and METHODS 'undergoing ventilation for less than 12 hours'.",
       "intervention 2 days, 64%, 3%, and 7%, and comparator 2 days, 60%, 12%, and 20%: RESULTS sentence beginning 'An ancillary finding was that to achieve the prescribed level of sedation, patients in the dexmedetomidine group received supplemental propofol (64% of patients), midazolam (3%), or both (7%)'. No dexmedetomidine dose is printed.",
       "primaryResult 3904, 90, 566 of 1948 (29.1%), 569 of 1956 (29.1%), adjusted risk difference 0.0 percentage points, 95% CI -2.9 to 2.8, also used in the takeaway: RESULTS sentence beginning 'In a modified intention-to-treat analysis involving 3904 patients, the primary outcome event occurred in 566 of 1948 (29.1%)'.",
-      "safety has no numerals: RESULTS 'Bradycardia and hypotension were more common in the dexmedetomidine group' and CONCLUSIONS 'More adverse events were reported in the dexmedetomidine group than in the usual-care group'."
+      "safety has no numerals: RESULTS 'Bradycardia and hypotension were more common in the dexmedetomidine group' and CONCLUSIONS 'More adverse events were reported in the dexmedetomidine group than in the usual-care group'.",
+      "limitations median age 63.7 years; 219/976 (22.4%) versus 176/975 (18.1%); 347/972 (35.7%) versus 393/981 (40.1%); odds ratio 1.26, 95% credibility interval 1.02 to 1.56 for age 65 years or younger: European Medicines Agency direct healthcare professional communication, dexmedetomidine increased risk of mortality in intensive care unit patients aged 65 years or younger. https://www.ema.europa.eu/en/documents/dhpc/direct-healthcare-professional-communication-dhpc-dexmedetomidine-increased-risk-mortality-intensive-care-unit-icu-patients-65-years_en.pdf"
     ]
   },
   {
@@ -1335,7 +1404,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "33528922",
         "doi": "10.1056/NEJMoa2024922",
-        "note": "Open full text read. No PubMed Central identifier was printed in the file."
+        "note": "Open full text read. PubMed Central identifier PMC8162695."
       }
     ],
     "sourceNotes": [
@@ -1368,7 +1437,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "At 90 days, the mean number of days alive and out of the hospital was 35.8 (95% CI, 32.9 to 38.6) in the haloperidol group and 32.9 (95% CI, 29.9 to 35.8) in the placebo group, with an adjusted mean difference of 2.9 days (95% CI, -1.2 to 7.0) (P = 0.22).",
     "safety": "Mortality at 90 days was 36.3% in the haloperidol group and 43.3% in the placebo group (adjusted absolute difference, -6.9 percentage points; 95% CI, -13.0 to -0.6). Serious adverse reactions occurred in 11 patients in the haloperidol group and in 9 patients in the placebo group.",
     "takeaway": "In adults in the intensive care unit with delirium, intravenous haloperidol was compared with placebo. The mean number of days alive and out of the hospital at 90 days was 35.8 versus 32.9 (adjusted mean difference, 2.9 days; 95% CI, -1.2 to 7.0; P = 0.22).",
-    "limitations": "The trial was multicenter, blinded, and placebo-controlled. Haloperidol or placebo was administered in the intensive care unit for as long as delirium continued and as needed for recurrences.",
+    "limitations": "The primary outcome, days alive and out of the hospital at 90 days, was not significantly different. The lower 90-day mortality with haloperidol (36.3% versus 43.3%) was not the primary outcome and is hypothesis-generating. Haloperidol was given for as long as delirium continued, so this is a treatment comparison, not a prevention comparison.",
     "guidelines": [],
     "sources": [
       {
@@ -1383,7 +1452,8 @@ window.CRITCARE_TRIALS = [
       "population 1000, 510, 490, 987 (98.7%), 501, 486, and 963 (97.6%): RESULTS sentences 'A total of 1000 patients underwent randomization; 510 were assigned to the haloperidol group and 490 to the placebo group' and '987 (98.7%) were included in the final analyses (501 in the haloperidol group and 486 in the placebo group). Primary outcome data were available for 963 patients (97.6%)'.",
       "intervention 2.5 milligrams, 3 times daily, 2.5 milligrams as needed, and 20 milligrams: METHODS 'intravenous haloperidol (2.5 mg 3 times daily plus 2.5 mg as needed up to a total maximum daily dose of 20 mg)'.",
       "primaryResult and takeaway 35.8 (95% CI, 32.9 to 38.6), 32.9 (95% CI, 29.9 to 35.8), adjusted mean difference 2.9 days (95% CI, -1.2 to 7.0), P = 0.22: RESULTS sentence beginning 'At 90 days, the mean number of days alive and out of the hospital was 35.8'.",
-      "safety mortality 36.3% and 43.3%, adjusted absolute difference -6.9 percentage points (95% CI, -13.0 to -0.6), and serious adverse reactions in 11 and 9 patients: RESULTS 'Mortality at 90 days was 36.3% in the haloperidol group and 43.3% in the placebo group (adjusted absolute difference, -6.9 percentage points [95% CI, -13.0 to -0.6]). Serious adverse reactions occurred in 11 patients in the haloperidol group and in 9 patients in the placebo group'."
+      "safety mortality 36.3% and 43.3%, adjusted absolute difference -6.9 percentage points (95% CI, -13.0 to -0.6), and serious adverse reactions in 11 and 9 patients: RESULTS 'Mortality at 90 days was 36.3% in the haloperidol group and 43.3% in the placebo group (adjusted absolute difference, -6.9 percentage points [95% CI, -13.0 to -0.6]). Serious adverse reactions occurred in 11 patients in the haloperidol group and in 9 patients in the placebo group'.",
+      "limitations 90-day mortality 36.3% versus 43.3%: PubMed abstract PMID 36286254. The primary outcome in that abstract is days alive and out of the hospital."
     ]
   },
   {
@@ -1404,8 +1474,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "204 patients were assigned to 15 days of therapy with an antibiotic regimen selected by the treating physician.",
     "primaryResult": "Compared with 15 days, 8 days was not associated with excess mortality (18.8% versus 17.2%; difference, 1.6%; 90% CI, -3.7% to 6.9%) or more recurrent infections (28.9% versus 26.0%; difference, 2.9%; 90% CI, -3.2% to 9.1%). The 8-day group had more antibiotic-free days (mean 13.1 [standard deviation 7.4] versus 8.7 [standard deviation 5.2] days, P<.001).",
     "safety": "Among patients with ventilator-associated pneumonia caused by nonfermenting gram-negative bacilli, including Pseudomonas aeruginosa, pulmonary infection recurrence was 40.6% with 8 days versus 25.4% with 15 days (difference, 15.2%; 90% CI, 3.9% to 26.6%). Among patients who developed recurrent infections, multiresistant pathogens emerged in 42.1% versus 62.0% of pulmonary recurrences (P=.04), less often after 8 days.",
-    "takeaway": "In 401 adults in French intensive care units with microbiologically proven ventilator-associated pneumonia who had received appropriate initial empirical therapy, 8 days of antibiotics compared with 15 days did not increase 28-day mortality (18.8% versus 17.2%) or recurrent infection (28.9% versus 26.0%) and increased antibiotic-free days (mean 13.1 versus 8.7). Recurrence was higher with the shorter course when the pathogen was a nonfermenting gram-negative bacillus.",
-    "limitations": "Masking was maintained only until day 8. Antibiotic selection was left to the treating physician. The report notes a possible exception for ventilator-associated pneumonia caused by nonfermenting gram-negative bacilli.",
+    "takeaway": "In 401 adults in French intensive care units with microbiologically proven ventilator-associated pneumonia who had received appropriate initial empirical therapy, 8 days of antibiotics compared with 15 days used 90% confidence intervals for 28-day mortality (18.8% versus 17.2%) and recurrent infection (28.9% versus 26.0%), with more antibiotic-free days (mean 13.1 versus 8.7). Recurrence was higher with 8 days when the pathogen was a nonfermenting gram-negative bacillus such as Pseudomonas aeruginosa (40.6% versus 25.4%).",
+    "limitations": "Masking was maintained only until day 8. Only patients with bronchoscopically confirmed ventilator-associated pneumonia who received appropriate initial therapy were enrolled. The nonfermenting gram-negative recurrence finding came from a subgroup.",
     "guidelines": [],
     "sources": [
       {
@@ -1424,7 +1494,8 @@ window.CRITCARE_TRIALS = [
       "safety 40.6%, 25.4%, difference 15.2%, 90% CI 3.9%-26.6%: PubMed abstract, 'higher pulmonary infection-recurrence rate compared with those receiving 15 days of treatment (40.6% versus 25.4%; difference, 15.2%, 90% CI, 3.9%-26.6%)'.",
       "safety 42.1%, 62.0%, P=.04, and 8 days: PubMed abstract, 'multiresistant pathogens emerged less frequently in those who had received 8 days of antibiotics (42.1% versus 62.0% of pulmonary recurrences, P =.04)'.",
       "takeaway 401, 8, 15, 28, 18.8, 17.2, 28.9, 26.0, 13.1, 8.7: same PubMed abstract sentences cited for population and primaryResult.",
-      "limitations day 8: PubMed abstract, 'double-blind (until day 8)'."
+      "limitations day 8: PubMed abstract, 'double-blind (until day 8)'.",
+      "takeaway 90% confidence intervals and the mortality, recurrence, and nonfermenting percentages: PubMed abstract PMID 14625336."
     ]
   },
   {
@@ -1445,8 +1516,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "The control group received antibiotics according to present guidelines. Drug selection and the final decision to start or stop antibiotics were at the discretion of the physician.",
     "primaryResult": "Day-28 mortality was 21.2% (65 of 307) in the procalcitonin group versus 20.4% (64 of 314) in the control group (absolute difference 0.8%, 90% CI -4.6 to 6.2). Day-60 mortality was 30.0% (92 of 307) versus 26.1% (82 of 314) (absolute difference 3.8%, -2.1 to 9.7). Days without antibiotics by day 28 were 14.3 days (standard deviation 9.1) versus 11.6 days (standard deviation 8.2) (absolute difference 2.7 days, 95% CI 1.4 to 4.1, p<0.0001).",
     "safety": "The abstract does not report separate adverse-event counts. The interpretation states that the procalcitonin-guided strategy could reduce antibiotic exposure with no apparent adverse outcomes.",
-    "takeaway": "In non-surgical adults expected to stay in the intensive care unit for more than 3 days with suspected bacterial infection, a procalcitonin-guided strategy was associated with more days without antibiotics by day 28 (14.3 versus 11.6 days) and with day-28 mortality of 21.2% versus 20.4%.",
-    "limitations": "The trial was open-label. Investigators were masked to assignment before, but not after, randomisation. The physician retained the final decision to start or stop antibiotics. The non-inferiority margin was 10%.",
+    "takeaway": "In non-surgical intensive care unit adults with suspected bacterial infection, a procalcitonin-guided strategy compared with guideline-based care had day-28 mortality of 21.2% versus 20.4% (difference 0.8%, 90% CI -4.6 to 6.2; noninferiority margin 10%) and more antibiotic-free days by day 28 (14.3 versus 11.6). Day-60 mortality was numerically higher with procalcitonin guidance (30.0% versus 26.1%; difference 3.8%, -2.1 to 9.7).",
+    "limitations": "The trial was open-label. Investigators were masked to assignment before, but not after, randomisation. The physician retained the final decision to start or stop antibiotics. The non-inferiority margin was 10%. A 10% noninferiority margin for mortality is wide.",
     "guidelines": [],
     "sources": [
       {
@@ -1463,7 +1534,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult day 60: 30.0%, 92/307, 26.1%, 82/314, 3.8%, -2.1 to 9.7: PubMed abstract, 'day 60 (30.0% [92/307] versus 26.1% [82/314]; 3.8%, -2.1 to 9.7)'. The abstract does not restate 90% CI on this second interval.",
       "primaryResult antibiotic-free days 14.3, standard deviation 9.1, 11.6, standard deviation 8.2, 2.7 days, 95% CI 1.4 to 4.1, p<0.0001, day 28: PubMed abstract, '14.3 days [SD 9.1] versus 11.6 days [SD 8.2]; absolute difference 2.7 days, 95% CI 1.4 to 4.1, p<0.0001'.",
       "takeaway 3 days, 28, 14.3, 11.6, 21.2, 20.4: same PubMed abstract sentences.",
-      "limitations 10%: PubMed abstract, 'The margin of non-inferiority was 10%'."
+      "limitations 10%: PubMed abstract, 'The margin of non-inferiority was 10%'.",
+      "takeaway day-28 difference 0.8%, 90% CI -4.6 to 6.2, margin 10%, and day-60 difference 3.8%, -2.1 to 9.7: PubMed abstract PMID 20097417. The day-60 interval is printed without a repeated 90% confidence-interval label, so that label is not added."
     ]
   },
   {
@@ -1483,9 +1555,9 @@ window.CRITCARE_TRIALS = [
     "intervention": "The experimental group received a fixed course of antimicrobial therapy for 4±1 calendar days after the index source-control procedure. The protocol did not dictate the antimicrobial agents.",
     "comparator": "The control group received antimicrobial therapy until 2 days after resolution of physiological abnormalities related to the infection, with a maximum of 10 days of therapy for the initial intraabdominal infection.",
     "primaryResult": "Surgical-site infection, recurrent intraabdominal infection, or death occurred in 56 of 257 patients in the fixed-duration group (21.8%) and in 58 of 260 patients in the control group (22.3%) (absolute difference, -0.5 percentage point; 95% CI, -7.0 to 8.0; P=0.92).",
-    "safety": "Death occurred in 5 of the 518 patients (1.0%): 2 in the control group and 3 in the fixed-duration group. The full text states that no significant between-group differences were found for extraabdominal infection, Clostridium difficile infection, or secondary infections with resistant pathogens, and it does not print those rates.",
+    "safety": "Death occurred in 5 of the 518 patients (1.0%): 2 in the control group and 3 in the fixed-duration group. Table 2 (control N = 260; fixed-duration N = 257) reports Clostridium difficile infection in 3 (1.2%) versus 5 (1.9%) (P = 0.71), extraabdominal infection at any site in 13 (5.0%) versus 23 (8.9%) (P = 0.11), and extraabdominal infection with a resistant pathogen in 6 (2.3%) versus 2 (0.8%).",
     "takeaway": "In patients with complicated intraabdominal infection and adequate source control, a fixed antimicrobial course of about 4 days (median 4.0 days, interquartile range 4.0 to 5.0) and a longer course continued until after physiological abnormalities resolved (median 8.0 days, interquartile range 5.0 to 10.0) had a similar 30-day composite of surgical-site infection, recurrent intraabdominal infection, or death (21.8% versus 22.3%).",
-    "limitations": "The trial was open-label. Patients without adequate source control were excluded, and the report states that only a small number of patients with immunosuppression were included. Nonadherence included 18% of patients in the fixed-duration group. The original calculated sample size to assert equivalence was not achieved.",
+    "limitations": "The trial was open-label. Patients without adequate source control were excluded, and the report states that only a small number of patients with immunosuppression were included. Nonadherence included 18% of patients in the fixed-duration group. The original calculated sample size to assert equivalence was not achieved. Illness severity was low: mean Acute Physiology and Chronic Health Evaluation II score 9.9 (standard error 0.4) in the control group and 10.3 (standard error 0.4) in the fixed-duration group (Table 1). The results text gives a mean score of 10.1 (standard error 0.3), and the discussion states that observed mortality was 1%.",
     "guidelines": [],
     "sources": [
       {
@@ -1498,7 +1570,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "25992746",
         "doi": "10.1056/NEJMoa1411162",
-        "note": "Full text read from the local PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the local PubMed Central text file. PubMed Central identifier PMC4469182."
       }
     ],
     "sourceNotes": [
@@ -1509,7 +1581,9 @@ window.CRITCARE_TRIALS = [
       "primaryResult 56, 257, 21.8%, 58, 260, 22.3%, -0.5, 95% CI -7.0 to 8.0, P=0.92: open full text Results, 'occurred in 56 of 257 patients in the experimental group (21.8%), as compared with 58 of 260 patients in the control group (22.3%) (absolute difference, −0.5 percentage point, 95% confidence interval [CI], −7.0 to 8.0; P = 0.92)'. The abstract prints the same figures.",
       "safety 5, 518, 1.0%, 2, 3: open full text, 'Death occurred in 5 of the 518 patients in the two groups combined (1.0%, 2 patients in the control group and 3 patients in the experimental group)'.",
       "takeaway 4.0, IQR 4.0 to 5.0, 8.0, IQR 5.0 to 10.0, 30, 21.8, 22.3: open full text, 'median duration of antimicrobial treatment ... was 4.0 days (interquartile range, 4.0 to 5.0) ... 8.0 days (interquartile range, 5.0 to 10.0)', and the primary-outcome sentence above.",
-      "limitations 18%: open full text Discussion, 'the rate of nonadherence to the protocol was moderately high, including 18% of patients in the experimental group'."
+      "limitations 18%: open full text Discussion, 'the rate of nonadherence to the protocol was moderately high, including 18% of patients in the experimental group'.",
+      "safety Table 2 Clostridium difficile 3 (1.2%) versus 5 (1.9%) P = 0.71; extraabdominal infection 13 (5.0%) versus 23 (8.9%) P = 0.11; resistant-pathogen extraabdominal infection 6 (2.3%) versus 2 (0.8%): PubMed Central full text PMC4469182 Table 2, control N = 260 and fixed-duration N = 257.",
+      "limitations Acute Physiology and Chronic Health Evaluation II 9.9±0.4 and 10.3±0.4: PMC4469182 Table 1, footnote plus-minus values are means ± standard error. Results text mean 10.1±0.3. Discussion: observed mortality was only 1%."
     ]
   },
   {
@@ -1525,12 +1599,12 @@ window.CRITCARE_TRIALS = [
     "pmid": "26947523",
     "doi": "10.1016/S1473-3099(16)00053-0",
     "design": "Prospective, multicentre, randomised, controlled, open-label intervention trial in 15 hospitals in the Netherlands. Primary endpoints were antibiotic daily defined doses and duration of antibiotic treatment. Analyses were by intention to treat.",
-    "population": "Critically ill adults aged at least 18 years who were admitted to the intensive care unit and had received a first dose of antibiotics no longer than 24 hours before inclusion for an assumed or proven infection. Of 4507 patients assessed for eligibility, 1575 were randomly assigned, 761 to procalcitonin guidance and 785 to standard care.",
+    "population": "Critically ill adults aged at least 18 years who were admitted to the intensive care unit and had received a first dose of antibiotics no longer than 24 hours before inclusion for an assumed or proven infection. Of 4507 patients assessed for eligibility, 1575 were randomly assigned; the abstract reports 761 in the procalcitonin-guided group and 785 in the standard-of-care group (1546 in total) and does not state why the counts differ.",
     "intervention": "Non-binding advice to discontinue antibiotics if the procalcitonin concentration had decreased by 80% or more of its peak value, or to 0.5 micrograms per liter or lower.",
     "comparator": "Antibiotic discontinuation according to local antibiotic protocols.",
     "primaryResult": "Median antibiotic consumption was 7.5 daily defined doses (IQR 4.0-12.7) in the procalcitonin-guided group versus 9.3 daily defined doses (5.0-16.6) in the standard-of-care group (absolute difference 2.69, 95% CI 1.26-4.12, p<0.0001). Median duration of treatment was 5 days (3-9) versus 7 days (4-11) (absolute difference 1.22, 0.65-1.78, p<0.0001).",
     "safety": "The abstract names reinstitution of antibiotics and recurrent inflammation, measured by C-reactive protein, as safety endpoints, but it does not print counts for those endpoints. Mortality at 28 days was 149 (20%) of 761 patients in the procalcitonin-guided group and 196 (25%) of 785 in the standard-of-care group (absolute difference 5.4%, 95% CI 1.2-9.5, p=0.0122) in the intention-to-treat analysis.",
-    "takeaway": "In critically ill adults admitted to the intensive care unit and treated for an assumed or proven infection, procalcitonin guidance was associated with lower median antibiotic consumption (7.5 versus 9.3 daily defined doses) and a shorter median treatment duration (5 versus 7 days). Intention-to-treat mortality at 28 days was 20% versus 25%.",
+    "takeaway": "In critically ill adults treated for an assumed or proven infection, non-binding procalcitonin guidance lowered antibiotic consumption (median 7.5 versus 9.3 daily defined doses) and treatment duration (median 5 versus 7 days), the primary end points. Twenty-eight-day mortality, not a primary end point, was 20% versus 25% (absolute difference 5.4%, 95% CI 1.2-9.5); this open-label finding is hypothesis-generating.",
     "limitations": "The trial was open-label, and patients and investigators were aware of group assignment. The discontinuation advice was non-binding. The report describes the setting as a health-care system with a comparatively low use of antibiotics.",
     "guidelines": [],
     "sources": [
@@ -1547,7 +1621,9 @@ window.CRITCARE_TRIALS = [
       "intervention 80% and 0.5 micrograms per liter: PubMed abstract, 'decreased by 80% or more of its peak value or to 0.5 μg/L or lower'.",
       "primaryResult 7.5, IQR 4.0-12.7, 9.3, 5.0-16.6, difference 2.69, 95% CI 1.26-4.12, p<0.0001, 5 days (3-9), 7 days (4-11), difference 1.22, 0.65-1.78, p<0.0001: PubMed abstract FINDINGS, '7.5 daily defined doses (IQR 4.0-12.7) ... versus 9.3 daily defined doses (5.0-16.6) ... absolute difference 2.69, 95% CI 1.26-4.12, p<0.0001' and '5 days (3-9) ... 7 days (4-11) ... absolute difference 1.22, 0.65-1.78, p<0.0001'. The duration interval is printed without a repeated 95% CI label.",
       "safety 28 days, 149, 20%, 761, 196, 25%, 785, 5.4%, 95% CI 1.2-9.5, p=0.0122: PubMed abstract, 'Mortality at 28 days was 149 (20%) of 761 patients in the procalcitonin-guided group and 196 (25%) of 785 patients in the standard-of-care group (between-group absolute difference 5.4%, 95% CI 1.2-9.5, p=0.0122)'.",
-      "takeaway 7.5, 9.3, 5, 7, 28, 20%, 25%: same FINDINGS sentences."
+      "takeaway 7.5, 9.3, 5, 7, 28, 20%, 25%: same FINDINGS sentences.",
+      "population 1575 randomly assigned, with 761 and 785 reported (1546 in total): PubMed abstract PMID 26947523. 1546 is the sum of the two printed group counts. The abstract does not explain the difference from 1575.",
+      "takeaway mortality 20% versus 25%, absolute difference 5.4%, 95% CI 1.2-9.5: PubMed abstract PMID 26947523. Antibiotic consumption and duration are the primary end points in that abstract; 28-day mortality is reported with the safety end points."
     ]
   },
   {
@@ -1563,13 +1639,13 @@ window.CRITCARE_TRIALS = [
     "pmid": "30208454",
     "doi": "10.1001/jama.2018.12163",
     "design": "International, multicenter, open-label, parallel-group, randomized noninferiority trial. The primary outcome was all-cause mortality at 30 days after randomization. The noninferiority margin was 5%.",
-    "population": "Hospitalized adults with at least 1 positive blood culture with Escherichia coli or Klebsiella species that was nonsusceptible to ceftriaxone but susceptible to piperacillin-tazobactam. Of 1646 patients screened, 391 were randomized at 26 sites in 9 countries. The primary analysis included 379 patients. Intensive care unit admission was recorded for 13 of 188 patients (7.0%) in the piperacillin-tazobactam group and 14 of 191 (7.5%) in the meropenem group.",
+    "population": "Hospitalized adults with at least 1 positive blood culture with Escherichia coli or Klebsiella species that was nonsusceptible to ceftriaxone but susceptible to piperacillin-tazobactam. Of 1646 patients screened, 391 were randomized at 26 sites in 9 countries. The primary analysis included 379 patients. Table 1 lists intensive care unit admission as 13 (7.0%) in the piperacillin-tazobactam group (n = 188) and 14 (7.5%) in the meropenem group (n = 191); the printed percentages do not match those column totals exactly.",
     "intervention": "Intravenous piperacillin-tazobactam, 4.5 grams every 6 hours, in 188 patients. Treatment continued for a minimum of 4 days and a maximum of 14 days, with duration set by the treating clinician. Each dose was infused over 30 minutes.",
     "comparator": "Intravenous meropenem, 1 gram every 8 hours, in 191 patients, for a minimum of 4 days and a maximum of 14 days. Each dose was infused over 30 minutes.",
     "primaryResult": "Noninferiority was not shown. Death by 30 days occurred in 23 of 187 patients (12.3%) assigned to piperacillin-tazobactam and in 7 of 191 (3.7%) assigned to meropenem (risk difference, 8.6% [1-sided 97.5% CI, negative infinity to 14.5%]; P=.90 for noninferiority).",
     "safety": "Nonfatal serious adverse events occurred in 5 of 188 patients (2.7%) in the piperacillin-tazobactam group and in 3 of 191 (1.6%) in the meropenem group.",
     "takeaway": "In hospitalized patients with Escherichia coli or Klebsiella pneumoniae bloodstream infection and ceftriaxone resistance, definitive piperacillin-tazobactam did not meet the 5% noninferiority margin against meropenem for 30-day mortality (12.3% versus 3.7%; risk difference 8.6%). Intensive care unit admission was 7.0% and 7.5% in the two groups in the primary analysis population.",
-    "limitations": "The trial was open-label and was terminated early on the grounds of harm and futility. Empirical therapy before randomization and later step-down therapy were not fully controlled by the protocol. The report states that few enrolled patients met the high-risk stratum used in the trial.",
+    "limitations": "The trial was open-label and was terminated early on the grounds of harm and futility. Empirical therapy before randomization and later step-down therapy were not fully controlled by the protocol. The report states that few enrolled patients met the high-risk stratum used in the trial. Only about 7% of patients were in the intensive care unit, so this is mainly a ward bloodstream-infection trial. A later central-laboratory reanalysis found that after isolates not susceptible to piperacillin-tazobactam were excluded, the mortality difference was less pronounced.",
     "guidelines": [],
     "sources": [
       {
@@ -1582,7 +1658,13 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "30208454",
         "doi": "10.1001/jama.2018.12163",
-        "note": "Full text read from the local PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the local PubMed Central text file. PubMed Central identifier PMC6143100."
+      },
+      {
+        "label": "MERINO microbiologic reanalysis",
+        "pmid": "33106863",
+        "doi": "10.1093/cid/ciaa1479",
+        "note": "Central laboratory broth microdilution reanalysis."
       }
     ],
     "sourceNotes": [
@@ -1592,7 +1674,9 @@ window.CRITCARE_TRIALS = [
       "comparator 1 gram, 8 hours, 191, 4 days, 14 days, 30 minutes: open full text, 'Meropenem, 1 g, was administered every 8 hours intravenously' and 'n = 191'.",
       "primaryResult 30 days, 23 of 187, 12.3%, 7 of 191, 3.7%, risk difference 8.6%, 1-sided 97.5% CI to 14.5%, P=.90: open full text, '23 of 187 patients (12.3%) ... compared with 7 of 191 (3.7%) ... (risk difference, 8.6% [1-sided 97.5% CI, −∞ to 14.5%]; P = .90 for noninferiority)'.",
       "safety 5 of 188, 2.7%, 3 of 191, 1.6%: open full text, 'Nonfatal serious adverse events occurred in 5 of 188 patients (2.7%) in the piperacillin-tazobactam group compared with 3 of 191 (1.6%) in the meropenem group'.",
-      "takeaway 5%, 30-day, 12.3%, 3.7%, 8.6%, intensive care unit 7.0% and 7.5%: primary-outcome sentence and Table 1 ICU admission row, '13 (7.0)' and '14 (7.5)', in the open full text."
+      "takeaway 5%, 30-day, 12.3%, 3.7%, 8.6%, intensive care unit 7.0% and 7.5%: primary-outcome sentence and Table 1 ICU admission row, '13 (7.0)' and '14 (7.5)', in the open full text.",
+      "population intensive care unit 13 (7.0%) of n = 188 and 14 (7.5%) of n = 191: PubMed Central full text PMC6143100 Table 1. The printed percentages do not equal 13/188 or 14/191.",
+      "limitations reanalysis: PubMed abstract PMID 33106863 states that after excluding nonsusceptible strains, the 30-day mortality difference from MERINO was less pronounced."
     ]
   },
   {
@@ -1609,10 +1693,10 @@ window.CRITCARE_TRIALS = [
     "doi": "10.1001/jama.2022.17927",
     "design": "Cluster, crossover, randomized clinical trial. Intensive care units were assigned to adopt or not adopt selective decontamination for 2 alternating 12-month periods, separated by a 3-month gap. The primary outcome was in-hospital mortality within 90 days. A contemporaneous ecological assessment recruited 8599 patients.",
     "population": "5982 mechanically ventilated adults from 19 intensive care units in Australia. Eligible patients were ventilated through an endotracheal tube and were predicted to remain ventilated for at least 48 hours.",
-    "intervention": "2791 patients received a 6-hourly application of 0.5 grams of oral paste containing 10 milligrams of colistin, 10 milligrams of tobramycin, and 125 000 international units of nystatin, plus a 6-hourly gastric suspension of 10 milliliters containing 100 milligrams of colistin, 80 milligrams of tobramycin, and 2 × 106 international units of nystatin, for the duration of mechanical ventilation, plus a 4-day course of an intravenous antibiotic with activity against gram-negative bacteria.",
+    "intervention": "2791 patients received a 6-hourly application of 0.5 grams of oral paste containing 10 milligrams of colistin, 10 milligrams of tobramycin, and 125 000 international units of nystatin, plus a 6-hourly gastric suspension of 10 milliliters containing 100 milligrams of colistin, 80 milligrams of tobramycin, and 2 × 10^6 (2 million) international units of nystatin, for the duration of mechanical ventilation, plus a 4-day course of an intravenous antibiotic with activity against gram-negative bacteria.",
     "comparator": "3191 patients received standard care without selective decontamination of the digestive tract.",
     "primaryResult": "In-hospital death within 90 days occurred in 753 of 2791 patients (27.0%) assigned to selective decontamination and in 928 of 3191 (29.1%) assigned to standard care (mean difference, -1.7% [95% CI, -4.8% to 1.3%]; odds ratio, 0.91 [95% CI, 0.82-1.02]; P=.12).",
-    "safety": "The serious-adverse-event listing for any event shows 29 patients (1.0%) in the selective decontamination group and 29 patients (0.9%) in the standard care group. New antibiotic-resistant organism cultures were reported in 23.1% versus 34.6% (absolute difference, -11.0%; 95% CI, -14.7% to -7.3%), new positive blood cultures in 5.6% versus 8.1% (absolute difference, -1.95%; 95% CI, -3.5% to -0.4%), and new Clostridioides difficile infection in 0.5% versus 0.9% (absolute difference, 0.24%; 95% CI, -0.6% to 0.1%).",
+    "safety": "The serious-adverse-event listing for any event shows 29 patients (1.0%) in the selective decontamination group and 29 patients (0.9%) in the standard care group. New antibiotic-resistant organism cultures were reported in 23.1% versus 34.6% (absolute difference, -11.0%; 95% CI, -14.7% to -7.3%), new positive blood cultures in 5.6% versus 8.1% (absolute difference, -1.95%; 95% CI, -3.5% to -0.4%), and new Clostridioides difficile infection in 14 of 2791 patients (0.5%) versus 29 of 3191 (0.9%) (absolute difference, -0.24%; 95% CI, -0.59% to 0.10%).",
     "takeaway": "Among 5982 mechanically ventilated adults in Australian intensive care units, selective decontamination of the digestive tract compared with standard care did not significantly reduce in-hospital mortality within 90 days (27.0% versus 29.1%; odds ratio 0.91; P=.12).",
     "limitations": "The intervention was unblinded. More patients were recruited into the standard care group than into the selective decontamination group. The report states that protocol adherence approached 90% and that the ecological assessment had limited power because of a low rate of antimicrobial resistance and a relatively short period of observation.",
     "guidelines": [],
@@ -1627,19 +1711,21 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "36286097",
         "doi": "10.1001/jama.2022.17927",
-        "note": "Full text read from the local PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the local PubMed Central text file. PubMed Central identifier PMC9607966."
       }
     ],
     "sourceNotes": [
       "design 2 periods, 12 months, 3-month gap, 90 days, ecological assessment 8599: open full text, '2 alternating 12-month periods, separated by a 3-month interperiod gap' and 'in-hospital mortality within 90 days' and '8599 patients'.",
       "population 5982, 19 intensive care units, 48 hours: open full text, '5982 mechanically ventilated adults from 19 intensive care units' and 'predicted to remain ventilated for at least 48 hours'.",
-      "intervention 2791, 6-hourly, 0.5 grams, 10 milligrams colistin, 10 milligrams tobramycin, 125 000 international units, 10 milliliters, 100 milligrams, 80 milligrams, 2 × 106 international units, 4-day: open full text, 'Patients in the SDD group (n = 2791)' and '6-hourly topical application of 0.5 g of oral paste containing 10 mg of colistin, 10 mg of tobramycin, and 125 000 IU of nystatin' and '10 mL of gastric suspension containing 100 mg of colistin, 80 mg of tobramycin, and 2 × 106 IU of nystatin' and 'a 4-day course'.",
+      "intervention 2791, 6-hourly, 0.5 grams, 10 milligrams colistin, 10 milligrams tobramycin, 125 000 international units, 10 milliliters, 100 milligrams, 80 milligrams, 2 × 10^6 international units, 4-day: open full text, 'Patients in the SDD group (n = 2791)' and '6-hourly topical application of 0.5 g of oral paste containing 10 mg of colistin, 10 mg of tobramycin, and 125 000 IU of nystatin' and '10 mL of gastric suspension containing 100 mg of colistin, 80 mg of tobramycin, and 2 × 10^6 IU of nystatin' and 'a 4-day course'.",
       "comparator 3191: open full text, 'Patients in the control group (n = 3191) received standard care'.",
       "primaryResult 90 days, 753 of 2791, 27.0%, 928 of 3191, 29.1%, mean difference -1.7%, 95% CI -4.8% to 1.3%, odds ratio 0.91, 95% CI 0.82-1.02, P=.12: open full text Results, '753 (27.0%) of 2791 patients allocated to SDD and 928 (29.1%) of 3191 patients allocated to standard care had died (mean difference, −1.7% [95% CI, −4.8% to 1.3%]; odds ratio, 0.91 [95% CI, 0.82-1.02]; P = .12)'.",
       "safety serious adverse events 29 (1.0%) and 29 (0.9%): open full text Table 2, 'Any event' '29 (1.0)' and '29 (0.9)' under serious adverse events.",
-      "safety 23.1%, 34.6%, absolute difference -11.0%, 95% CI -14.7% to -7.3%, 5.6%, 8.1%, -1.95%, 95% CI -3.5% to -0.4%, 0.5%, 0.9%, absolute difference 0.24%, 95% CI -0.6% to 0.1%: open full text Results, 'antibiotic-resistant organisms were cultured (23.1% versus 34.6%; absolute difference, −11.0%; 95% CI, −14.7% to −7.3%) and who had new positive blood cultures (5.6% versus 8.1%; absolute difference, −1.95%; 95% CI, −3.5% to −0.4%)' and 'new C difficile infection (0.5% versus 0.9%; absolute difference, 0.24%; 95% CI, −0.6% to 0.1%)'.",
+      "safety 23.1%, 34.6%, absolute difference -11.0%, 95% CI -14.7% to -7.3%, 5.6%, 8.1%, -1.95%, 95% CI -3.5% to -0.4%, 0.5%, 0.9%: open full text Results. One results sentence prints Clostridioides difficile as absolute difference 0.24% without a minus sign and 95% CI -0.6% to 0.1%. The card uses Table 2, which prints -0.24% and 95% CI -0.59% to 0.10%.",
       "takeaway 5982, 90, 27.0, 29.1, 0.91, P=.12: population and primary-outcome sentences above.",
-      "limitations 90%: open full text Limitations, 'protocol adherence for the use of SDD approached 90%'."
+      "limitations 90%: open full text Limitations, 'protocol adherence for the use of SDD approached 90%'.",
+      "safety Clostridioides difficile 14 of 2791 (0.5%), 29 of 3191 (0.9%), absolute difference -0.24%, 95% CI -0.59% to 0.10%: PubMed Central full text PMC9607966 Table 2. The abstract prints absolute difference -0.24% with 95% CI -0.6% to 0.1%. One results sentence omits the minus sign; the card follows Table 2.",
+      "intervention 2 × 10^6 international units of nystatin: PubMed Central full text PMC9607966. The superscript in 10^6 was lost in an earlier extraction that printed 106."
     ]
   },
   {
@@ -1660,8 +1746,8 @@ window.CRITCARE_TRIALS = [
     "comparator": "Piperacillin-tazobactam, assigned to 1297 patients in the primary analysis. The institutional protocol used an initial 3.375-gram bolus over 30 minutes, then 3.375 grams every 8 hours infused over 4 hours.",
     "primaryResult": "The highest stage of acute kidney injury or death by day 14 was not significantly different. Stage 3 acute kidney injury occurred in 85 of 1214 patients (7.0%) assigned to cefepime, and 92 (7.6%) died, versus 97 of 1297 patients (7.5%) with stage 3 acute kidney injury and 78 (6.0%) who died in the piperacillin-tazobactam group (odds ratio, 0.95 [95% CI, 0.80 to 1.13], P=.56).",
     "safety": "Major adverse kidney events at day 14 occurred in 124 patients (10.2%) in the cefepime group and 114 patients (8.8%) in the piperacillin-tazobactam group (absolute difference, 1.4% [95% CI, -1.0% to 3.8%]). Mean days alive and free of delirium and coma within 14 days were 11.9 (standard deviation 4.6) versus 12.2 (standard deviation 4.3) (odds ratio, 0.79 [95% CI, 0.65 to 0.95]). Coma or delirium occurred in 252 patients (20.8%) versus 225 patients (17.3%) (absolute difference, 3.4% [95% CI, 0.3% to 6.6%]). Allergic reactions to the study antibiotic were recorded in 16 patients (1.3%) and 15 patients (1.2%).",
-    "takeaway": "Among 2511 hospitalized adults, 94.7% of whom were enrolled in the emergency department, cefepime versus piperacillin-tazobactam did not show a significant difference in the highest stage of acute kidney injury or death by day 14 (odds ratio 0.95). Cefepime was associated with fewer days alive and free of delirium and coma (mean 11.9 versus 12.2).",
-    "limitations": "The trial was conducted at a single center, and patients and clinicians were not blinded. Patients received a median of 3 days of the assigned antibiotic. Almost 1 in 5 patients in each group received at least 1 dose of the unassigned antibiotic within 14 days. In this trial, piperacillin-tazobactam was administered as an extended infusion.",
+    "takeaway": "Among 2511 hospitalized adults, 94.7% enrolled in the emergency department, cefepime versus piperacillin-tazobactam did not differ in the primary outcome, highest stage of acute kidney injury or death by day 14 (odds ratio 0.95; 95% CI 0.80 to 1.13). In a further reported outcome, cefepime was associated with fewer days alive and free of delirium and coma (mean 11.9 versus 12.2; odds ratio 0.79).",
+    "limitations": "The trial was conducted at a single center, and patients and clinicians were not blinded. Patients received a median of 3 days of the assigned antibiotic. Almost 1 in 5 patients in each group received at least 1 dose of the unassigned antibiotic within 14 days. In this trial, piperacillin-tazobactam was administered as an extended infusion. Most patients were enrolled in the emergency department (94.7%), so applicability to patients already in the intensive care unit is indirect.",
     "guidelines": [],
     "sources": [
       {
@@ -1674,7 +1760,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "37837651",
         "doi": "10.1001/jama.2023.20583",
-        "note": "Full text read from the local PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the local PubMed Central text file. PubMed Central identifier PMC10576861."
       }
     ],
     "sourceNotes": [
@@ -1688,7 +1774,8 @@ window.CRITCARE_TRIALS = [
       "safety coma or delirium 252, 20.8%, 225, 17.3%, absolute difference 3.4%, 95% CI 0.3% to 6.6%: open full text, '252 patients (20.8%) in the cefepime group experienced coma or delirium ... 225 patients (17.3%) ... (absolute difference, 3.4% [95% CI, 0.3%-6.6%])'.",
       "safety allergic reactions 16, 1.3%, 15, 1.2%: open full text Table 2, 'Allergic reaction to study antibiotic' '16 (1.3)' and '15 (1.2)'.",
       "takeaway 2511, 94.7, day 14, odds ratio 0.95, 11.9, 12.2: abstract sentences cited above.",
-      "limitations median 3 days, almost 1 in 5, at least 1 dose, 14 days: open full text Limitations, 'patients in the trial received a median of only 3 days of treatment' and 'almost 1 in 5 patients in each group received a least 1 dose of the unassigned antibiotic within the first 14 days'."
+      "limitations median 3 days, almost 1 in 5, at least 1 dose, 14 days: open full text Limitations, 'patients in the trial received a median of only 3 days of treatment' and 'almost 1 in 5 patients in each group received a least 1 dose of the unassigned antibiotic within the first 14 days'.",
+      "takeaway 94.7% emergency department, odds ratio 0.95, 95% CI 0.80 to 1.13, mean days 11.9 versus 12.2, odds ratio 0.79: PubMed abstract and open full text PMID 37837651."
     ]
   },
   {
@@ -1723,14 +1810,14 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "37326473",
         "doi": "10.1001/jama.2023.10598",
-        "note": "Full text read from the local PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the local PubMed Central text file. PubMed Central identifier PMC10276329."
       }
     ],
     "sourceNotes": [
       "design day 28: open full text, 'composite of all-cause mortality and emergence of pandrug-resistant or extensively drug-resistant bacteria at day 28'.",
       "population 607, 31 intensive care units, 26 hospitals, 4 countries, 369, 61%: open full text, '31 intensive care units of 26 hospitals in 4 countries' and '607 patients were randomized' and 'Septic shock was present in 369 patients (61%)'.",
       "intervention 303, 3 grams, 24 hours, 1-gram loading dose, 2 grams per day, creatinine clearance 50, 1.73: open full text, 'continuous administration (n = 303)' and 'loading dose of 1 g' and 'dose of 3 g over 24 hours' and 'reduced to 2 g/d if a patient’s creatinine clearance was less than 50 mL/min/1.73 m2'.",
-      "comparator 304, 3 daily boluses, 1 gram, 8 hours, 30 to 60 minutes, 1-gram loading dose: open full text, 'intermittent administration (n = 304)' and '3 daily boluses (ie, 1 g every 8 hours)' and 'over 30 to 60 minutes'.",
+      "comparator 304, 3 daily boluses, 1 gram, 8 hours, 30 to 60 minutes, 1-gram loading dose: open full text, 'intermittent administration (n = 304)' and '3 daily boluses (that is, 1 g every 8 hours)' and 'over 30 to 60 minutes'.",
       "primaryResult day 28, 142, 47%, 149, 49%, relative risk 0.96, 95% CI 0.81-1.13, P=.60: open full text, '142 (47%) patients in the continuous administration group and 149 (49%) in the intermittent administration group ... (relative risk, 0.96 [95% CI, 0.81 to 1.13], P = .60)'.",
       "safety 90 days, 42%, 127 of 303, 42%, 127 of 304, and no seizure or allergic-reaction events: open full text, 'No adverse events of seizures or allergic reactions related to the study drug were reported' and 'At 90 days, mortality was 42% both in the continuous administration group (127 of 303 patients) and in the intermittent administration group (127 of 304 patients)'.",
       "takeaway 28, 47, 49, 0.96, 90, 42: same Results sentences.",
@@ -1755,7 +1842,7 @@ window.CRITCARE_TRIALS = [
     "comparator": "3533 patients were assigned to the same 24-hour dose by intermittent infusion, for a clinician-determined duration or until intensive care unit discharge, whichever occurred first.",
     "primaryResult": "Within 90 days, 864 of 3474 patients (24.9%) assigned to continuous infusion had died compared with 939 of 3507 (26.8%) assigned to intermittent infusion (absolute difference, -1.9% [95% CI, -4.9% to 1.1%]; odds ratio, 0.91 [95% CI, 0.81 to 1.01]; P=.08).",
     "safety": "There were 10 adverse events in the continuous infusion group (0.3%) and 6 in the intermittent infusion group (0.2%), including 1 serious adverse event in the continuous infusion group. New acquisition, colonization, or infection with a multiresistant organism or Clostridioides difficile occurred in 253 of 3498 patients (7.2%) and 266 of 3533 (7.5%) (absolute difference, -0.3% [95% CI, -1.9% to 1.4%]).",
-    "takeaway": "In critically ill adults with sepsis treated in intensive care units, continuous versus intermittent infusion of piperacillin-tazobactam or meropenem did not show a statistically significant difference in 90-day mortality (24.9% versus 26.8%; odds ratio 0.91; P=.08). Clinical cure at 14 days was 55.7% with continuous infusion and 50.0% with intermittent infusion (absolute difference, 5.7% [95% CI, 2.4% to 9.1%]).",
+    "takeaway": "In critically ill adults with sepsis, continuous versus intermittent infusion of piperacillin-tazobactam or meropenem did not significantly reduce 90-day mortality, the primary outcome (24.9% versus 26.8%; odds ratio 0.91; 95% CI 0.81 to 1.01; P=.08). The confidence interval includes both no important effect and a clinically important benefit. Clinical cure at 14 days, a secondary outcome, was 55.7% versus 50.0% (absolute difference, 5.7% [95% CI, 2.4% to 9.1%]).",
     "limitations": "Blinding was not feasible. The report states that some participants may have been randomized despite a noninfectious cause of organ dysfunction, that intermittent dosing before randomization and after intensive care unit discharge may have reduced differences, and that extrapolation to low- and middle-income settings cannot be inferred.",
     "guidelines": [],
     "sources": [
@@ -1769,7 +1856,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "38864155",
         "doi": "10.1001/jama.2024.9779",
-        "note": "Full text read from the local PubMed Central text file. A PMC identifier was not printed in that file."
+        "note": "Full text read from the local PubMed Central text file. PubMed Central identifier PMC11170452."
       }
     ],
     "sourceNotes": [
@@ -1780,7 +1867,8 @@ window.CRITCARE_TRIALS = [
       "primaryResult 90, 864, 3474, 24.9%, 939, 3507, 26.8%, -1.9%, 95% CI -4.9% to 1.1%, odds ratio 0.91, 95% CI 0.81 to 1.01, P=.08: open full text Results, '864 of 3474 patients (24.9%) randomized to the continuous infusion group and 939 of 3507 (26.8%) randomized to the intermittent infusion group had died (AD, −1.9% [95% CI, −4.9% to 1.1%]; OR, 0.91 [95% CI, 0.81 to 1.01]; P = .08)'.",
       "safety 10, 0.3%, 6, 0.2%, 1 serious adverse event: open full text, 'There were 10 adverse events in the continuous infusion group (0.3%) and 6 adverse events in the intermittent infusion group (0.2%), including 1 serious adverse event in the continuous infusion group'.",
       "safety 253, 3498, 7.2%, 266, 3533, 7.5%, -0.3%, 95% CI -1.9% to 1.4%: open full text Table 2, '253/3498 (7.2)' and '266/3533 (7.5)' and '−0.3 (−1.9 to 1.4)'.",
-      "takeaway 24.9, 26.8, 0.91, .08, day 14, 55.7%, 50.0%, 5.7%, 95% CI 2.4% to 9.1%: primary sentence above and open full text, 'clinical cure at 14 days ... (AD, 5.7% [95% CI, 2.4% to 9.1%]' and Table 2 '1930/3467 (55.7)' and '1744/3491 (50.0)'."
+      "takeaway 24.9, 26.8, 0.91, .08, day 14, 55.7%, 50.0%, 5.7%, 95% CI 2.4% to 9.1%: primary sentence above and open full text, 'clinical cure at 14 days ... (AD, 5.7% [95% CI, 2.4% to 9.1%]' and Table 2 '1930/3467 (55.7)' and '1744/3491 (50.0)'.",
+      "takeaway clinical cure labeled secondary: PubMed abstract PMID 38864155 methods, secondary outcomes were clinical cure up to 14 days. Primary mortality and cure percentages are in the same abstract."
     ]
   },
   {
@@ -1841,7 +1929,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Clinically important gastrointestinal bleeding developed in 10 of 596 patients (1.7 percent) receiving ranitidine versus 23 of 604 patients (3.8 percent) receiving sucralfate (relative risk, 0.44; 95 percent confidence interval, 0.21 to 0.92; P=0.02).",
     "safety": "Ventilator-associated pneumonia occurred in 114 of 596 patients (19.1 percent) receiving ranitidine versus 98 of 604 patients (16.2 percent) receiving sucralfate (relative risk, 1.18; 95 percent confidence interval, 0.92 to 1.51; P=0.19). Intensive care unit mortality was 23.5 percent in the ranitidine group and 22.9 percent in the sucralfate group. The median intensive care unit stay was nine days in both groups.",
     "takeaway": "Among patients who required mechanical ventilation, clinically important gastrointestinal bleeding occurred in 1.7 percent with ranitidine versus 3.8 percent with sucralfate (relative risk, 0.44; 95 percent confidence interval, 0.21 to 0.92; P=0.02).",
-    "limitations": "The trial was multicenter, randomized, blinded, and placebo-controlled. Each patient received an active agent by one route and placebo by the other route. The abstract does not state additional limitations.",
+    "limitations": "There was no group managed without prophylaxis. The trial compared ranitidine with sucralfate, and each patient received an active agent by one route and placebo by the other. The higher ventilator-associated pneumonia rate with ranitidine (19.1% versus 16.2%; P=0.19) was not statistically significant.",
     "guidelines": [],
     "sources": [
       {
@@ -1860,7 +1948,8 @@ window.CRITCARE_TRIALS = [
       "safety 114, 596, 19.1, 98, 604, 16.2, 1.18, 95, 0.92, 1.51, 0.19: PubMed abstract PMID 9504939 RESULTS sentence beginning 'In the ranitidine group, 114 of 596 patients (19.1 percent) had ventilator-associated pneumonia, as compared with 98 of 604 (16.2 percent) in the sucralfate group (relative risk, 1.18; 95 percent confidence interval, 0.92 to 1.51; P=0.19).'",
       "safety 23.5 and 22.9: PubMed abstract PMID 9504939 RESULTS sentence beginning 'There was no significant difference between the groups in mortality in the intensive care unit (ICU) (23.5 percent in the ranitidine group and 22.9 percent in the sucralfate group).'",
       "takeaway 1.7, 3.8, 0.44, 95, 0.21, 0.92, 0.02: same RESULTS sentence as the primary result. The median stay is printed as 'nine days' and is not written as a digit.",
-      "design and limitations: no numerals. METHODS describes a multicenter, randomized, blinded, placebo-controlled trial and the two active-plus-placebo regimens."
+      "design and limitations: no numerals. METHODS describes a multicenter, randomized, blinded, placebo-controlled trial and the two active-plus-placebo regimens.",
+      "limitations pneumonia 19.1% versus 16.2%, P=0.19, and the two-route placebo design: PubMed abstract PMID 9504939."
     ]
   },
   {
@@ -1882,7 +1971,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "At 90 days, 510 patients (31.1%) in the pantoprazole group and 499 (30.4%) in the placebo group had died (relative risk, 1.02; 95% CI, 0.91 to 1.13; P=0.76).",
     "safety": "During the ICU stay, at least one clinically important event (a composite of clinically important gastrointestinal bleeding, pneumonia, Clostridium difficile infection, or myocardial ischemia) occurred in 21.9% of patients assigned to pantoprazole and 22.6% of those assigned to placebo (relative risk, 0.96; 95% CI, 0.83 to 1.11). Clinically important gastrointestinal bleeding occurred in 2.5% of the pantoprazole group and 4.2% of the placebo group. The number of patients with infections or serious adverse reactions, and the percentage of days alive without life support within 90 days, were similar in the two groups.",
     "takeaway": "Among adult ICU patients at risk for gastrointestinal bleeding, death by 90 days occurred in 31.1% assigned to pantoprazole versus 30.4% assigned to placebo (relative risk, 1.02; 95% CI, 0.91 to 1.13; P=0.76).",
-    "limitations": "The trial was a European, multicenter, parallel-group, blinded comparison of pantoprazole with placebo. The abstract does not state separate limitations.",
+    "limitations": "The lower clinically important bleeding rate with pantoprazole (2.5% versus 4.2%) was not the primary outcome. A prespecified subgroup with a Simplified Acute Physiology Score II above 53 suggested higher 90-day mortality with pantoprazole.",
     "guidelines": [],
     "sources": [
       {
@@ -1890,6 +1979,12 @@ window.CRITCARE_TRIALS = [
         "pmid": "30354950",
         "doi": "10.1056/NEJMoa1714919",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "SUP-ICU high-severity subgroup analysis",
+        "pmid": "30863936",
+        "doi": "10.1007/s00134-019-05589-y",
+        "note": "Describes the Simplified Acute Physiology Score II above 53 subgroup."
       }
     ],
     "sourceNotes": [
@@ -1902,7 +1997,8 @@ window.CRITCARE_TRIALS = [
       "safety 2.5 and 4.2: PubMed abstract PMID 30354950 RESULTS sentence beginning 'In the pantoprazole group, 2.5% of patients had clinically important gastrointestinal bleeding, as compared with 4.2% in the placebo group.' The abstract does not print a count, confidence interval, or P value for this bleeding comparison.",
       "safety 90: PubMed abstract PMID 30354950 RESULTS, 'the percentage of days alive without life support within 90 days were similar in the two groups.'",
       "takeaway 90, 31.1, 30.4, 1.02, 95, 0.91, 1.13, 0.76: same 90-day mortality sentence as the primary result.",
-      "limitations: no numerals."
+      "limitations: no numerals.",
+      "limitations bleeding 2.5% versus 4.2%: PubMed abstract PMID 30354950. Simplified Acute Physiology Score II above 53 and the mortality interaction: PubMed abstract PMID 30863936, which describes that subgroup of SUP-ICU. The 90-day percentages from that later analysis are not copied onto this card."
     ]
   },
   {
@@ -1937,7 +2033,7 @@ window.CRITCARE_TRIALS = [
         "label": "Open full text on PubMed Central",
         "pmid": "31950977",
         "doi": "10.1001/jama.2019.22190",
-        "note": "Full text read from the PubMed Central file. No PMC identifier for this article was printed in the file."
+        "note": "Full text read from the PubMed Central file. PubMed Central identifier PMC7029750."
       }
     ],
     "sourceNotes": [
@@ -1975,7 +2071,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Clinically important upper gastrointestinal bleeding occurred in 25 of 2385 patients (1.0%) receiving pantoprazole and in 84 of 2377 patients (3.5%) receiving placebo (hazard ratio, 0.30; 95% CI, 0.19 to 0.47; P<0.001).",
     "safety": "At 90 days, death was reported in 696 of 2390 patients (29.1%) in the pantoprazole group and in 734 of 2379 patients (30.9%) in the placebo group (hazard ratio, 0.94; 95% CI, 0.85 to 1.04; P=0.25). Patient-important bleeding was reduced with pantoprazole. All other secondary outcomes were similar in the two groups.",
     "takeaway": "Among critically ill adults undergoing invasive ventilation, pantoprazole resulted in a lower risk of clinically important upper gastrointestinal bleeding than placebo (1.0% versus 3.5%; hazard ratio, 0.30; 95% CI, 0.19 to 0.47; P<0.001), with no significant effect on death at 90 days (29.1% versus 30.9%; hazard ratio, 0.94; 95% CI, 0.85 to 1.04; P=0.25).",
-    "limitations": "The trial was international and randomized, and patients were assigned to intravenous pantoprazole or matching placebo. The abstract does not state separate limitations.",
+    "limitations": "The placebo rate of clinically important upper gastrointestinal bleeding was 3.5%. Ventilator-associated pneumonia and Clostridioides difficile infection were prespecified secondary outcomes. Patient-important bleeding was reduced with pantoprazole, and the abstract states that all other secondary outcomes were similar in the two groups.",
     "guidelines": [],
     "sources": [
       {
@@ -1994,7 +2090,8 @@ window.CRITCARE_TRIALS = [
       "safety 90, 696, 2390, 29.1, 734, 2379, 30.9, 0.94, 95, 0.85, 1.04, 0.25: PubMed abstract PMID 38875111 RESULTS sentence beginning 'At 90 days, death was reported in 696 of 2390 patients (29.1%) in the pantoprazole group and in 734 of 2379 patients (30.9%) in the placebo group (hazard ratio, 0.94; 95% CI, 0.85 to 1.04; P = 0.25).'",
       "safety patient-important bleeding: PubMed abstract PMID 38875111 RESULTS, 'Patient-important bleeding was reduced with pantoprazole; all other secondary outcomes were similar in the two groups.' No count, ratio, confidence interval, or P value is printed for patient-important bleeding.",
       "takeaway 1.0, 3.5, 0.30, 95, 0.19, 0.47, 0.001, 90, 29.1, 30.9, 0.94, 0.85, 1.04, 0.25: the bleeding sentence and the 90-day death sentence above.",
-      "limitations: no numerals."
+      "limitations: no numerals.",
+      "limitations placebo bleeding 3.5%, and secondary outcomes including ventilator-associated pneumonia and Clostridioides difficile infection described as similar aside from patient-important bleeding: PubMed abstract PMID 38875111. An absolute reduction in percentage points is not printed in that abstract, so none is added."
     ]
   }
 ];

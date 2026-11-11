@@ -14,23 +14,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Death at 28 days was 52.5% with dopamine and 48.5% with norepinephrine (odds ratio 1.17; 95% confidence interval 0.97 to 1.42; P=0.10), and arrhythmic events were more common with dopamine (24.1% versus 12.4%)."
+          "text": "Death at 28 days was significantly lower with norepinephrine (48.5% versus 52.5%; P=0.10)."
         },
         {
           "id": "b",
-          "text": "Death at 28 days was significantly lower with dopamine than with norepinephrine (48.5% versus 52.5%; P=0.10)."
+          "text": "Arrhythmic events were more common with norepinephrine than with dopamine (24.1% versus 12.4%)."
         },
         {
           "id": "c",
-          "text": "Arrhythmic events occurred in 12.4% of patients treated with dopamine and 24.1% of patients treated with norepinephrine (P<0.001)."
+          "text": "Dopamine was associated with higher 28-day death among the 1044 patients with septic shock (P=0.03)."
         },
         {
           "id": "d",
-          "text": "Among the 1044 patients with septic shock, dopamine was associated with increased 28-day death (P=0.03)."
+          "text": "No significant 28-day mortality difference (52.5% versus 48.5%); more arrhythmias with dopamine."
         }
       ],
-      "correctId": "a",
-      "explanation": "SOAP II included 1679 patients with shock. Death at 28 days was 52.5% with dopamine and 48.5% with norepinephrine (odds ratio 1.17; 95% confidence interval 0.97 to 1.42; P=0.10), so the difference was not significant. Arrhythmic events were more common with dopamine (207 events [24.1%] versus 102 events [12.4%]). The P value of 0.03 applies to the 280 patients with cardiogenic shock; in the 1044 patients with septic shock the reported P value was 0.19.",
+      "correctId": "d",
+      "explanation": "SOAP II found no significant difference in 28-day death between dopamine and norepinephrine (52.5% versus 48.5%; odds ratio 1.17; 95% CI 0.97 to 1.42; P=0.10), so A misreads a nonsignificant P value. Arrhythmic events were more common with dopamine (24.1% versus 12.4%), the reverse of B. The P value of 0.03 applied to the 280 patients with cardiogenic shock; in septic shock it was 0.19, so C is incorrect.",
       "source": {
         "label": "SOAP II PubMed abstract",
         "pmid": "20200382",
@@ -47,23 +47,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Angiotensin II and placebo produced the same mean arterial pressure response at hour 3 (69.9% and 67.1%)."
+          "text": "The mean arterial pressure response at hour 3 was similar with angiotensin II and placebo (69.9% versus 67.1%)."
         },
         {
           "id": "b",
-          "text": "Death by day 28 was the primary end point and was 46% with angiotensin II versus 54% with placebo (hazard ratio 0.78; 95% confidence interval 0.57 to 1.07; P=0.12)."
+          "text": "Hour-3 mean arterial pressure response was 69.9% with angiotensin II versus 23.4% with placebo."
         },
         {
           "id": "c",
-          "text": "The trial compared a mean arterial pressure target of 80 to 85 millimeters of mercury with a target of 65 to 70 millimeters of mercury."
+          "text": "Death by day 28, the primary end point, was significantly lower with angiotensin II (46% versus 54%)."
         },
         {
           "id": "d",
-          "text": "A mean arterial pressure response at hour 3 occurred in 114 of 163 patients (69.9%) assigned to angiotensin II and in 37 of 158 patients (23.4%) assigned to placebo (odds ratio 7.95; 95% confidence interval 4.76 to 13.3; P<0.001)."
+          "text": "The primary end point was liberation from renal-replacement therapy, which was more frequent with angiotensin II."
         }
       ],
-      "correctId": "d",
-      "explanation": "ATHOS-3 included 321 patients who received angiotensin II (163) or placebo (158) for vasodilatory shock while receiving more than 0.2 micrograms of norepinephrine per kilogram per minute, or an equivalent dose. The primary end point, a mean arterial pressure response at hour 3, occurred in 69.9% and 23.4% (odds ratio 7.95; 95% confidence interval 4.76 to 13.3; P<0.001). Death by day 28 was 46% and 54% (P=0.12) and was not the primary end point. Serious adverse events were reported in 60.7% and 67.1%. The mean arterial pressure targets of 80 to 85 and 65 to 70 millimeters of mercury are the SEPSISPAM comparison.",
+      "correctId": "b",
+      "explanation": "The ATHOS-3 primary end point was a mean arterial pressure response at hour 3: 69.9% with angiotensin II versus 23.4% with placebo (odds ratio 7.95; 95% CI 4.76 to 13.3; P<0.001). Death by day 28 (46% versus 54%; P=0.12) was not the primary end point and was not significantly different. Renal-replacement therapy was not the primary end point. The 67.1% figure is the placebo serious-adverse-event rate, not a response rate.",
       "source": {
         "label": "ATHOS-3 PubMed abstract",
         "pmid": "28528561",
@@ -80,23 +80,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Permissive hypotension produced a statistically significant reduction in 90-day mortality, from 43.8% with usual care to 41.0% (P=.15)."
+          "text": "Permissive hypotension significantly reduced 90-day mortality (41.0% versus 43.8%; P=.15)."
         },
         {
           "id": "b",
-          "text": "At 90 days, 500 of 1221 patients (41.0%) in the permissive hypotension group and 544 of 1242 patients (43.8%) in the usual care group had died (absolute risk difference, -2.85%; 95% confidence interval, -6.75 to 1.05; P=.15)."
+          "text": "Permissive hypotension was shown to be noninferior to usual care for 90-day mortality."
         },
         {
           "id": "c",
-          "text": "Serious adverse events were the primary outcome and occurred in 6.2% of the permissive hypotension group and 5.8% of the usual care group."
+          "text": "Death at 90 days was 41.0% versus 43.8% (difference -2.85%; P=.15)."
         },
         {
           "id": "d",
-          "text": "The 65 trial reported 28-day mortality of 36.6% with a mean arterial pressure target of 80 to 85 millimeters of mercury and 34.0% with a target of 65 to 70 millimeters of mercury (hazard ratio 1.07; P=0.57)."
+          "text": "Serious adverse events, the primary outcome, occurred in 6.2% versus 5.8% of patients."
         }
       ],
-      "correctId": "b",
-      "explanation": "The 65 trial compared a mean arterial pressure target of 60 to 65 millimeters of mercury with usual care in patients aged 65 years or older with vasodilatory hypotension. At 90 days, 500 of 1221 patients (41.0%) and 544 of 1242 patients (43.8%) had died (absolute risk difference, -2.85%; 95% confidence interval, -6.75 to 1.05; P=.15). The trial reported that this reduction was not statistically significant. Serious adverse events were reported in 79 of 1283 patients (6.2%) and 75 of 1300 patients (5.8%) and were not the primary outcome. The 36.6% and 34.0% figures, with hazard ratio 1.07, are the 28-day mortality results from SEPSISPAM.",
+      "correctId": "c",
+      "explanation": "In the 65 trial, 90-day mortality was 41.0% with permissive hypotension and 43.8% with usual care (absolute risk difference -2.85%; 95% CI -6.75 to 1.05; P=.15), which was not statistically significant, so A is incorrect. The trial was not designed as a noninferiority trial, so B overstates the result. Serious adverse events (6.2% versus 5.8%) were not the primary outcome.",
       "source": {
         "label": "65 trial open full text on PubMed Central",
         "pmid": "32049269",
@@ -113,23 +113,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Among nonresponders, there were 60 deaths (53%) in the corticosteroid group and 73 deaths (63%) in the placebo group (hazard ratio 0.67; 95% CI 0.47 to 0.95; P=.02)."
+          "text": "Among nonresponders, 28-day mortality was 39.2% with hydrocortisone versus 36.1% with placebo (P=0.69)."
         },
         {
           "id": "b",
-          "text": "Among nonresponders, 28-day mortality was 39.2% with hydrocortisone and 36.1% with placebo (P=0.69)."
+          "text": "Among corticotropin responders, corticosteroids significantly reduced 28-day mortality."
         },
         {
           "id": "c",
-          "text": "At 90 days, 511 patients (27.9%) assigned to hydrocortisone and 526 (28.8%) assigned to placebo had died (odds ratio 0.95; 95% CI 0.82 to 1.10; P=0.50)."
+          "text": "Patients received hydrocortisone alone, without fludrocortisone, for 5 days followed by a taper."
         },
         {
           "id": "d",
-          "text": "By day 28, death occurred in 25 of 400 patients (6.2%) with hydrocortisone and in 47 of 395 patients (11.9%) with placebo."
+          "text": "Among nonresponders, mortality was 53% versus 63% (hazard ratio 0.67; P=.02)."
         }
       ],
-      "correctId": "a",
-      "explanation": "Annane 2002 reported 60 deaths (53%) with corticosteroids and 73 deaths (63%) with placebo among corticotropin nonresponders (hazard ratio 0.67; 95% CI 0.47 to 0.95; P=.02). The 39.2% and 36.1% figures are the CORTICUS nonresponder results. The 27.9% and 28.8% figures are the ADRENAL 90-day results. The 6.2% and 11.9% figures are the CAPE COD 28-day results.",
+      "correctId": "d",
+      "explanation": "Annane 2002 reported 60 deaths (53%) with hydrocortisone plus fludrocortisone and 73 deaths (63%) with placebo among corticotropin nonresponders (hazard ratio 0.67; 95% CI 0.47 to 0.95; P=.02). There was no significant difference among responders. The regimen was hydrocortisone plus fludrocortisone for 7 days. The 39.2% versus 36.1% result and the 5-day hydrocortisone-alone regimen with taper are from CORTICUS.",
       "source": {
         "label": "Annane 2002 PubMed abstract",
         "pmid": "12186604",
@@ -179,23 +179,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "At 60 days, 29 (21%) patients assigned to dexamethasone and 50 (36%) assigned to control had died."
+          "text": "On oxygen without invasive ventilation, 28-day mortality was 23.3% versus 26.2%."
         },
         {
           "id": "b",
-          "text": "Among patients receiving oxygen without invasive mechanical ventilation, 28-day mortality was 23.3% with dexamethasone and 26.2% with usual care (rate ratio 0.82; 95% CI 0.72 to 0.94)."
+          "text": "The largest mortality reduction was among patients receiving no respiratory support at randomization."
         },
         {
           "id": "c",
-          "text": "Among corticotropin nonresponders with septic shock, 28-day mortality was 39.2% with hydrocortisone and 36.1% with placebo (P=0.69)."
+          "text": "Benefit was limited to invasively ventilated patients; patients on oxygen alone showed no difference."
         },
         {
           "id": "d",
-          "text": "By day 28, death occurred in 6.2% of the hydrocortisone group and 11.9% of the placebo group in severe community-acquired pneumonia."
+          "text": "At 60 days, 21% of patients assigned to dexamethasone and 36% assigned to control had died."
         }
       ],
-      "correctId": "b",
-      "explanation": "RECOVERY reported 28-day mortality of 23.3% with dexamethasone and 26.2% with usual care among patients hospitalized with COVID-19 who were receiving oxygen without invasive mechanical ventilation (rate ratio 0.82; 95% CI 0.72 to 0.94). The 21% and 36% figures are the DEXA-ARDS 60-day deaths. The 39.2% and 36.1% figures are from CORTICUS. The 6.2% and 11.9% figures are from CAPE COD.",
+      "correctId": "a",
+      "explanation": "RECOVERY reported 28-day mortality of 23.3% with dexamethasone and 26.2% with usual care among patients receiving oxygen without invasive mechanical ventilation (rate ratio 0.82; 95% CI 0.72 to 0.94), so C is incorrect. The largest reduction was among invasively ventilated patients (29.3% versus 41.4%), and patients without respiratory support had 17.8% versus 14.0% (rate ratio 1.19; 95% CI 0.91 to 1.55), consistent with possible harm, so B is incorrect. The 21% versus 36% figures are DEXA-ARDS 60-day deaths.",
       "source": {
         "label": "RECOVERY open full text",
         "pmid": "32678530",
@@ -212,23 +212,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Assignment to HES 130/0.42, compared with Ringer's acetate, was associated with death at 90 days in 51% versus 43% (relative risk, 1.17; 95% CI, 1.01 to 1.36; P=0.03) and with renal-replacement therapy in 22% versus 16%."
+          "text": "HES 130/0.42 and Ringer's acetate had similar 90-day mortality (18.0% versus 17.0%; P=0.26)."
         },
         {
           "id": "b",
-          "text": "Assignment to 6% HES (130/0.4), compared with saline, was associated with death at 90 days in 18.0% versus 17.0% (relative risk, 1.06; 95% CI, 0.96 to 1.18; P=0.26)."
+          "text": "HES 130/0.42 reduced renal-replacement therapy compared with Ringer's acetate (16% versus 22%)."
         },
         {
           "id": "c",
-          "text": "Assignment to 4 percent albumin, compared with saline, was associated with 726 deaths versus 729 deaths at 28 days (relative risk, 0.99; 95% CI, 0.91 to 1.09; P=0.87)."
+          "text": "HES 130/0.42 raised 90-day mortality (51% versus 43%; relative risk 1.17; P=0.03)."
         },
         {
           "id": "d",
-          "text": "Assignment to balanced multielectrolyte solution, compared with saline, was associated with death at 90 days in 21.8% versus 22.0% (difference, -0.15 percentage points; 95% CI, -3.60 to 3.30; P=0.90)."
+          "text": "HES 130/0.42 was noninferior to Ringer's acetate for death or end-stage kidney failure at 90 days."
         }
       ],
-      "correctId": "a",
-      "explanation": "In 6S, patients with severe sepsis were assigned to HES 130/0.42 or Ringer's acetate. Death at 90 days occurred in 201 of 398 patients (51%) and 172 of 400 patients (43%) (relative risk, 1.17; 95% CI, 1.01 to 1.36; P=0.03), and renal-replacement therapy was used in 22% versus 16%. The 18.0% and 17.0% mortality figures are from CHEST, the 726 and 729 death counts are from SAFE, and the 21.8% and 22.0% figures are from PLUS.",
+      "correctId": "c",
+      "explanation": "In 6S, death at 90 days occurred in 51% with HES 130/0.42 and 43% with Ringer's acetate (relative risk 1.17; 95% CI 1.01 to 1.36; P=0.03). Renal-replacement therapy was more frequent with HES (22% versus 16%), the reverse of B. HES was associated with harm, so D is incorrect. The 18.0% versus 17.0% figures are from CHEST.",
       "source": {
         "label": "6S PubMed abstract",
         "pmid": "22738085",
@@ -278,23 +278,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "A restrictive fluid strategy, compared with a liberal fluid strategy, was associated with death before discharge home by day 90 in 14.0% versus 14.9% (estimated difference, -0.9 percentage points; 95% CI, -4.4 to 2.6; P=0.61)."
+          "text": "Restrictive intravenous fluid reduced 90-day mortality compared with standard intravenous fluid."
         },
         {
           "id": "b",
-          "text": "Restricted intravenous fluid, compared with standard intravenous fluid, was associated with death at 90 days in 42.3% versus 42.1% (adjusted absolute difference, 0.1 percentage points; 95% CI, -4.7 to 4.9; P=0.96). Median intravenous fluid in the ICU was 1798 milliliters versus 3811 milliliters."
+          "text": "Restrictive intravenous fluid was shown to be noninferior to standard fluid for 90-day mortality."
         },
         {
           "id": "c",
-          "text": "Albumin 20% plus crystalloid, compared with crystalloid alone, was associated with death at 28 days in 31.8% versus 32.0% (relative risk, 1.00; 95% CI, 0.87 to 1.14; P=0.94)."
+          "text": "Restrictive intravenous fluid increased serious adverse events in the ICU compared with standard fluid."
         },
         {
           "id": "d",
-          "text": "Intensive insulin therapy, compared with conventional insulin therapy, was associated with severe hypoglycemia in 17.0% versus 4.1% (P<0.001) in a factorial trial that also assigned 10% pentastarch or modified Ringer's lactate."
+          "text": "90-day mortality was 42.3% versus 42.1% (P=0.96)."
         }
       ],
-      "correctId": "b",
-      "explanation": "CLASSIC was a fluid-volume trial in adults with septic shock in the ICU who had already received at least 1 liter of intravenous fluid, with shock onset within 12 hours. Death at 90 days occurred in 42.3% with restrictive fluid and 42.1% with standard fluid (adjusted absolute difference, 0.1 percentage points; 95% CI, -4.7 to 4.9; P=0.96). Median intravenous fluid in the ICU was 1798 milliliters versus 3811 milliliters. The 14.0% and 14.9% figures are from CLOVERS, also a fluid-volume trial. The 31.8% and 32.0% figures are from ALBIOS. The 17.0% and 4.1% hypoglycemia figures are from VISEP, which also tested pentastarch.",
+      "correctId": "d",
+      "explanation": "CLASSIC found 90-day mortality of 42.3% with restrictive fluid and 42.1% with standard fluid (adjusted absolute difference 0.1 percentage points; 95% CI -4.7 to 4.9; P=0.96), although median ICU fluid volume was 1798 versus 3811 milliliters. A nonsignificant difference does not by itself establish noninferiority (B). Serious adverse events were 29.4% versus 30.8%, not higher with restriction (C).",
       "source": {
         "label": "CLASSIC PubMed abstract",
         "pmid": "35709019",
@@ -311,23 +311,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Death from any cause at 90 days occurred in 29.1% of the dexmedetomidine group and 29.1% of the usual-care group (adjusted risk difference, 0.0 percentage points; 95% CI, -2.9 to 2.8)."
+          "text": "Early dexmedetomidine significantly reduced 90-day mortality compared with usual care."
         },
         {
           "id": "b",
-          "text": "The median number of days alive without delirium or coma was 7.0 with dexmedetomidine and 3.0 with lorazepam."
+          "text": "Death at 90 days was 29.1% in both groups (adjusted risk difference 0.0 percentage points)."
         },
         {
           "id": "c",
-          "text": "The percentage of time within the target sedation range was 77.3% with dexmedetomidine and 75.1% with midazolam."
+          "text": "Most patients assigned to dexmedetomidine received no supplemental sedative during the first 2 days."
         },
         {
           "id": "d",
-          "text": "The adjusted median number of days alive without delirium or coma was 10.7 days with dexmedetomidine and 10.8 days with propofol."
+          "text": "Bradycardia and hypotension were less common with dexmedetomidine than with usual care."
         }
       ],
-      "correctId": "a",
-      "explanation": "SPICE III compared early dexmedetomidine with usual care. In the modified intention-to-treat analysis of 3904 patients, death at 90 days occurred in 566 of 1948 patients (29.1%) and in 569 of 1956 patients (29.1%), with an adjusted risk difference of 0.0 percentage points (95% CI, -2.9 to 2.8). The other statements restate results from MENDS, SEDCOM, and MENDS2.",
+      "correctId": "b",
+      "explanation": "SPICE III found 90-day mortality of 29.1% in both the dexmedetomidine and usual-care groups (adjusted risk difference 0.0 percentage points; 95% CI -2.9 to 2.8). In the dexmedetomidine group, 64% received supplemental propofol during the first 2 days, so C is incorrect. Bradycardia and hypotension were more common with dexmedetomidine, so D is incorrect.",
       "source": {
         "label": "SPICE III PubMed abstract",
         "pmid": "31112380",
@@ -406,27 +406,27 @@ window.CRITCARE_QUESTIONS = {
       "placeholder": false,
       "topic": "antimicrobials",
       "relatedTrialId": "balance",
-      "stem": "A 72-year-old patient on a hospital ward has a urinary-source bloodstream infection. Staphylococcus aureus was not isolated, and there is no focus described as requiring prolonged treatment. Which statement matches the BALANCE trial?",
+      "stem": "A 72-year-old intensive care unit patient has a urinary-source gram-negative bloodstream infection. Staphylococcus aureus was not isolated, the patient is not severely immunosuppressed, and no focus requires prolonged treatment. Which statement matches the BALANCE trial?",
       "choices": [
         {
           "id": "a",
-          "text": "BALANCE enrolled only intensive care unit patients and compared 8 days of antibiotics with 15 days."
+          "text": "Seven days was noninferior to 14 days for 90-day death (14.5% versus 16.1%)."
         },
         {
           "id": "b",
-          "text": "BALANCE included hospitalized patients with bloodstream infection, 55.0% of whom were in the intensive care unit and 45.0% of whom were on hospital wards at enrollment. Death by 90 days was 14.5% with 7 days of antibiotics versus 16.1% with 14 days (difference, -1.6 percentage points)."
+          "text": "Seven days was superior to 14 days and significantly reduced death by 90 days."
         },
         {
           "id": "c",
-          "text": "BALANCE found 30-day mortality of 12.3% with piperacillin-tazobactam versus 3.7% with meropenem."
+          "text": "BALANCE enrolled only intensive care unit patients and compared 8 days with 15 days of antibiotics."
         },
         {
           "id": "d",
-          "text": "BALANCE reported a day-28 composite outcome in 47% of patients assigned to continuous meropenem versus 49% assigned to intermittent meropenem."
+          "text": "BALANCE included patients with Staphylococcus aureus bacteremia and single positive cultures."
         }
       ],
-      "correctId": "b",
-      "explanation": "BALANCE randomly assigned hospitalized patients with bloodstream infection, not an intensive care unit-only population: 55.0% were in the intensive care unit and 45.0% were on hospital wards. Death by 90 days was 14.5% with 7 days and 16.1% with 14 days (difference, -1.6 percentage points; 95.7% CI, -4.0 to 0.8), which the trial reported as noninferiority of the shorter course. The 8-day versus 15-day comparison is PneumA, the 12.3% versus 3.7% mortality is MERINO, and the 47% versus 49% composite is MERCY.",
+      "correctId": "a",
+      "explanation": "BALANCE enrolled hospitalized patients with bloodstream infection, 55.0% in the intensive care unit and 45.0% on wards. Death by 90 days was 14.5% with 7 days and 16.1% with 14 days (difference -1.6 percentage points; 95.7% CI -4.0 to 0.8), meeting the 4-percentage-point noninferiority margin, but superiority was not shown (B). Staphylococcus aureus bacteremia and single cultures with possible contaminants were excluded (D). The 8-day versus 15-day comparison is PneumA.",
       "source": {
         "label": "BALANCE PubMed abstract",
         "pmid": "39565030",
@@ -439,27 +439,27 @@ window.CRITCARE_QUESTIONS = {
       "placeholder": false,
       "topic": "antimicrobials",
       "relatedTrialId": "merino",
-      "stem": "A hospitalized adult on a medical ward has Escherichia coli bloodstream infection that is nonsusceptible to ceftriaxone and susceptible to piperacillin-tazobactam. Which statement matches the MERINO trial?",
+      "stem": "A hospitalized adult has Escherichia coli bloodstream infection that is nonsusceptible to ceftriaxone and susceptible to piperacillin-tazobactam. Which statement matches the MERINO trial?",
       "choices": [
         {
           "id": "a",
-          "text": "MERINO found 30-day mortality of 12.3% with piperacillin-tazobactam versus 3.7% with meropenem (risk difference 8.6%) and did not show noninferiority at a 5% margin. Intensive care unit admission was recorded in 7.0% and 7.5% of the two groups."
+          "text": "Piperacillin-tazobactam was noninferior to meropenem for 30-day mortality."
         },
         {
           "id": "b",
-          "text": "MERINO showed that 7 days of antibiotics was noninferior to 14 days for 90-day mortality, with deaths in 14.5% versus 16.1%."
+          "text": "Thirty-day mortality was similar, but meropenem caused more serious adverse events."
         },
         {
           "id": "c",
-          "text": "MERINO compared 8 days with 15 days of treatment for ventilator-associated pneumonia and reported mortality of 18.8% versus 17.2%."
+          "text": "Most enrolled patients were in the intensive care unit at the time of randomization."
         },
         {
           "id": "d",
-          "text": "MERINO found no significant difference in the highest stage of acute kidney injury or death by day 14 (odds ratio 0.95)."
+          "text": "Noninferiority was not shown (30-day mortality 12.3% versus 3.7%)."
         }
       ],
-      "correctId": "a",
-      "explanation": "MERINO enrolled hospitalized patients with ceftriaxone-nonsusceptible Escherichia coli or Klebsiella bloodstream infection. Intensive care unit admission was 7.0% in the piperacillin-tazobactam group and 7.5% in the meropenem group. Death by 30 days was 12.3% (23 of 187) versus 3.7% (7 of 191), risk difference 8.6%, and the 1-sided 97.5% CI extended to 14.5%, beyond the 5% noninferiority margin (P=.90 for noninferiority). The 7-day versus 14-day result is BALANCE, the 18.8% versus 17.2% result is PneumA, and the acute kidney injury odds ratio 0.95 is ACORN.",
+      "correctId": "d",
+      "explanation": "MERINO found 30-day mortality of 12.3% with piperacillin-tazobactam and 3.7% with meropenem (risk difference 8.6%; 1-sided 97.5% CI upper bound 14.5%). That exceeded the 5% noninferiority margin, so noninferiority was not shown. Nonfatal serious adverse events were 2.7% versus 1.6%. Table 1 lists intensive care unit admission as 13 (7.0%) and 14 (7.5%).",
       "source": {
         "label": "MERINO open full text on PubMed Central",
         "pmid": "30208454",
@@ -476,23 +476,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "ACORN compared selective decontamination of the digestive tract with standard care and reported in-hospital mortality of 27.0% versus 29.1%."
+          "text": "Cefepime caused significantly more acute kidney injury or death by day 14 than piperacillin-tazobactam."
         },
         {
           "id": "b",
-          "text": "ACORN was conducted only in intensive care units and reported 90-day mortality of 24.9% with continuous infusion versus 26.8% with intermittent infusion."
+          "text": "Day-14 kidney injury or death did not differ (odds ratio 0.95)."
         },
         {
           "id": "c",
-          "text": "ACORN included 2511 patients in the primary analysis, 94.7% of whom were enrolled in the emergency department. The highest stage of acute kidney injury or death by day 14 did not differ significantly (odds ratio 0.95). Mean days alive and free of delirium and coma were 11.9 with cefepime versus 12.2 with piperacillin-tazobactam."
+          "text": "Piperacillin-tazobactam was given by 30-minute infusion every 6 hours under the institutional protocol."
         },
         {
           "id": "d",
-          "text": "ACORN randomly assigned patients with complicated intraabdominal infection and reported a 30-day composite outcome in 21.8% versus 22.3%."
+          "text": "ACORN was a double-blind trial conducted only in intensive care units."
         }
       ],
-      "correctId": "c",
-      "explanation": "ACORN assigned cefepime or piperacillin-tazobactam to adults in the emergency department or medical intensive care unit. Of 2511 patients in the primary analysis, 94.7% were enrolled in the emergency department. The highest stage of acute kidney injury or death by day 14 did not differ significantly (odds ratio 0.95, 95% CI 0.80 to 1.13, P=.56). Mean days alive and free of delirium and coma within 14 days were 11.9 versus 12.2 (odds ratio 0.79). The 27.0% versus 29.1% mortality is SuDDICU, the 24.9% versus 26.8% mortality is BLING III, and the 21.8% versus 22.3% composite is STOP-IT.",
+      "correctId": "b",
+      "explanation": "ACORN found no significant difference in the highest stage of acute kidney injury or death by day 14 (odds ratio 0.95; 95% CI 0.80 to 1.13; P=.56). Cefepime was associated with fewer days alive and free of delirium and coma (mean 11.9 versus 12.2; odds ratio 0.79). Piperacillin-tazobactam was given as an extended infusion over 4 hours every 8 hours after a bolus. The trial was open-label, at one center, and 94.7% of patients were enrolled in the emergency department.",
       "source": {
         "label": "ACORN PubMed abstract",
         "pmid": "37837651",
@@ -509,23 +509,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Death by 90 days occurred in 31.1% of patients assigned to pantoprazole versus 30.4% assigned to placebo."
+          "text": "Clinically important bleeding was 1.7% with ranitidine versus 3.8% with sucralfate (relative risk 0.44)."
         },
         {
           "id": "b",
-          "text": "Clinically important gastrointestinal bleeding occurred in 1.7 percent of patients receiving ranitidine versus 3.8 percent receiving sucralfate (relative risk, 0.44; P=0.02)."
+          "text": "Sucralfate significantly reduced ventilator-associated pneumonia compared with ranitidine."
         },
         {
           "id": "c",
-          "text": "Clinically important upper gastrointestinal bleeding occurred in 1.0% of patients receiving pantoprazole versus 3.5% receiving placebo."
+          "text": "Ranitidine reduced bleeding compared with a group that received no prophylaxis, with no difference in pneumonia."
         },
         {
           "id": "d",
-          "text": "Hospital mortality by day 90 was 18.3% with a proton pump inhibitor strategy versus 17.5% with a histamine-2 receptor blocker strategy."
+          "text": "Sucralfate and ranitidine produced similar rates of clinically important bleeding."
         }
       ],
-      "correctId": "b",
-      "explanation": "Cook 1998 reported clinically important gastrointestinal bleeding in 10 of 596 patients (1.7 percent) receiving ranitidine versus 23 of 604 patients (3.8 percent) receiving sucralfate (relative risk, 0.44; 95 percent confidence interval, 0.21 to 0.92; P=0.02). The other statements match SUP-ICU, REVISE, and PEPTIC.",
+      "correctId": "a",
+      "explanation": "Cook 1998 reported clinically important gastrointestinal bleeding in 1.7% with ranitidine and 3.8% with sucralfate (relative risk 0.44; 95% CI 0.21 to 0.92; P=0.02). Ventilator-associated pneumonia was 19.1% versus 16.2% (P=0.19), not significantly different (B). There was no group managed without prophylaxis; each patient received one active drug and placebo by the other route (C).",
       "source": {
         "label": "Cook 1998 PubMed abstract",
         "pmid": "9504939",
@@ -542,23 +542,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Clinically important gastrointestinal bleeding occurred in 1.7 percent with ranitidine versus 3.8 percent with sucralfate (relative risk, 0.44; P=0.02)."
+          "text": "The proton pump inhibitor strategy significantly reduced hospital mortality by day 90."
         },
         {
           "id": "b",
-          "text": "Death by 90 days occurred in 31.1% with pantoprazole versus 30.4% with placebo (relative risk, 1.02; P=0.76)."
+          "text": "Clinically important upper gastrointestinal bleeding was more frequent with the proton pump inhibitor strategy."
         },
         {
           "id": "c",
-          "text": "Hospital mortality by day 90 was 18.3% with the proton pump inhibitor strategy versus 17.5% with the histamine-2 receptor blocker strategy (risk ratio, 1.05; P=.054), and crossover in use of the assigned medication limits interpretation."
+          "text": "Patients were individually randomized, and clinicians were blinded to drug class."
         },
         {
           "id": "d",
-          "text": "Clinically important upper gastrointestinal bleeding occurred in 1.0% with pantoprazole versus 3.5% with placebo (hazard ratio, 0.30; P<0.001)."
+          "text": "Hospital mortality by day 90 was 18.3% versus 17.5% (risk ratio 1.05; P=.054)."
         }
       ],
-      "correctId": "c",
-      "explanation": "PEPTIC reported in-hospital death by day 90 in 18.3% of the proton pump inhibitor group versus 17.5% of the histamine-2 receptor blocker group (risk ratio, 1.05; 95% CI, 1.00 to 1.10; P=.054). The trial report states that study interpretation may be limited by crossover in the use of the assigned medication: an estimated 4.1% of patients randomized to proton pump inhibitors received histamine-2 receptor blockers, and an estimated 20.1% of patients randomized to histamine-2 receptor blockers received proton pump inhibitors. The other statements match Cook 1998, SUP-ICU, and REVISE.",
+      "correctId": "d",
+      "explanation": "PEPTIC reported in-hospital death by day 90 in 18.3% with the proton pump inhibitor strategy and 17.5% with the histamine-2 receptor blocker strategy (risk ratio 1.05; 95% CI 1.00 to 1.10; P=.054), not statistically significant. Clinically important upper gastrointestinal bleeding was lower with proton pump inhibitors (1.3% versus 1.8%). PEPTIC was an open-label cluster-crossover trial, with substantial crossover between assigned strategies.",
       "source": {
         "label": "PEPTIC open full text on PubMed Central",
         "pmid": "31950977",
@@ -575,23 +575,23 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Clinically important upper gastrointestinal bleeding occurred in 1.0% with pantoprazole versus 3.5% with placebo (hazard ratio, 0.30; P<0.001), and death at 90 days occurred in 29.1% versus 30.9% (hazard ratio, 0.94; P=0.25)."
+          "text": "Pantoprazole lowered bleeding (1.0% versus 3.5%) without a mortality effect."
         },
         {
           "id": "b",
-          "text": "Clinically important gastrointestinal bleeding occurred in 2.5% with pantoprazole versus 4.2% with placebo, and death by 90 days occurred in 31.1% versus 30.4% (relative risk, 1.02; P=0.76)."
+          "text": "Pantoprazole reduced clinically important bleeding and significantly reduced 90-day mortality."
         },
         {
           "id": "c",
-          "text": "Ventilator-associated pneumonia occurred in 19.1 percent with ranitidine versus 16.2 percent with sucralfate (relative risk, 1.18; P=0.19)."
+          "text": "Pantoprazole did not reduce clinically important bleeding, and 90-day mortality was 31.1% versus 30.4%."
         },
         {
           "id": "d",
-          "text": "Clinically important upper gastrointestinal bleeding occurred in 1.3% with a proton pump inhibitor strategy versus 1.8% with a histamine-2 receptor blocker strategy (risk ratio, 0.73; P=.009)."
+          "text": "Pantoprazole increased ventilator-associated pneumonia compared with placebo."
         }
       ],
       "correctId": "a",
-      "explanation": "REVISE reported clinically important upper gastrointestinal bleeding in 25 of 2385 patients (1.0%) receiving pantoprazole versus 84 of 2377 patients (3.5%) receiving placebo (hazard ratio, 0.30; 95% CI, 0.19 to 0.47; P<0.001). Death at 90 days occurred in 696 of 2390 patients (29.1%) versus 734 of 2379 patients (30.9%) (hazard ratio, 0.94; 95% CI, 0.85 to 1.04; P=0.25). The other statements match SUP-ICU, Cook 1998, and PEPTIC.",
+      "explanation": "REVISE reported clinically important upper gastrointestinal bleeding in 1.0% with pantoprazole and 3.5% with placebo (hazard ratio 0.30; 95% CI 0.19 to 0.47; P<0.001). Death at 90 days was 29.1% versus 30.9% (hazard ratio 0.94; 95% CI 0.85 to 1.04; P=0.25). Ventilator-associated pneumonia was a prespecified secondary outcome, and the abstract states that all other secondary outcomes were similar. The 31.1% versus 30.4% mortality figures are from SUP-ICU.",
       "source": {
         "label": "REVISE PubMed abstract",
         "pmid": "38875111",

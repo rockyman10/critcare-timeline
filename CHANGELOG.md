@@ -2,6 +2,14 @@
 
 Newest first. Record site changes here. The site does not render this file.
 
+## 2026-11-11 — Phase 1 review fixes
+
+- Literature check: corrected the VANISH interquartile ranges, the SuDDICU Clostridioides difficile sign and the nystatin unit, the CLOVERS difference of medians, the BaSICS citation page, the CHEST masking statement, the CORTICUS shock-reversal wording, the MERINO intensive care unit percentages, the STOP-IT safety counts, the SAPS group counts, the DOREMI serious-adverse-event wording, and the Strom hospital-stay label.
+- Clinical review: replaced limitation text that described strengths, and added noninferiority, early-stopping, secondary-outcome, and applicability framing. Kept 65, SuDDICU, MERINO, and ACORN, each with an applicability note.
+- Replaced 14 practice questions with interpretation items. Answer positions are balanced, and the keyed choice is not the longest option.
+- Abbreviation key covers short forms in the cards, including source notes. Lower-case "ml" is written "mL". "for example" and "that is" replace "eg" and "ie". PubMed Central identifiers are filled where a PMCID exists.
+- The home page states the scope: randomized trials of medications and medication strategies in adult ICU care.
+
 ## 2026-11-11 — Phase 1 trial cards
 
 - Timeline axis starts in 1989. The six lanes are vasopressors and inotropes, corticosteroids, resuscitation fluids, sedation and analgesia and delirium, antimicrobial strategy, and stress ulcer prophylaxis.
