@@ -1,0 +1,42 @@
+[
+  {
+    "id": "placeholder-path",
+    "title": "Placeholder learning path",
+    "summary": "Placeholder summary. These steps follow the stored order, which differs from year order.",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder",
+    "steps": [
+      {
+        "order": 1,
+        "trialId": "placeholder-trial-c",
+        "note": "Placeholder step. Step 1 in the sample sequence points at Placeholder Trial C."
+      },
+      {
+        "order": 2,
+        "trialId": "placeholder-trial-a",
+        "note": "Placeholder step. Step 2 in the sample sequence points at Placeholder Trial A."
+      },
+      {
+        "order": 3,
+        "trialId": "placeholder-trial-b",
+        "note": "Placeholder step. Step 3 in the sample sequence points at Placeholder Trial B."
+      },
+      {
+        "order": 4,
+        "trialId": "placeholder-trial-d",
+        "note": "Placeholder step. Step 4 in the sample sequence points at Placeholder Trial D."
+      },
+      {
+        "order": 5,
+        "trialId": "placeholder-trial-e",
+        "note": "Placeholder step. Step 5 in the sample sequence points at Placeholder Trial E."
+      },
+      {
+        "order": 6,
+        "trialId": "placeholder-trial-f",
+        "note": "Placeholder step. Step 6 in the sample sequence points at Placeholder Trial F."
+      }
+    ]
+  }
+]

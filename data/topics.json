@@ -1,0 +1,34 @@
+[
+  {
+    "id": "placeholder-topic-alpha",
+    "label": "Placeholder topic Alpha",
+    "summary": "Placeholder summary for topic Alpha. Sample cards use it as a filter.",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  },
+  {
+    "id": "placeholder-topic-beta",
+    "label": "Placeholder topic Beta",
+    "summary": "Placeholder summary for topic Beta. Sample cards use it as a filter.",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  },
+  {
+    "id": "placeholder-topic-gamma",
+    "label": "Placeholder topic Gamma",
+    "summary": "Placeholder summary for topic Gamma. Sample cards use it as a filter.",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  },
+  {
+    "id": "placeholder-topic-delta",
+    "label": "Placeholder topic Delta",
+    "summary": "Placeholder summary for topic Delta. Sample cards use it as a filter.",
+    "verified": false,
+    "placeholder": true,
+    "verificationLabel": "Not yet verified, placeholder"
+  }
+]
