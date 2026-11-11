@@ -51,7 +51,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "b",
-          "text": "Hour-3 mean arterial pressure response was 69.9% with angiotensin II versus 23.4% with placebo."
+          "text": "Mean arterial pressure response at hour 3, the primary end point, was 69.9% with angiotensin II versus 23.4% with placebo."
         },
         {
           "id": "c",
@@ -88,7 +88,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "c",
-          "text": "Death at 90 days was 41.0% versus 43.8% (difference -2.85%; P=.15)."
+          "text": "Death at 90 days was 41.0% versus 43.8% (difference -2.85%; P=.15), not a significant result."
         },
         {
           "id": "d",
@@ -125,7 +125,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "d",
-          "text": "Among nonresponders, mortality was 53% versus 63% (hazard ratio 0.67; P=.02)."
+          "text": "Among nonresponders, mortality was 53% with the steroid combination versus 63% (hazard ratio 0.67)."
         }
       ],
       "correctId": "d",
@@ -146,7 +146,7 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "90-day mortality was 43.0% (264 of 614) with hydrocortisone plus fludrocortisone and 49.1% (308 of 627) with placebo (relative risk 0.88; 95% CI 0.78 to 0.99)."
+          "text": "90-day mortality was 43.0% with hydrocortisone plus fludrocortisone and 49.1% with placebo (relative risk 0.88; 95% CI 0.78 to 0.99)."
         },
         {
           "id": "b",
@@ -179,7 +179,7 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "On oxygen without invasive ventilation, 28-day mortality was 23.3% versus 26.2%."
+          "text": "On oxygen without invasive ventilation, 28-day mortality was 23.3% with dexamethasone versus 26.2%."
         },
         {
           "id": "b",
@@ -220,7 +220,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "c",
-          "text": "HES 130/0.42 raised 90-day mortality (51% versus 43%; relative risk 1.17; P=0.03)."
+          "text": "HES 130/0.42 was associated with higher 90-day mortality (51% versus 43%; relative risk 1.17)."
         },
         {
           "id": "d",
@@ -278,11 +278,11 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Restrictive intravenous fluid reduced 90-day mortality compared with standard intravenous fluid."
+          "text": "Restrictive fluid reduced 90-day mortality compared with standard intravenous fluid."
         },
         {
           "id": "b",
-          "text": "Restrictive intravenous fluid was shown to be noninferior to standard fluid for 90-day mortality."
+          "text": "Restrictive fluid was shown to be noninferior to standard fluid for 90-day mortality."
         },
         {
           "id": "c",
@@ -290,7 +290,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "d",
-          "text": "90-day mortality was 42.3% versus 42.1% (P=0.96)."
+          "text": "90-day mortality was 42.3% with restrictive fluid and 42.1% with standard fluid (P=0.96)."
         }
       ],
       "correctId": "d",
@@ -385,7 +385,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "c",
-          "text": "Patients receiving no sedation had a mean of 13.8 days without ventilation, compared with 9.6 days with interrupted sedation (mean difference, 4.2 days; 95% CI, 0.3-8.1; p=0.0191)."
+          "text": "Patients receiving no sedation had a mean of 13.8 days without ventilation versus 9.6 days with interrupted sedation (mean difference, 4.2 days; 95% CI, 0.3-8.1; p=0.0191)."
         },
         {
           "id": "d",
@@ -410,7 +410,7 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Seven days was noninferior to 14 days for 90-day death (14.5% versus 16.1%)."
+          "text": "Seven days was noninferior to 14 days for 90-day death (14.5% versus 16.1%; 4-point margin)."
         },
         {
           "id": "b",
@@ -451,11 +451,11 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "c",
-          "text": "Most enrolled patients were in the intensive care unit at the time of randomization."
+          "text": "Most enrolled patients were in the intensive care unit at randomization."
         },
         {
           "id": "d",
-          "text": "Noninferiority was not shown (30-day mortality 12.3% versus 3.7%)."
+          "text": "Noninferiority was not shown (30-day mortality 12.3% versus 3.7% with meropenem)."
         }
       ],
       "correctId": "d",
@@ -480,7 +480,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "b",
-          "text": "Day-14 kidney injury or death did not differ (odds ratio 0.95)."
+          "text": "Highest-stage kidney injury or death by day 14 did not differ (odds ratio 0.95; P=.56)."
         },
         {
           "id": "c",
@@ -554,11 +554,11 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "d",
-          "text": "Hospital mortality by day 90 was 18.3% versus 17.5% (risk ratio 1.05; P=.054)."
+          "text": "In-hospital mortality by day 90 was 18.3% versus 17.5% (risk ratio 1.05; P=.054), not significant."
         }
       ],
       "correctId": "d",
-      "explanation": "PEPTIC reported in-hospital death by day 90 in 18.3% with the proton pump inhibitor strategy and 17.5% with the histamine-2 receptor blocker strategy (risk ratio 1.05; 95% CI 1.00 to 1.10; P=.054), not statistically significant. Clinically important upper gastrointestinal bleeding was lower with proton pump inhibitors (1.3% versus 1.8%). PEPTIC was an open-label cluster-crossover trial, with substantial crossover between assigned strategies.",
+      "explanation": "PEPTIC reported in-hospital death by day 90 in 18.3% with the proton pump inhibitor strategy and 17.5% with the histamine-2 receptor blocker strategy (risk ratio 1.05; 95% CI 1.00 to 1.10; P=.054), not statistically significant. Clinically important upper gastrointestinal bleeding was lower with proton pump inhibitors (1.3% versus 1.8%). PEPTIC was an open-label cluster-crossover trial, and the abstract states that interpretation may be limited by crossover in the use of the assigned medication.",
       "source": {
         "label": "PEPTIC open full text on PubMed Central",
         "pmid": "31950977",
@@ -575,7 +575,7 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Pantoprazole lowered bleeding (1.0% versus 3.5%) without a mortality effect."
+          "text": "Pantoprazole lowered clinically important bleeding (1.0% versus 3.5%) without a mortality effect."
         },
         {
           "id": "b",

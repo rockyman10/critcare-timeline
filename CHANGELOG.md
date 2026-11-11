@@ -2,6 +2,19 @@
 
 Newest first. Record site changes here. The site does not render this file.
 
+## 2026-11-11 — Phase 1 recheck fixes
+
+- PneumA takeaway rewritten from the PubMed abstract, with the 90% confidence intervals and the nonfermenting gram-negative recurrence result.
+- DEXA-ARDS limitations: 60-day mortality is the secondary outcome; the abstract does not describe blinding. Source note updated.
+- PLUS: the BaSICS traumatic brain injury subgroup is attributed to the BaSICS open full text on PubMed Central (PMC8356144), not the abstract.
+- CORTICUS: "without fludrocortisone" is now sourced to the Critical Care 2009 commentary (doi 10.1186/cc7986, PMC2750183).
+- MERINO limitations give the Table 1 intensive care unit counts, 13 (7.0%) and 14 (7.5%).
+- PRORATA takeaway: day-60 mortality is labeled as a co-primary noninferiority end point.
+- Quoted source excerpts keep the printed "ml", "eg," and "ie,". The abbreviation key adds ml, eg, ie, min, mg/mL, CrI, and DEX.
+- SPICE III: added the heterogeneity-of-treatment-effect analysis (PMID 33686482, PMC7939103) as a source. Per-arm age-subgroup counts were removed because they could not be checked against the primary paper.
+- q-ulcer-2 explanation uses the abstract's crossover wording.
+- Practice questions: answer-choice lengths rebalanced so the keyed choice is no longer usually the shortest; the q-sedation-3 length tie is removed. Answer letters stay A 4, B 5, C 4, D 5.
+
 ## 2026-11-11 — Phase 1 review fixes
 
 - Literature check: corrected the VANISH interquartile ranges, the SuDDICU Clostridioides difficile sign and the nystatin unit, the CLOVERS difference of medians, the BaSICS citation page, the CHEST masking statement, the CORTICUS shock-reversal wording, the MERINO intensive care unit percentages, the STOP-IT safety counts, the SAPS group counts, the DOREMI serious-adverse-event wording, and the Strom hospital-stay label.
