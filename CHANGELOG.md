@@ -2,6 +2,19 @@
 
 Newest first. Record site changes here. The site does not render this file.
 
+## 2026-11-11 — Phase 2 final-review fixes
+
+- EMPIRICUS: day-28 counts corrected to 87 of 128 (68%) and 74 of 123 (60.2%) from the JAMA full text; the limitation notes that the PubMed abstract prints 82 and 79.
+- BLING II: design states double-blind, double-dummy, in Australia, New Zealand, and Hong Kong; limitations state masking and the loading dose given to all participants (full text).
+- HYPRESS takeaway: mortality did not differ significantly through 180 days.
+- REDUCE population: the full-text methods required an anticipated intensive care unit stay of at least 2 days.
+- SLEAP limitations: not masked; 7 of 430 withdrew consent, leaving 423 analyzed (JAMA full text).
+- ADAPT-Sepsis limitations: no difference in 90-day all-cause mortality (full text, PMC11862976).
+- FACTT limitations: 2-by-2 factorial design with the catheter comparison reported separately (PMID 16714768, NCT00281268); the fluid strategies were protocols rather than a single medication.
+- ZEPHyR takeaway: "vancomycin with trough-based dose adjustment". CATS limitations note that 330 patients could not exclude a moderate mortality difference.
+- q-vasopressors-4 choice a names supraventricular tachyarrhythmia. q-antimicrobials-4 choice d is no longer the shortest option. Answer letters stay A 6, B 6, C 6, D 6.
+- Abbreviation key adds CVC and PAC.
+
 ## 2026-11-11 — Phase 2 trial cards
 
 - 20 trial cards added to the six existing lanes, each read from its PubMed abstract this session:

@@ -94,6 +94,8 @@ window.CRITCARE_SITE_META = {
     ["mg/dL", "milligrams per deciliter"],
     ["mmHg", "millimeters of mercury (as printed in a quoted source)"],
     ["pg/mL", "picograms per milliliter"],
-    ["µg/kg/h", "micrograms per kilogram per hour"]
+    ["µg/kg/h", "micrograms per kilogram per hour"],
+    ["CVC", "central venous catheter (as printed in a quoted source)"],
+    ["PAC", "pulmonary-artery catheter (as printed in a quoted source)"]
   ]
 };

@@ -113,7 +113,7 @@ window.CRITCARE_QUESTIONS = {
       "choices": [
         {
           "id": "a",
-          "text": "Organ dysfunction was not reduced (mean SOFA 6.68 versus 6.06), and arrhythmia was more frequent."
+          "text": "Mean SOFA did not differ (6.68 versus 6.06), and supraventricular tachyarrhythmia was more frequent."
         },
         {
           "id": "b",
@@ -653,7 +653,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "d",
-          "text": "Procalcitonin guidance shortened duration (mean difference 0.88 days) with noninferior mortality."
+          "text": "Procalcitonin guidance shortened the duration (mean difference 0.88 days) with noninferior mortality."
         }
       ],
       "correctId": "d",

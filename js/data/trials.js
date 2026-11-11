@@ -19,7 +19,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "At day 28, there were 64 deaths (40%) in the epinephrine group and 58 deaths (34%) in the norepinephrine plus dobutamine group (relative risk 0.86; 95% CI 0.65 to 1.14; P=0.31).",
     "safety": "Rates of serious adverse events were similar. Mortality did not differ at intensive care unit discharge (75 [47%] versus 75 [44%]; P=0.69) or by day 90 (84 [52%] versus 85 [50%]; P=0.73). Time to hemodynamic success (log-rank P=0.67) and time to vasopressor withdrawal (log-rank P=0.09) did not differ significantly.",
     "takeaway": "In 330 adults with septic shock in 19 French intensive care units, epinephrine alone and norepinephrine plus dobutamine as needed had similar 28-day mortality (40% versus 34%; relative risk 0.86; P=0.31) and similar serious adverse event rates.",
-    "limitations": "The comparison was epinephrine alone against a norepinephrine-plus-dobutamine strategy, not against norepinephrine alone. The abstract does not report how often dobutamine was given. One patient withdrew consent after 3 days.",
+    "limitations": "The comparison was epinephrine alone against a norepinephrine-plus-dobutamine strategy, not against norepinephrine alone. The abstract does not report how often dobutamine was given. One patient withdrew consent after 3 days. With 330 patients, the trial could not exclude a moderate mortality difference (95% CI 0.65 to 1.14).",
     "guidelines": [],
     "sources": [
       {
@@ -644,7 +644,7 @@ window.CRITCARE_TRIALS = [
     "comparator": "Placebo (n=190).",
     "primaryResult": "Septic shock occurred in 36 of 170 patients (21.2%) with hydrocortisone and 39 of 170 (22.9%) with placebo (difference -1.8%; 95% CI -10.7% to 7.2%; P=.70).",
     "safety": "With hydrocortisone versus placebo, 21.5% versus 16.9% had secondary infections, 8.6% versus 8.5% had weaning failure, 30.7% versus 23.8% had muscle weakness, and 90.9% versus 81.5% had hyperglycemia. Mortality at 28 days was 8.8% versus 8.2% (P=.86) and at 180 days 26.8% versus 22.2% (P=.32).",
-    "takeaway": "In 380 adults with severe sepsis without shock, hydrocortisone did not prevent septic shock within 14 days (21.2% versus 22.9%; P=.70) and did not change mortality through 180 days.",
+    "takeaway": "In 380 adults with severe sepsis without shock, hydrocortisone did not prevent septic shock within 14 days (21.2% versus 22.9%; P=.70) and mortality did not differ significantly through 180 days.",
     "limitations": "Enrollment included intermediate care units as well as intensive care units. Patients were not in shock, so the trial does not address hydrocortisone for septic shock. Low 28-day mortality (8.8% and 8.2%) limits power for mortality outcomes. The abstract does not print P values for the adverse-event comparisons.",
     "guidelines": [],
     "sources": [
@@ -979,7 +979,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Death at 60 days was 25.5% with the conservative strategy and 28.4% with the liberal strategy (P=0.30; 95% CI for the difference -2.6 to 8.4 percentage points).",
     "safety": "The conservative strategy did not increase the incidence or prevalence of shock during the study or the use of dialysis during the first 60 days (10% versus 14%; P=0.06).",
     "takeaway": "In 1000 patients with acute lung injury, a conservative fluid strategy did not significantly lower 60-day mortality (25.5% versus 28.4%; P=0.30) but increased ventilator-free days (14.6 versus 12.1; P<0.001) and days not spent in the intensive care unit (13.4 versus 11.2; P<0.001) during the first 28 days.",
-    "limitations": "This card covers the fluid-management comparison only. The abstract does not print the protocol rules for fluids and diuretics. Mortality was not significantly different, so the benefit rests on secondary end points.",
+    "limitations": "This card covers the fluid-management comparison only; FACTT used a 2-by-2 factorial design that also compared pulmonary-artery with central venous catheter monitoring, reported separately (PMID 16714768). The fluid strategies were explicit protocols rather than a single medication, which places FACTT at the edge of a medication timeline. The abstract does not print the protocol rules for fluids and diuretics. Mortality was not significantly different, so the benefit rests on secondary end points.",
     "guidelines": [],
     "sources": [
       {
@@ -987,6 +987,17 @@ window.CRITCARE_TRIALS = [
         "pmid": "16714767",
         "doi": "10.1056/NEJMoa062200",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "FACTT catheter comparison, PubMed abstract",
+        "pmid": "16714768",
+        "doi": "10.1056/NEJMoa061895",
+        "note": "Pulmonary-artery versus central venous catheter arm of the same factorial trial."
+      },
+      {
+        "label": "ClinicalTrials.gov",
+        "url": "https://clinicaltrials.gov/study/NCT00281268",
+        "note": "Two-by-two factorial design."
       }
     ],
     "sourceNotes": [
@@ -995,7 +1006,8 @@ window.CRITCARE_TRIALS = [
       "intervention -136, 491 and comparator 6992, 502: RESULTS 'The mean (+/-SE) cumulative fluid balance during the first seven days was -136+/-491 ml in the conservative-strategy group and 6992+/-502 ml in the liberal-strategy group (P<0.001).'",
       "primaryResult 60, 25.5, 28.4, P=0.30, -2.6 to 8.4: RESULTS 'The rate of death at 60 days was 25.5 percent in the conservative-strategy group and 28.4 percent in the liberal-strategy group (P=0.30; 95 percent confidence interval for the difference, -2.6 to 8.4 percent).'",
       "safety 60 days, 10%, 14%, P=0.06: RESULTS 'but did not increase the incidence or prevalence of shock during the study or the use of dialysis during the first 60 days (10 percent vs. 14 percent, P=0.06).'",
-      "takeaway 14.6, 12.1, 13.4, 11.2, P<0.001, 28 days: RESULTS 'increased the number of ventilator-free days (14.6+/-0.5 vs. 12.1+/-0.5, P<0.001) and days not spent in the intensive care unit (13.4+/-0.4 vs. 11.2+/-0.4, P<0.001) during the first 28 days'."
+      "takeaway 14.6, 12.1, 13.4, 11.2, P<0.001, 28 days: RESULTS 'increased the number of ventilator-free days (14.6+/-0.5 vs. 12.1+/-0.5, P<0.001) and days not spent in the intensive care unit (13.4+/-0.4 vs. 11.2+/-0.4, P<0.001) during the first 28 days'.",
+      "limitations factorial design and catheter comparison: ClinicalTrials.gov NCT00281268 design narrative, 'a two by two factorial design comparing the patients receiving PAC or a central venous catheter (CVC) with one of two fluid management strategies (conservative vs. liberal)'. PubMed abstract PMID 16714768 title 'Pulmonary-artery versus central venous catheter to guide treatment of acute lung injury.' with the same registry number NCT00281268."
     ]
   },
   {
@@ -1711,7 +1723,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Median time to successful extubation was 7 days in both groups (IQR 4 to 13 with interruption versus 3 to 12 with control; hazard ratio 1.08; 95% CI 0.86 to 1.35; P=.52).",
     "safety": "Daily interruption was associated with higher mean daily midazolam doses (102 versus 82 milligrams per day; P=.04), higher fentanyl doses (P<.001), and more daily benzodiazepine and opiate boluses. Unintentional endotracheal tube removal occurred in 10 of 214 (4.7%) versus 12 of 207 (5.8%) (P=.64), and delirium in 53.3% versus 54.1% (P=.83). Nurse workload was higher with interruption (visual analog scale 4.22 versus 3.80; P=.001).",
     "takeaway": "In 430 ventilated adults already managed with a nurse-led sedation protocol, adding daily sedation interruption did not shorten time to successful extubation (median 7 days in both groups; P=.52) or intensive care unit and hospital stay. It was associated with higher midazolam and fentanyl doses and greater nurse workload.",
-    "limitations": "Sedation used continuous opioid and benzodiazepine infusions, so the result may not transfer to propofol- or dexmedetomidine-based sedation. The abstract does not describe blinding. Group sizes of 214 and 209 add to 423 of the 430 randomized, and the abstract does not explain the difference. Kress 2000 is on its own card.",
+    "limitations": "Sedation used continuous opioid and benzodiazepine infusions, so the result may not transfer to propofol- or dexmedetomidine-based sedation. The trial was not masked. Of 430 randomized patients, 7 withdrew consent in the first 3 days and were excluded, leaving 423 analyzed (214 and 209). Kress 2000 is on its own card.",
     "guidelines": [],
     "sources": [
       {
@@ -1719,6 +1731,12 @@ window.CRITCARE_TRIALS = [
         "pmid": "23180503",
         "doi": "10.1001/jama.2012.13872",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "JAMA full text",
+        "pmid": "23180503",
+        "doi": "10.1001/jama.2012.13872",
+        "note": "Withdrawals and masking statement."
       }
     ],
     "sourceNotes": [
@@ -1728,7 +1746,7 @@ window.CRITCARE_TRIALS = [
       "primaryResult 7, 4-13, 3-12, 1.08, 0.86-1.35, P=.52: RESULTS 'Median time to successful extubation was 7 days in both the interruption and control groups (median [IQR], 7 [4-13] vs 7 [3-12]; interruption group hazard ratio, 1.08; 95% CI, 0.86-1.35; P = .52).'",
       "safety 102, 82, P=.04, P<.001, 10 of 214, 4.7%, 12 of 207, 5.8%, P=.64, 53.3%, 54.1%, P=.83, 4.22, 3.80, P=.001: RESULTS 'higher mean daily doses of midazolam (102 mg/d vs 82 mg/d; P = .04) and fentanyl (median [IQR], 550 [50-1850] vs 260 [0-1400]; P < .001)' and 'Unintentional endotracheal tube removal occurred in 10 of 214 (4.7%) vs 12 of 207 patients (5.8%)' with 'P = .64' and 'Rates of delirium were not significantly different between groups (53.3% vs 54.1%; relative risk, 0.98; 95% CI, 0.82-1.17; P = .83). Nurse workload was greater in the interruption group (VAS score, 4.22 vs 3.80; mean difference, 0.41; 95% CI, 0.17-0.66; P = .001).'",
       "takeaway 430, 7, P=.52: same sentences; RESULTS 'Duration of ICU stay' with 'P = .36' and 'hospital stay' with 'P = .42' 'did not differ'.",
-      "limitations 423: the sum of the printed group sizes 214 and 209; DESIGN prints 430 randomized."
+      "limitations 430, 7, 423: JAMA full text Participants 'Among 430 randomized patients, 7 withdrew consent in the first 3 days of the study and were excluded from the analysis.' Randomization and Masking 'None of the participants, study personnel, clinicians, or investigators analyzing data was masked to group assignment.'"
     ]
   },
   {
@@ -1827,7 +1845,7 @@ window.CRITCARE_TRIALS = [
     "pmid": "29466591",
     "doi": "10.1001/jama.2018.0160",
     "design": "Randomized, double-blind, placebo-controlled, investigator-driven study at 21 intensive care units in the Netherlands that routinely use nonpharmacological delirium prevention. The primary outcome was the number of days patients survived in 28 days; there were 15 secondary outcomes.",
-    "population": "1789 critically ill adults without delirium, recruited from July 2013 to December 2016. Patients whose expected intensive care unit stay was at least a day were included; the objective defines high delirium risk as an anticipated stay of at least 2 days.",
+    "population": "1789 critically ill adults without delirium, recruited from July 2013 to December 2016. The full-text methods required an anticipated intensive care unit stay of at least 2 days as estimated by the attending intensivist; one sentence of the abstract says at least a day.",
     "intervention": "Prophylactic intravenous haloperidol 3 times daily, 1 mg (n=350) or 2 mg (n=732). The 1-mg group was stopped early for futility.",
     "comparator": "Placebo, 0.9% sodium chloride (n=707).",
     "primaryResult": "Median days survived in 28 days was 28 in both the 2-mg haloperidol and placebo groups (difference 0 days; 95% CI 0 to 0; P=.93; hazard ratio 1.003; 95% CI 0.78 to 1.30; P=.82).",
@@ -1840,12 +1858,12 @@ window.CRITCARE_TRIALS = [
         "label": "PubMed abstract",
         "pmid": "29466591",
         "doi": "10.1001/jama.2018.0160",
-        "note": "Structured abstract read from PubMed. PubMed Central identifier PMC5839284; numbers on this card come from the abstract."
+        "note": "Structured abstract read from PubMed. PubMed Central identifier PMC5839284; numbers come from the abstract, and the eligibility wording comes from the full-text methods."
       }
     ],
     "sourceNotes": [
       "design 21, 28 days, 15: PubMed abstract PMID 29466591 DESIGN 'Randomized, double-blind, placebo-controlled investigator-driven study involving 1789 critically ill adults treated at 21 ICUs, at which nonpharmacological interventions for delirium prevention are routinely used in the Netherlands.' MAIN OUTCOME 'The primary outcome was the number of days that patients survived in 28 days. There were 15 secondary outcomes'.",
-      "population 1789, July 2013, December 2016, a day, 2 days: DESIGN 'Patients without delirium whose expected ICU stay was at least a day were included. Recruitment was from July 2013 to December 2016'. OBJECTIVE 'high risk of delirium, which was defined as an anticipated intensive care unit (ICU) stay of at least 2 days.'",
+      "population 1789, July 2013, December 2016, a day, 2 days: DESIGN 'Patients without delirium whose expected ICU stay was at least a day were included. Recruitment was from July 2013 to December 2016'. OBJECTIVE 'high risk of delirium, which was defined as an anticipated intensive care unit (ICU) stay of at least 2 days.' Full text Study Population 'Patients aged 18 years or older who were delirium free, with an anticipated ICU stay of at least 2 days as estimated by the attending intensivist, were eligible for study participation.'",
       "intervention 3 times daily, 1 mg, 350, 2 mg, 732 and comparator 707, 0.9%: INTERVENTIONS 'Patients received prophylactic treatment 3 times daily intravenously either 1 mg (n = 350) or 2 mg (n = 732) of haloperidol or placebo (n = 707), consisting of 0.9% sodium chloride.' RESULTS 'The 1-mg haloperidol group was prematurely stopped because of futility.'",
       "primaryResult 28, 0, 0-0, P=.93, 1.003, 0.78-1.30, P=.82: RESULTS '28 days in the 2-mg haloperidol group vs 28 days in the placebo group, for a difference of 0 days (95% CI, 0-0; P = .93) and a hazard ratio of 1.003 (95% CI, 0.78-1.30, P=.82).'",
       "safety 15, 1.5%, -3.6% to 6.7%, 2 (0.3%), 1 (0.1%): RESULTS 'All of the 15 secondary outcomes were not statistically different. These included delirium incidence (mean difference, 1.5%, 95% CI, -3.6% to 6.7%)' and '(2 [0.3%] for the 2-mg haloperidol group vs 1 [0.1%] for the placebo group).'",
@@ -2123,7 +2141,7 @@ window.CRITCARE_TRIALS = [
     "comparator": "Intravenous vancomycin 15 mg/kg every 12 hours for 7 to 14 days, with the dose adjusted on the basis of trough levels.",
     "primaryResult": "In the per-protocol population, clinical success at end of study occurred in 95 of 165 linezolid-treated patients (57.6%) and 81 of 174 vancomycin-treated patients (46.6%) (95% CI for the difference 0.5% to 21.6%; P=.042).",
     "safety": "All-cause 60-day mortality was similar (15.7% with linezolid versus 17.0% with vancomycin), as was the incidence of adverse events. Nephrotoxicity occurred more frequently with vancomycin (18.2% versus 8.4%).",
-    "takeaway": "In adults with methicillin-resistant Staphylococcus aureus nosocomial pneumonia, linezolid produced higher clinical success at end of study than dose-optimized vancomycin in the per-protocol population (57.6% versus 46.6%; P=.042), with similar 60-day mortality (15.7% versus 17.0%) and less nephrotoxicity.",
+    "takeaway": "In adults with methicillin-resistant Staphylococcus aureus nosocomial pneumonia, linezolid produced higher clinical success at end of study than vancomycin with trough-based dose adjustment in the per-protocol population (57.6% versus 46.6%; P=.042), with similar 60-day mortality (15.7% versus 17.0%) and less nephrotoxicity.",
     "limitations": "The primary end point used the per-protocol population (348 of 1184 treated), not all treated patients. The abstract does not report how many patients were in intensive care units, so this is a hospital-wide nosocomial pneumonia trial. Mortality did not differ.",
     "guidelines": [],
     "sources": [
@@ -2204,14 +2222,14 @@ window.CRITCARE_TRIALS = [
     "citation": "Dulhunty JM, Roberts JA, Davis JS, and others. A Multicenter Randomized Trial of Continuous versus Intermittent beta-Lactam Infusion in Severe Sepsis. American Journal of Respiratory and Critical Care Medicine. 2015;192(11):1298-305.",
     "pmid": "26200166",
     "doi": "10.1164/rccm.201505-0857OC",
-    "design": "Randomized controlled trial in 25 intensive care units. The primary outcome was alive intensive care unit-free days at day 28. Secondary outcomes were 90-day survival, clinical cure 14 days after antibiotic cessation, alive organ failure-free days at day 14, and duration of bacteremia.",
+    "design": "Double-blind, double-dummy randomized controlled trial in 25 intensive care units in Australia, New Zealand, and Hong Kong. The primary outcome was alive intensive care unit-free days at day 28. Secondary outcomes were 90-day survival, clinical cure 14 days after antibiotic cessation, alive organ failure-free days at day 14, and duration of bacteremia.",
     "population": "432 eligible participants with severe sepsis who had been started on piperacillin-tazobactam, ticarcillin-clavulanate, or meropenem. The median age was 64 years.",
     "intervention": "Continuous infusion of the prescribed beta-lactam for the remainder of the treatment course or until intensive care unit discharge.",
     "comparator": "30-minute intermittent infusion of the prescribed beta-lactam.",
     "primaryResult": "Intensive care unit-free days were 18 (IQR 2 to 24) with continuous infusion and 20 (IQR 3 to 24) with intermittent infusion (P=0.38).",
     "safety": "Survival at 90 days was 74.3% (156 of 210) versus 72.5% (158 of 218) (hazard ratio 0.91; 95% CI 0.63 to 1.31; P=0.61). Clinical cure was 52.4% (111 of 212) versus 49.5% (109 of 220) (odds ratio 1.12; 95% CI 0.77 to 1.63; P=0.56). The abstract does not report adverse events.",
     "takeaway": "In 432 intensive care unit patients with severe sepsis, continuous beta-lactam infusion did not increase intensive care unit-free days (18 versus 20; P=0.38), 90-day survival, or clinical cure compared with 30-minute intermittent infusion.",
-    "limitations": "The abstract does not describe blinding or loading doses. Ticarcillin-clavulanate was one of the eligible antibiotics. The later and larger BLING III trial is on its own card.",
+    "limitations": "The full text reports that participants, treating clinicians, and assessors were masked, and that all participants received a loading dose before the blinded infusion. Ticarcillin-clavulanate was one of the eligible antibiotics. The later and larger BLING III trial is on its own card.",
     "guidelines": [],
     "sources": [
       {
@@ -2219,6 +2237,13 @@ window.CRITCARE_TRIALS = [
         "pmid": "26200166",
         "doi": "10.1164/rccm.201505-0857OC",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "Full text (author PDF)",
+        "pmid": "26200166",
+        "doi": "10.1164/rccm.201505-0857OC",
+        "url": "https://criticalcare.queensu.ca/sites/criticalcare/files/inline-files/A_Multicenter_Randomized_Trial_of_Continuous_versus_Intermittent_B_lactam_infusions_2015.pdf",
+        "note": "Design, masking, and loading-dose statements."
       }
     ],
     "sourceNotes": [
@@ -2227,7 +2252,8 @@ window.CRITCARE_TRIALS = [
       "intervention and comparator 30-minute: METHODS 'randomized to receive the prescribed antibiotic via continuous or 30-minute intermittent infusion for the remainder of the treatment course or until ICU discharge.'",
       "primaryResult 18, 2-24, 20, 3-24, P=0.38: RESULTS 'There was no difference in ICU-free days: 18 days (interquartile range, 2-24) and 20 days (interquartile range, 3-24) in the continuous and intermittent groups (P = 0.38).'",
       "safety 74.3%, 156 of 210, 72.5%, 158 of 218, 0.91, 0.63-1.31, P=0.61, 52.4%, 111 of 212, 49.5%, 109 of 220, 1.12, 0.77-1.63, P=0.56: RESULTS 'There was no difference in 90-day survival: 74.3% (156 of 210) and 72.5% (158 of 218); hazard ratio, 0.91 (95% confidence interval, 0.63-1.31; P = 0.61). Clinical cure was 52.4% (111 of 212) and 49.5% (109 of 220); odds ratio, 1.12 (95% confidence interval, 0.77-1.63; P = 0.56).'",
-      "takeaway 432, 18, 20, P=0.38, 30-minute: same sentences."
+      "takeaway 432, 18, 20, P=0.38, 30-minute: same sentences.",
+      "design and limitations double-blind, double-dummy, 25, loading dose: full text Study Design 'The BLING II study was a prospective, multicenter, double-blind, double-dummy, randomized controlled trial that was conducted in 25 ICUs in Australia (17), New Zealand (7), and Hong Kong (1).' Randomization and Masking 'Participants, treating clinicians, and study investigators undertaking study assessments or data collection were masked to treatment allocation.' Procedures 'All participants received a loading dose before commencement of the blinded study drug infusion (23).'"
     ]
   },
   {
@@ -2286,10 +2312,10 @@ window.CRITCARE_TRIALS = [
     "population": "260 nonneutropenic, nontransplanted, critically ill adults with intensive care unit-acquired sepsis, Candida colonization at multiple sites, and multiple organ failure who had been exposed to broad-spectrum antibacterial agents. The modified intention-to-treat analysis included 251 (128 micafungin, 123 placebo). The median SOFA score was 8.",
     "intervention": "Empirical micafungin 100 mg once daily for 14 days (n=131).",
     "comparator": "Placebo (n=129).",
-    "primaryResult": "On day 28, 82 patients (68%) with micafungin and 79 (60.2%) with placebo were alive and free of invasive fungal infection (hazard ratio 1.35; 95% CI 0.87 to 2.08).",
+    "primaryResult": "On day 28, 87 of 128 patients (68%) with micafungin and 74 of 123 (60.2%) with placebo were alive and free of invasive fungal infection (hazard ratio 1.35; 95% CI 0.87 to 2.08).",
     "safety": "New invasive fungal infection occurred in 4 of 128 patients (3%) with micafungin and 15 of 123 (12%) with placebo (P=.008).",
     "takeaway": "In 260 nonneutropenic critically ill adults with intensive care unit-acquired sepsis, multisite Candida colonization, and multiple organ failure, empirical micafungin did not improve 28-day survival free of invasive fungal infection (68% versus 60.2%; hazard ratio 1.35; 95% CI 0.87 to 2.08), although new invasive fungal infections were fewer (3% versus 12%).",
-    "limitations": "The abstract's day-28 percentages (68% and 60.2%) do not equal 82 of 128 or 79 of 123; they are copied as printed. Results were similar among patients with a (1-3)-beta-D-glucan level above 80 picograms per milliliter (n=175; hazard ratio 1.41; 95% CI 0.85 to 2.33). The reduction in new infections was a secondary end point.",
+    "limitations": "The PubMed abstract prints the day-28 counts as 82 and 79; the full text reports 87 of 128 (68%) and 74 of 123 (60.2%), which match the printed percentages. Results were similar among patients with a (1-3)-beta-D-glucan level above 80 picograms per milliliter (n=175; hazard ratio 1.41; 95% CI 0.85 to 2.33). The reduction in new infections was a secondary end point.",
     "guidelines": [],
     "sources": [
       {
@@ -2297,15 +2323,21 @@ window.CRITCARE_TRIALS = [
         "pmid": "27706483",
         "doi": "10.1001/jama.2016.14655",
         "note": "Structured abstract read from PubMed."
+      },
+      {
+        "label": "JAMA full text",
+        "pmid": "27706483",
+        "doi": "10.1001/jama.2016.14655",
+        "note": "Results and Key Points give the day-28 counts 87 of 128 and 74 of 123; the PubMed abstract prints 82 and 79."
       }
     ],
     "sourceNotes": [
       "design 19, July 2012, February 2015, 28 days: PubMed abstract PMID 27706483 DESIGN 'Multicenter double-blind placebo-controlled study' and 'enrolled between July 2012 and February 2015 in 19 French ICUs.' MAIN OUTCOMES 'The primary end point was survival without proven IFI 28 days after randomization.'",
       "population 260, 251, 128, 123, 8: DESIGN '260 nonneutropenic, nontransplanted, critically ill patients with ICU-acquired sepsis, multiple Candida colonization, multiple organ failure, exposed to broad-spectrum antibacterial agents'. RESULTS '251 (128, micafungin group; 123, placebo group) were included in the modified intent-to-treat analysis. Median values were 8 for Sequential Organ Failure Assessment (SOFA) score'.",
       "intervention 100 mg, 14 days, 131 and comparator 129: INTERVENTIONS 'Empirical treatment with micafungin (100 mg, once daily, for 14 days) (n = 131) vs placebo (n = 129).'",
-      "primaryResult 28, 82 (68%), 79 (60.2%), 1.35, 0.87-2.08: RESULTS 'On day 28, there were 82 (68%) patients in the micafungin group vs 79 (60.2%) in the placebo group who were alive and IFI free (hazard ratio [HR], 1.35 [95% CI, 0.87-2.08]).'",
+      "primaryResult 28, 87 of 128 (68%), 74 of 123 (60.2%), 1.35, 0.87-2.08: JAMA full text Results 'Eighty-seven (68%) patients in the micafungin group vs 74 (60.2%) patients in the placebo group were alive and free from invasive fungal infection at day 28 (hazard ratio [HR], 1.35 [95% CI, 0.87-2.08]; Figure 2).' Key Points 'micafungin-treated (87/128 [68%]) and placebo-treated (74/123 [60.2%])'. The PubMed abstract prints 82 (68%) and 79 (60.2%).",
       "safety 4 of 128, 3%, 15/123, 12%, P=.008: RESULTS 'Use of empirical micafungin decreased the rate of new invasive fungal infection in 4 of 128 patients (3%) in the micafungin group vs placebo (15/123 patients [12%]) (P = .008).'",
-      "limitations 80, 175, 1.41, 0.85-2.33: RESULTS 'Results were similar among patients with a (1-3)-β-D-glucan level of greater than 80 pg/mL (n = 175; HR, 1.41 [95% CI, 0.85-2.33]).' 82/128 is 64.1% and 79/123 is 64.2%; the abstract prints 68% and 60.2%. MAIN OUTCOMES lists 'new proven fungal infections' among key secondary end points."
+      "limitations 80, 175, 1.41, 0.85-2.33: RESULTS 'Results were similar among patients with a (1-3)-β-D-glucan level of greater than 80 pg/mL (n = 175; HR, 1.41 [95% CI, 0.85-2.33]).' 87/128 is 68.0% and 74/123 is 60.2% (full text); the abstract's 82 and 79 do not match its own percentages. MAIN OUTCOMES lists 'new proven fungal infections' among key secondary end points."
     ]
   },
   {
@@ -2650,14 +2682,14 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "Antibiotic duration to 28 days was shorter with the procalcitonin protocol (mean 9.8 versus 10.7 days; mean difference 0.88 days; 95% CI 0.19 to 1.58; P=.01), and 28-day mortality was noninferior (20.9% [184 of 879] versus 19.4% [170 of 878]; absolute difference 1.57; 95% CI -2.18 to 5.32). The C-reactive protein protocol did not change antibiotic duration (mean 10.6 days; mean difference 0.09; 95% CI -0.60 to 0.79; P=.79).",
     "safety": "For 28-day mortality, the C-reactive protein protocol was inconclusive compared with standard care (21.1% [184 of 874]; absolute difference 1.69; 95% CI -2.07 to 5.45).",
     "takeaway": "In 2760 adults with suspected sepsis in UK intensive care units, a daily procalcitonin-guided protocol shortened antibiotic duration by a mean of 0.88 days with noninferior 28-day mortality (margin 5.4%), whereas a C-reactive protein-guided protocol did not shorten duration.",
-    "limitations": "The reduction in antibiotic duration was less than 1 day. The upper confidence limit for the procalcitonin mortality difference (5.32) lies close to the 5.4% margin. Ninety-day mortality was collected but is not printed in the abstract. PRORATA and SAPS are earlier procalcitonin trials with their own cards.",
+    "limitations": "The reduction in antibiotic duration was less than 1 day. The upper confidence limit for the procalcitonin mortality difference (5.32) lies close to the 5.4% margin. The full text reports no differences in 90-day all-cause mortality between either biomarker-guided protocol and standard care. PRORATA and SAPS are earlier procalcitonin trials with their own cards.",
     "guidelines": [],
     "sources": [
       {
         "label": "PubMed abstract",
         "pmid": "39652885",
         "doi": "10.1001/jama.2024.26458",
-        "note": "Structured abstract read from PubMed. PubMed Central identifier PMC11862976; numbers on this card come from the abstract."
+        "note": "Structured abstract read from PubMed. PubMed Central identifier PMC11862976; numbers on this card come from the abstract, and the 90-day mortality statement comes from the full-text results."
       }
     ],
     "sourceNotes": [
@@ -2666,7 +2698,8 @@ window.CRITCARE_TRIALS = [
       "intervention 918, 924 and comparator 918: INTERVENTION '918 patients were assigned to the daily PCT-guided protocol, 924 to the daily CRP-guided protocol, and 918 assigned to standard care.'",
       "primaryResult 10.7, 9.8, 0.88, 0.19 to 1.58, P=.01, 19.4%, 170 of 878, 20.9%, 184 of 879, 1.57, -2.18 to 5.32, 10.6, 0.09, -0.60 to 0.79, P=.79: RESULTS '(mean duration, 10.7 [SD, 7.6] days for standard care and 9.8 [SD, 7.2] days for PCT; mean difference, 0.88 days; 95% CI, 0.19 to 1.58, P = .01)' and '(19.4% [170 of 878] of patients receiving standard care; 20.9% [184 of 879], PCT; absolute difference, 1.57; 95% CI, -2.18 to 5.32; P = .02)' and '(mean duration, 10.6 [7.7] days for CRP; mean difference, 0.09; 95% CI, -0.60 to 0.79; P = .79)'. The P = .02 printed with the mortality comparison is the noninferiority test and is not shown on the card.",
       "safety 21.1%, 184 of 874, 1.69, -2.07 to 5.45: RESULTS 'the daily CRP-guided protocol was inconclusive compared with standard care (21.1% [184 of 874] for CRP; absolute difference, 1.69; 95% CI, -2.07 to 5.45; P = .03).'",
-      "limitations ninety-day mortality: MAIN OUTCOMES 'Ninety-day all-cause mortality was also collected.' No 90-day figure is printed."
+      "limitations ninety-day mortality: MAIN OUTCOMES 'Ninety-day all-cause mortality was also collected.' No 90-day figure is printed.",
+      "limitations 90-day mortality: open full text on PubMed Central PMC11862976 Results, 'There were no differences in all-cause mortality at 90 days when comparing each intervention group with the control group'."
     ]
   },
   {
