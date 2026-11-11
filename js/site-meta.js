@@ -47,7 +47,7 @@ window.CRITCARE_SITE_META = {
     ["RCT", "randomized controlled trial"],
     ["RR", "relative risk"],
     ["SAFE-TBI", "traumatic brain injury follow-up of the SAFE trial"],
-    ["SLEAP", "protocolized sedation with or without daily interruption, 2012"],
+    ["SLEAP", "SLEAP trial (sedation with or without daily interruption), 2012"],
     ["SCCM", "Society of Critical Care Medicine"],
     ["SD", "standard deviation"],
     ["SE", "standard error"],
@@ -71,6 +71,13 @@ window.CRITCARE_SITE_META = {
     ["mmol", "millimole"],
     ["U/min", "units per minute"],
     ["μg", "microgram"],
-    ["μg/L", "micrograms per liter"]
+    ["μg/L", "micrograms per liter"],
+    ["APACHE", "Acute Physiology and Chronic Health Evaluation (as printed in a quoted source)"],
+    ["CCU", "coronary care unit (as printed in a quoted source)"],
+    ["Covid-19", "coronavirus disease 2019 (as printed in a quoted source)"],
+    ["NEJM", "New England Journal of Medicine"],
+    ["SAPS II", "Simplified Acute Physiology Score II (as printed in a quoted source)"],
+    ["UOHI", "University of Ottawa Heart Institute (as printed in a quoted source)"],
+    ["vs", "versus (as printed in a quoted source)"]
   ]
 };

@@ -125,7 +125,7 @@ window.CRITCARE_QUESTIONS = {
         },
         {
           "id": "d",
-          "text": "Among nonresponders, mortality was 53% with the steroid combination versus 63% (hazard ratio 0.67)."
+          "text": "Among nonresponders, mortality was 53% with the combination and 63% with placebo (hazard ratio 0.67)."
         }
       ],
       "correctId": "d",

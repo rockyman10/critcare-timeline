@@ -2,6 +2,17 @@
 
 Newest first. Record site changes here. The site does not render this file.
 
+## 2026-11-11 — Phase 1 final-review fixes
+
+- CORTICUS limitations: enrollment stopped at 500 of a projected 800 patients (slow recruitment, end of funding, trial-drug expiry), and the authors list inadequate power. Sourced to the NEJM 2008 full text.
+- PLUS limitations: patients with traumatic brain injury or at risk of cerebral edema were excluded (ClinicalTrials.gov NCT02721654).
+- SUP-ICU limitations: the high-severity subgroup signal is qualified with the post hoc paper (PMID 30863936, missing SAPS II data), the 1-year follow-up (PMID 31282567, no heterogeneity), and REVISE (PMID 38875111, no effect modification by illness severity).
+- DOREMI limitations: single listed site per ClinicalTrials.gov NCT03207165.
+- DEXA-ARDS takeaway labels 60-day mortality as the secondary outcome. ATHOS-3 limitations no longer repeat the day-28 death result.
+- q-steroids-1 choice d names placebo; the keyed choice is not the longest.
+- Quoted source excerpts restore the printed "vs" or "vs." in 24 places, "Covid-19" in RECOVERY, and the lower-case CLOVERS fragment.
+- Abbreviation key adds APACHE, CCU, Covid-19, NEJM, SAPS II, UOHI, and vs. The SLEAP entry is reworded as a trial name.
+
 ## 2026-11-11 — Phase 1 recheck fixes
 
 - PneumA takeaway rewritten from the PubMed abstract, with the 90% confidence intervals and the nonfermenting gram-negative recurrence result.
