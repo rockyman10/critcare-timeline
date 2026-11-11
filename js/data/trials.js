@@ -418,7 +418,7 @@ window.CRITCARE_TRIALS = [
         "label": "CORTICUS NEJM full text",
         "pmid": "18184957",
         "doi": "10.1056/NEJMoa071366",
-        "url": "https://medschool.cuanschutz.edu/docs/librariesprovider60/education-docs/heartbeat-im-res/suggested-read/corticus-nejm-2008.pdf",
+        "url": "https://doi.org/10.1056/NEJMoa071366",
         "note": "Discussion gives enrollment of 500 rather than the projected 800 and the reasons."
       }
     ],
@@ -2005,7 +2005,7 @@ window.CRITCARE_TRIALS = [
     "primaryResult": "At 90 days, 510 patients (31.1%) in the pantoprazole group and 499 (30.4%) in the placebo group had died (relative risk, 1.02; 95% CI, 0.91 to 1.13; P=0.76).",
     "safety": "During the ICU stay, at least one clinically important event (a composite of clinically important gastrointestinal bleeding, pneumonia, Clostridium difficile infection, or myocardial ischemia) occurred in 21.9% of patients assigned to pantoprazole and 22.6% of those assigned to placebo (relative risk, 0.96; 95% CI, 0.83 to 1.11). Clinically important gastrointestinal bleeding occurred in 2.5% of the pantoprazole group and 4.2% of the placebo group. The number of patients with infections or serious adverse reactions, and the percentage of days alive without life support within 90 days, were similar in the two groups.",
     "takeaway": "Among adult ICU patients at risk for gastrointestinal bleeding, death by 90 days occurred in 31.1% assigned to pantoprazole versus 30.4% assigned to placebo (relative risk, 1.02; 95% CI, 0.91 to 1.13; P=0.76).",
-    "limitations": "The lower clinically important bleeding rate with pantoprazole (2.5% versus 4.2%) was not the primary outcome. A prespecified subgroup with a Simplified Acute Physiology Score II above 53 suggested higher 90-day mortality with pantoprazole. A post hoc analysis of that subgroup stated that some of the signal may have been explained by missing Simplified Acute Physiology Score II data, the 1-year follow-up found no heterogeneity of effect in the high-severity subgroup, and REVISE found no effect modification by illness severity; the subgroup finding is hypothesis-generating.",
+    "limitations": "The lower clinically important bleeding rate with pantoprazole (2.5% versus 4.2%) was not the primary outcome. A prespecified subgroup with a Simplified Acute Physiology Score II above 53 suggested higher 90-day mortality with pantoprazole. A post hoc analysis of that subgroup stated that some of the signal may have been explained by missing Simplified Acute Physiology Score II data, and the 1-year follow-up found no heterogeneity of effect in the high-severity subgroup; the subgroup finding is hypothesis-generating.",
     "guidelines": [],
     "sources": [
       {
@@ -2025,12 +2025,6 @@ window.CRITCARE_TRIALS = [
         "pmid": "31282567",
         "doi": "10.1111/aas.13436",
         "note": "No heterogeneity of effect on 1-year mortality in the high disease severity subgroup."
-      },
-      {
-        "label": "REVISE NEJM full text",
-        "pmid": "38875111",
-        "doi": "10.1056/NEJMoa2404245",
-        "note": "Prespecified subgroups, including APACHE II score of 25 or more, did not suggest effect modification."
       }
     ],
     "sourceNotes": [
@@ -2045,7 +2039,7 @@ window.CRITCARE_TRIALS = [
       "takeaway 90, 31.1, 30.4, 1.02, 95, 0.91, 1.13, 0.76: same 90-day mortality sentence as the primary result.",
       "limitations: no numerals.",
       "limitations bleeding 2.5% versus 4.2%: PubMed abstract PMID 30354950. Simplified Acute Physiology Score II above 53 and the mortality interaction: PubMed abstract PMID 30863936, which describes that subgroup of SUP-ICU. The 90-day percentages from that later analysis are not copied onto this card.",
-      "limitations post hoc and follow-up: PubMed abstract PMID 30863936 CONCLUSIONS, 'Some of this may have been explained by missing SAPS II data, but further research is needed to draw firm conclusions.' PubMed abstract PMID 31282567 RESULTS, 'We did not observe heterogeneity in the effect of pantoprazole vs placebo on 1-year mortality in the predefined subgroups, that is, patients with and without shock, mechanical ventilation, liver disease, coagulopathy, high disease severity (SAPS II > 53)'. REVISE NEJM full text (PMID 38875111), 'Subgroup analyses did not suggest an effect modification of pantoprazole on primary efficacy or safety outcomes on the basis of the prespecified subgroup comparisons (prehospital acid suppression vs. none, APACHE II score of ≥25 vs. <25'."
+      "limitations post hoc and follow-up: PubMed abstract PMID 30863936 CONCLUSIONS, 'Some of this may have been explained by missing SAPS II data, but further research is needed to draw firm conclusions.' PubMed abstract PMID 31282567 RESULTS, 'We did not observe heterogeneity in the effect of pantoprazole vs placebo on 1-year mortality in the predefined subgroups, that is, patients with and without shock, mechanical ventilation, liver disease, coagulopathy, high disease severity (SAPS II > 53)'."
     ]
   },
   {

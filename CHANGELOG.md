@@ -2,6 +2,11 @@
 
 Newest first. Record site changes here. The site does not render this file.
 
+## 2026-11-11 — Phase 1 literature recheck items
+
+- SUP-ICU: the REVISE clause, its source entry, and its quote in the source note were removed because the NEJM full text could not be opened directly; the limitation keeps the post hoc and 1-year follow-up qualifiers. The now-unused APACHE key entry was removed.
+- CORTICUS: the NEJM full-text source links to doi.org/10.1056/NEJMoa071366 instead of a third-party PDF copy.
+
 ## 2026-11-11 — Phase 1 final-review fixes
 
 - CORTICUS limitations: enrollment stopped at 500 of a projected 800 patients (slow recruitment, end of funding, trial-drug expiry), and the authors list inadequate power. Sourced to the NEJM 2008 full text.

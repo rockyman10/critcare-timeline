@@ -72,7 +72,6 @@ window.CRITCARE_SITE_META = {
     ["U/min", "units per minute"],
     ["μg", "microgram"],
     ["μg/L", "micrograms per liter"],
-    ["APACHE", "Acute Physiology and Chronic Health Evaluation (as printed in a quoted source)"],
     ["CCU", "coronary care unit (as printed in a quoted source)"],
     ["Covid-19", "coronavirus disease 2019 (as printed in a quoted source)"],
     ["NEJM", "New England Journal of Medicine"],
