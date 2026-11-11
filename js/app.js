@@ -13,7 +13,7 @@
   const trialById = {};
   TRIALS.forEach(t => { trialById[t.id] = t; });
 
-  const yearMin = TRIALS.reduce((m, t) => Math.min(m, t.year), 2000);
+  const yearMin = TRIALS.reduce((m, t) => Math.min(m, t.year), 1989);
   const yearMax = TRIALS.reduce((m, t) => Math.max(m, t.year), 2026);
   const X_EDGE = 78;
 
@@ -374,6 +374,14 @@
         list.append(h("li", { text: bits.join(" · ") }));
       });
       body.append(list);
+      const notes = trial.sourceNotes || [];
+      body.append(h("h3", { class: "block-title", text: "Where the numbers were read" }));
+      if (!notes.length) body.append(h("p", { text: "No number-to-source notes are recorded." }));
+      else {
+        const noteList = h("ul", { class: "sources" });
+        notes.forEach(note => noteList.append(h("li", { text: note })));
+        body.append(noteList);
+      }
     }
     const foot = $("d-foot");
     foot.replaceChildren();

@@ -4,7 +4,7 @@ A static teaching timeline of randomized **medication** trials in adult ICU care
 
 The page is plain HTML, CSS, and JavaScript. There is no build step. Procedures, devices, and ventilation strategies are out of scope.
 
-Two cards and two practice items ship with the shell. Each one is labeled **EXAMPLE, not a real trial**. They exist so the layout renders. They are not studies, and they do not report results.
+Phase 1 has 48 trial cards on six lanes and 18 practice questions. The card fields are the same on every card. `sourceNotes` records where each number was read.
 
 ## Open locally
 
@@ -31,7 +31,7 @@ Then open `http://localhost:8080/`. `index.html` also opens directly in a browse
 | `scripts/verify-integrity.js` | Schema and wording check |
 | `CHANGELOG.md` | Editor log. The site does not render it |
 
-Home page: lanes are topics, years run on the x-axis from 2000, search and topic filters sit above the timeline, and the abbreviation key is rendered from `js/site-meta.js`. The footer has one educational-resource notice and the last literature sweep date.
+Home page: lanes are topics, years run on the x-axis from 1989, search and topic filters sit above the timeline, and the abbreviation key is rendered from `js/site-meta.js`. The footer has one educational-resource notice and the last literature sweep date.
 
 A marker opens a **Trial snapshot**. **More details** uses the same fields and adds limitations, guidelines (with a locus), and sources. Teach → **Learn path** walks the shell. Teach → **Practice questions** runs study mode or a timed exam. Dialogs have a full-screen control. Esc leaves full screen first, then closes the dialog.
 
@@ -64,6 +64,7 @@ Addresses: `#/trial/{id}`, `#/trial/{id}/details`, `#/learn/{step}`, `#/practice
 | `limitations` | string | Limits of the study |
 | `guidelines` | array | May be empty. Each entry is a document that cites the trial |
 | `sources` | array | At least one source |
+| `sourceNotes` | array of strings | Where each number was read. Optional for the checker, present on phase 1 cards |
 
 Guideline object: `society`, `document`, `year` (number, same year as the trial or later), `locus` (section, table, or page where the trial is cited), and `source` (where that locus was read). `url` is optional.
 
