@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Teaching timeline of randomized medication trials in adult ICU care for pharmacy residents and students. Trial snapshot cards, a learn path, and practice questions." />
+  <meta name="theme-color" content="#0c5f78" />
+  <title>ICU medication trials</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,650&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <a class="skip" href="#scroller">Skip to timeline</a>
+  <main class="app" id="main">
+    <header class="topbar">
+      <div class="brand">
+        <p class="kicker">Critical care pharmacy</p>
+        <h1>ICU medication trials</h1>
+        <p class="deck">Randomized medication trials in adult ICU care, for PGY1 and PGY2 pharmacy residents and pharmacy students.</p>
+        <p class="scope">Randomized trials of medications and medication strategies (choice, dose, target, duration, or administration) in adult ICU care. Procedures, devices, and ventilation strategies are outside this timeline.</p>
+      </div>
+      <div class="actions">
+        <div class="teach-wrap" id="teach-wrap">
+          <button type="button" class="btn primary" id="btn-teach" aria-expanded="false" aria-controls="teach-menu" aria-haspopup="menu">Teach</button>
+          <div class="teach-menu" id="teach-menu" role="menu" aria-label="Teach" hidden>
+            <button type="button" class="btn ghost" role="menuitem" id="btn-learn">Learn path</button>
+            <button type="button" class="btn ghost" role="menuitem" id="btn-practice">Practice questions</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="filters">
+      <label class="sr-only" for="search">Search trials</label>
+      <input class="search" id="search" type="search" placeholder="Search acronym or topic" autocomplete="off" />
+      <button type="button" class="btn topic-toggle" id="topic-toggle" aria-expanded="false" aria-controls="topic-filters">Topics</button>
+      <div class="topic-row" id="topic-filters" role="group" aria-label="Topics"></div>
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+
+    <section class="board" aria-labelledby="board-title">
+      <div class="board-bar">
+        <h2 id="board-title">Timeline</h2>
+        <p class="hint">Lanes are medication topics. Years run from 1989.</p>
+        <div class="zoom" role="group" aria-label="Zoom">
+          <button type="button" class="btn" id="z-out" aria-label="Zoom out">−</button>
+          <button type="button" class="btn" id="z-in" aria-label="Zoom in">+</button>
+          <button type="button" class="btn" id="z-reset" aria-label="Reset zoom">Reset</button>
+        </div>
+      </div>
+      <div class="timeline-split">
+        <div class="label-stack">
+          <div class="axis-gutter" aria-hidden="true"></div>
+          <div id="lane-labels"></div>
+        </div>
+        <div class="tl-scroll" id="scroller" tabindex="0" aria-label="Timeline. Arrow keys move between trials. Enter opens the trial snapshot.">
+          <div class="tl-canvas" id="canvas">
+            <div class="axis" id="axis"></div>
+            <div class="lanes" id="lanes"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <details class="abbr" id="abbr-key">
+      <summary>Abbreviations</summary>
+      <dl id="abbr-list"></dl>
+    </details>
+
+    <footer class="site-foot">
+      <p id="site-notice"></p>
+      <p id="site-sweep"></p>
+    </footer>
+  </main>
+
+  <div id="live" class="sr-only" aria-live="polite"></div>
+  <div id="tip" class="tip" hidden aria-hidden="true"></div>
+
+  <div class="bd" id="bd-detail" hidden>
+    <div class="modal detail" role="dialog" aria-modal="true" aria-labelledby="d-title" tabindex="-1">
+      <div class="m-head">
+        <div class="m-head-text">
+          <p class="kicker-view" id="d-view">Trial snapshot</p>
+          <h2 id="d-title"></h2>
+          <p class="yrline" id="d-year"></p>
+        </div>
+        <div class="m-head-tools">
+          <button type="button" class="fs-toggle" id="d-fs" data-fullscreen="detail" aria-pressed="false" aria-label="Full screen"><span class="fs-label">Full screen</span></button>
+          <button type="button" class="x" id="d-close" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="m-body" id="d-body"></div>
+      <div class="m-foot" id="d-foot"></div>
+    </div>
+  </div>
+
+  <div class="bd" id="bd-learn" hidden>
+    <div class="modal learn" role="dialog" aria-modal="true" aria-labelledby="learn-title" tabindex="-1">
+      <div class="m-head">
+        <div class="m-head-text">
+          <p class="kicker-view">Teach</p>
+          <h2 id="learn-title">Learn path</h2>
+          <p class="yrline" id="learn-sub"></p>
+        </div>
+        <div class="m-head-tools">
+          <button type="button" class="fs-toggle" id="learn-fs" data-fullscreen="learn" aria-pressed="false" aria-label="Full screen"><span class="fs-label">Full screen</span></button>
+          <button type="button" class="x" id="learn-close" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="m-body" id="learn-body"></div>
+      <div class="m-foot" id="learn-foot"></div>
+    </div>
+  </div>
+
+  <div class="bd" id="bd-practice" hidden>
+    <div class="modal practice" role="dialog" aria-modal="true" aria-labelledby="p-title" tabindex="-1">
+      <div class="m-head">
+        <div class="m-head-text">
+          <p class="kicker-view">Teach</p>
+          <h2 id="p-title">Practice questions</h2>
+          <p class="yrline" id="p-sub"></p>
+        </div>
+        <div class="m-head-tools">
+          <button type="button" class="fs-toggle" id="p-fs" data-fullscreen="practice" aria-pressed="false" aria-label="Full screen"><span class="fs-label">Full screen</span></button>
+          <button type="button" class="x" id="p-close" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="m-body" id="p-body"></div>
+      <div class="m-foot" id="p-foot"></div>
+    </div>
+  </div>
+
+  <noscript><p class="noscript">JavaScript is required to draw the timeline.</p></noscript>
+  <script src="js/site-meta.js"></script>
+  <script src="js/data/topics.js"></script>
+  <script src="js/data/trials.js"></script>
+  <script src="js/data/questions.js"></script>
+  <script src="js/learn-path.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

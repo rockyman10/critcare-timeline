@@ -1,0 +1,87 @@
+# Changelog
+
+Newest first. Record site changes here. The site does not render this file.
+
+## 2026-11-11 — Phase 2 literature recheck items
+
+- ZEPHyR sourceNotes[5] cites the METHODS sentence on trough-based vancomycin dose adjustment, matching the takeaway.
+- CATS limitations label the interval as the relative risk for 28-day death (0.86; 95% CI 0.65 to 1.14).
+
+## 2026-11-11 — Phase 2 final-review fixes
+
+- EMPIRICUS: day-28 counts corrected to 87 of 128 (68%) and 74 of 123 (60.2%) from the JAMA full text; the limitation notes that the PubMed abstract prints 82 and 79.
+- BLING II: design states double-blind, double-dummy, in Australia, New Zealand, and Hong Kong; limitations state masking and the loading dose given to all participants (full text).
+- HYPRESS takeaway: mortality did not differ significantly through 180 days.
+- REDUCE population: the full-text methods required an anticipated intensive care unit stay of at least 2 days.
+- SLEAP limitations: not masked; 7 of 430 withdrew consent, leaving 423 analyzed (JAMA full text).
+- ADAPT-Sepsis limitations: no difference in 90-day all-cause mortality (full text, PMC11862976).
+- FACTT limitations: 2-by-2 factorial design with the catheter comparison reported separately (PMID 16714768, NCT00281268); the fluid strategies were protocols rather than a single medication.
+- ZEPHyR takeaway: "vancomycin with trough-based dose adjustment". CATS limitations note that 330 patients could not exclude a moderate mortality difference.
+- q-vasopressors-4 choice a names supraventricular tachyarrhythmia. q-antimicrobials-4 choice d is no longer the shortest option. Answer letters stay A 6, B 6, C 6, D 6.
+- Abbreviation key adds CVC and PAC.
+
+## 2026-11-11 — Phase 2 trial cards
+
+- 20 trial cards added to the six existing lanes, each read from its PubMed abstract this session:
+  - Vasopressors and inotropes: CATS (2007), CAT (2008), LeoPARDS (2016), VITAMINS (2020).
+  - Corticosteroids: LaSRS (2006), HYPRESS (2016), ESCAPe (2022).
+  - Resuscitation fluids: FACTT fluid-strategy comparison (2006), CRISTAL (2013), SPLIT (2015).
+  - Sedation, analgesia, delirium: SLEAP (2012), DahLIA (2016), REDUCE (2018), A2B (2025).
+  - Antimicrobial strategy: ZEPHyR (2012), BLING II (2015), EMPIRICUS (2016), AMIKINHAL (2023), ADAPT-Sepsis (2025).
+  - Stress ulcer prophylaxis: POP-UP (2016).
+- Guideline lists stay empty. Applicability notes cover HYPRESS (intermediate care units included) and ZEPHyR (hospital-wide nosocomial pneumonia; the abstract gives no intensive care unit count).
+- Six practice questions, one per lane. Answer letters are now A 6, B 6, C 6, D 6. The timed exam is 2160 seconds (90 seconds per question).
+- Abbreviation key adds short forms printed inside quoted abstract text: CRP, EOS, IFI, IV, MRSA, MV, PCT, PP, RRT, VAS, mITT, mg/d, mg/day, mg/dL, mmHg, pg/mL, and µg/kg/h ("vs" is now added with the phase 1 final-review fixes).
+
+## 2026-11-11 — Phase 1 literature recheck items
+
+- SUP-ICU: the REVISE clause, its source entry, and its quote in the source note were removed because the NEJM full text could not be opened directly; the limitation keeps the post hoc and 1-year follow-up qualifiers. The now-unused APACHE key entry was removed.
+- CORTICUS: the NEJM full-text source links to doi.org/10.1056/NEJMoa071366 instead of a third-party PDF copy.
+
+## 2026-11-11 — Phase 1 final-review fixes
+
+- CORTICUS limitations: enrollment stopped at 500 of a projected 800 patients (slow recruitment, end of funding, trial-drug expiry), and the authors list inadequate power. Sourced to the NEJM 2008 full text.
+- PLUS limitations: patients with traumatic brain injury or at risk of cerebral edema were excluded (ClinicalTrials.gov NCT02721654).
+- SUP-ICU limitations: the high-severity subgroup signal is qualified with the post hoc paper (PMID 30863936, missing SAPS II data), the 1-year follow-up (PMID 31282567, no heterogeneity), and REVISE (PMID 38875111, no effect modification by illness severity).
+- DOREMI limitations: single listed site per ClinicalTrials.gov NCT03207165.
+- DEXA-ARDS takeaway labels 60-day mortality as the secondary outcome. ATHOS-3 limitations no longer repeat the day-28 death result.
+- q-steroids-1 choice d names placebo; the keyed choice is not the longest.
+- Quoted source excerpts restore the printed "vs" or "vs." in 24 places, "Covid-19" in RECOVERY, and the lower-case CLOVERS fragment.
+- Abbreviation key adds APACHE, CCU, Covid-19, NEJM, SAPS II, UOHI, and vs. The SLEAP entry is reworded as a trial name.
+
+## 2026-11-11 — Phase 1 recheck fixes
+
+- PneumA takeaway rewritten from the PubMed abstract, with the 90% confidence intervals and the nonfermenting gram-negative recurrence result.
+- DEXA-ARDS limitations: 60-day mortality is the secondary outcome; the abstract does not describe blinding. Source note updated.
+- PLUS: the BaSICS traumatic brain injury subgroup is attributed to the BaSICS open full text on PubMed Central (PMC8356144), not the abstract.
+- CORTICUS: "without fludrocortisone" is now sourced to the Critical Care 2009 commentary (doi 10.1186/cc7986, PMC2750183).
+- MERINO limitations give the Table 1 intensive care unit counts, 13 (7.0%) and 14 (7.5%).
+- PRORATA takeaway: day-60 mortality is labeled as a co-primary noninferiority end point.
+- Quoted source excerpts keep the printed "ml", "eg," and "ie,". The abbreviation key adds ml, eg, ie, min, mg/mL, CrI, and DEX.
+- SPICE III: added the heterogeneity-of-treatment-effect analysis (PMID 33686482, PMC7939103) as a source. Per-arm age-subgroup counts were removed because they could not be checked against the primary paper.
+- q-ulcer-2 explanation uses the abstract's crossover wording.
+- Practice questions: answer-choice lengths rebalanced so the keyed choice is no longer usually the shortest; the q-sedation-3 length tie is removed. Answer letters stay A 4, B 5, C 4, D 5.
+
+## 2026-11-11 — Phase 1 review fixes
+
+- Literature check: corrected the VANISH interquartile ranges, the SuDDICU Clostridioides difficile sign and the nystatin unit, the CLOVERS difference of medians, the BaSICS citation page, the CHEST masking statement, the CORTICUS shock-reversal wording, the MERINO intensive care unit percentages, the STOP-IT safety counts, the SAPS group counts, the DOREMI serious-adverse-event wording, and the Strom hospital-stay label.
+- Clinical review: replaced limitation text that described strengths, and added noninferiority, early-stopping, secondary-outcome, and applicability framing. Kept 65, SuDDICU, MERINO, and ACORN, each with an applicability note.
+- Replaced 14 practice questions with interpretation items. Answer positions are balanced, and the keyed choice is not the longest option.
+- Abbreviation key covers short forms in the cards, including source notes. Lower-case "ml" is written "mL". "for example" and "that is" replace "eg" and "ie". PubMed Central identifiers are filled where a PMCID exists.
+- The home page states the scope: randomized trials of medications and medication strategies in adult ICU care.
+
+## 2026-11-11 — Phase 1 trial cards
+
+- Timeline axis starts in 1989. The six lanes are vasopressors and inotropes, corticosteroids, resuscitation fluids, sedation and analgesia and delirium, antimicrobial strategy, and stress ulcer prophylaxis.
+- 48 trial cards replace the two placeholder cards. Each card uses the same fields. `sourceNotes` records the PubMed abstract or open full text for each number. Guideline lists are empty because a citing locus was not verified.
+- 18 practice questions, three per topic. The timed exam is 1620 seconds.
+- Abbreviation key entries were added for short forms used on the cards.
+
+## 2026-11-11 — Skeleton
+
+- First teaching shell for randomized medication trials in adult ICU care: topic lanes from 2000, search, topic filters, an abbreviation key, a trial snapshot, more details, a learn path, and practice questions in study mode and a timed exam.
+- Dialogs include a full-screen control.
+- The footer carries one educational-resource notice and the last literature sweep date. This file is not shown on the page.
+- `js/data/trials.js` and `js/data/questions.js` contain two placeholder entries each, labeled EXAMPLE, not a real trial. No study results are entered.
+- `scripts/verify-integrity.js` checks the schema, unique ids, source fields, and banned reader-visible labels. Placeholder entries are info.
+- Visual theme is clinical blue and teal.
